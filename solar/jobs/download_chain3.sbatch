@@ -6,14 +6,14 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/download_chain3_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/download_chain3_%j.log
 
 # Self-healing: sweep 2016-2025 first (existing files are skipped, so this only
 # fills gaps left by the previous job), then 2015 -> 2006, then a final retry
 # pass over everything to pick up any file that failed on its first attempt.
 set -uo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 run_year () {
   local year=$1 months=""

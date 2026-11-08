@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 
-_ROOT = "/work/ab0995/a270321/AWI-dark-doldrums-project"
+_ROOT = "/work/ab0246/a270092/software/dark-doldrums-project"
 os.chdir(_ROOT)
 sys.path.insert(0, f"{_ROOT}/dunkelflaute/scripts/dart")
 from compute_germany_dunkelflaute_dart_mockert import DT_H, mockert_events  # noqa: E402

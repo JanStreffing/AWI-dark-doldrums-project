@@ -3,7 +3,7 @@ Run plot_epsis_wind_solar_capacity.py first; writes reports/epsis_wind_solar_cap
 import base64
 import pandas as pd
 
-HERE = "/work/ab0995/a270321/AWI-dark-doldrums-project/dunkelflaute/epsis_validation"
+HERE = "/work/ab0246/a270092/software/dark-doldrums-project/dunkelflaute/epsis_validation"
 
 d = pd.read_csv(f"{HERE}/data/generation_capacity/HOME>GenerationCapacity>ByFuel.csv", skiprows=2, header=None)
 d = pd.DataFrame({"period": d[0], "solar": d[10] / 1000, "wind": d[11] / 1000})

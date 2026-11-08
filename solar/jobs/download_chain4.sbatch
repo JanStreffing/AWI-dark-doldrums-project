@@ -6,12 +6,12 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/download_chain4_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/download_chain4_%j.log
 
 # 1996-2005 (2006 is handled by chain3), then a retry pass incl. 2006.
 set -uo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 run_year () {
   local year=$1 months=""

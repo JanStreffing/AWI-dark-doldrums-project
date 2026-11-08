@@ -92,7 +92,7 @@ u100var = out.createVariable("u100", "f4", ("time_counter", "cell"), zlib=True, 
 v100var = out.createVariable("v100", "f4", ("time_counter", "cell"), zlib=True, complevel=1,
                               chunksizes=(min(CHUNK, nt), n_cells))
 out.title = f"log_law_100m_{YEAR}{MONTH:02d}"
-out.description = "Log-law-reconstructed 100 m wind for TCo1279-DART-1950C"
+out.description = f"Log-law-reconstructed 100 m wind for {cfg['dart_name']}"
 out.Conventions = "CF-1.6"
 out.method = "log law: v100 = v10 * ln(100/z0) / ln(10/z0)"
 out.land_z0_source = (f"ERA5 {era5_year}-{MONTH:02d} monthly fsr climatology, regridded onto TCo1279 "

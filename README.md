@@ -6,7 +6,7 @@
 
 ## 📌 Project Purpose
 
-A *Dunkelflaute* is a period when wind and solar output are both low at once — the case that matters most for grid resilience, since the two resources are normally expected to compensate for each other. Germany, where the term originates, saw two such periods lasting 30 and 54 days between December 2022 and March 2023. This project builds the pipeline needed to detect these events in a high-resolution (~9 km) climate simulation, so that how Dunkelflaute risk changes under warming can actually be assessed.
+A *Dunkelflaute* is a period when wind and solar output are both low at once — the case that matters most for grid resilience, since the two resources are normally expected to compensate for each other. Germany is where the term originates; under the Mockert et al. (2023) definition used here, ERA5 1979–2018 gives about 4.3 events per year with a median length of 3.2 days and a longest event of 8 days. This project builds the pipeline needed to detect these events in a high-resolution (~9 km) climate simulation, so that how Dunkelflaute risk changes under warming can actually be assessed.
 
 The catch: **TCo1279-DART doesn't carry everything needed directly.** It writes 100 m wind only as 10 m (`u10`/`v10`), and solar irradiance (`ssrd`) only as a monthly mean, not 3-hourly. Both gaps have to be filled by a reconstruction trained and validated on ERA5 — which does have the real fields — before being trusted on DART, where there's no ground truth to check against directly. That reconstruction-and-validation work is most of what this repo contains; detecting and characterizing Dunkelflaute events is what it's *for*.
 
@@ -21,9 +21,9 @@ This is an extension of the proposal in [`Project_Proposal.md`](Project_Proposal
 | Wind reconstruction (10 m → 100 m), validated vs. ERA5 + SMARD | **Done** — log law, see [`wind/README.md`](wind/README.md) |
 | Solar reconstruction (monthly → 3-hourly `ssrd`), validated vs. ERA5 + SMARD | **Done** — ML model v5, see [`solar/README.md`](solar/README.md) |
 | Real Germany boundary (land + EEZ), not a bounding box | **Done** — [`boundaries/`](boundaries/) |
-| Pipeline validation against ERA5 (proposal §5.8) | **Done** — Mockert threshold reproduces ~5.6 events/winter against a published ~4–6/year; Li/Kaspar/Lohmann comparisons also run, see Literature Comparison below |
+| Pipeline validation against ERA5 (proposal §5.8) | **Done, with a gap** — Mockert threshold gives 5.64 events/winter on ERA5 2016–2026 (6.82 with real ERA5 100 m wind and `ssrd`, 5.82 from SMARD), about 30% above Mockert's published ~4.3/year for 1979–2018; Li/Kaspar/Biewald comparisons also run, see Literature Comparison below |
 | Baseline (1950C) and future (2080C) Dunkelflaute climatology for Germany, Mockert threshold | **Done** — see Key Findings below |
-| Same comparison under the Li et al. (2021) dual-technology threshold, applied to DART | **Not yet** — Li/Kaspar/Lohmann so far only validated on ERA5, not re-run on 1950C/2080C |
+| Same comparison under the Li et al. (2021) dual-technology threshold, applied to DART | **Not yet** — Li/Kaspar/Biewald so far only validated on ERA5, not re-run on 1950C/2080C |
 | South Korea domain | **Not started** — only a `dunkelflaute/context/` visualization of the proposal's pattern-scaling coefficients exists, not an actual Dunkelflaute detection run |
 | Sub-national spatial analysis (coast vs. inland vs. mountains) | **Not started** |
 | Synoptic composite analysis (mean sea-level pressure during events) | **Not started** |
@@ -39,9 +39,9 @@ In short: the hard validation work — proving the reconstructed wind and solar 
 
 **Solar reconstruction is essentially at the ERA5 ceiling, and the raw model is already doing the work before any correction.** The v5 model reproduces real ERA5 `ssrd` at r = 0.998 over Germany, and real SMARD generation at r = 0.931 — matching ERA5's *own* ability to predict SMARD. Even before the exact monthly rescale that forces each month's total to match truth, the model alone reaches R² = 0.994. Its one real weak spot is terrain it's never trained on — Antarctica, high mountains — where raw R² drops to 0.36, now quantified for the first time ([v5 Raw vs Rescaled](https://claude.ai/artifact/Yb8k4qxYzs8wEBebFfU9cr)). See [solar/README.md](solar/README.md#-key-findings).
 
-**Wind reconstruction is solid onshore, noisier offshore — for reasons unrelated to the method.** Log-law 100 m wind matches real ERA5 at RMSE ≈ 1.19 m/s onshore / 0.60 m/s offshore (r = 0.97 / 0.997). Against real SMARD generation, onshore capacity factor reaches r = 0.91 (vs. real ERA5's own r = 0.95); offshore is noisier for *both* the reconstruction and real ERA5 alike (r ≈ 0.70–0.71), pointing at the power-curve simplification and offshore capacity-data quality rather than the reconstruction itself. See [wind/README.md](wind/README.md#-key-findings).
+**Wind reconstruction is solid onshore, noisier offshore — for reasons unrelated to the method.** Log-law 100 m wind matches real ERA5 at RMSE ≈ 1.19 m/s onshore / 0.60 m/s offshore (r = 0.97 / 0.997). Against real SMARD generation, onshore capacity factor reaches r = 0.91 (vs. real ERA5's own r = 0.95); offshore pools at r ≈ 0.70–0.71 for *both* the reconstruction and real ERA5, but r = 0.86 / 0.87 once the 2015–17 offshore capacity-step years are excluded, so the pooled figure mostly reflects SMARD capacity data rather than the reconstruction. See [wind/README.md](wind/README.md#-key-findings).
 
-**The pipeline reproduces realistic Dunkelflaute statistics, and detects a real climate-change signal for Germany.** Using the Mockert et al. (2023) threshold (48h rolling combined CF < 6%, Germany's 2024 capacity weights):
+**The pipeline reproduces realistic Dunkelflaute statistics, and detects a real climate-change signal for Germany.** Using the Mockert et al. (2023) threshold (48h rolling combined CF < 6%, Mockert's own weights: Germany's 2018 mix, 44% solar / 50% onshore / 6% offshore):
 
 | Period | Winters | Events/winter | Mean combined CF |
 |---|---|---|---|
@@ -49,7 +49,16 @@ In short: the hard validation work — proving the reconstructed wind and solar 
 | **DART 1950C (control)** | 17 (1953–1969) | **3.47** | 0.201 |
 | **DART 2080C (SSP5-8.5 future)** | 10 (2083–2092) | **5.50** | 0.199 |
 
-The ERA5 validation figure (5.64/winter) sits inside the published ~4–6/year range, which is what the ERA5-validation step (proposal §5.8) was for. Comparing the two DART endpoints: event frequency rises from 3.47/winter under 1950-control forcing to 5.50/winter under the 2080s SSP5-8.5 future — a **~59% increase**, and the future figure lands close to where present-day ERA5 already sits. This is a genuine, if single-threshold, answer to proposal questions 1 and 2 (baseline climatology and the climate-change signal) for Germany. Source data: `dunkelflaute/results/{1950c,2080c,validation_era5_2015_2026}/summary.json`; write-up: `dunkelflaute/results/report_dunkelflaute.html`.
+The ERA5 validation figure (5.64/winter) is about 30% above Mockert's published ~4.3/year (1979–2018). Their events fall almost entirely in SON and DJF, so counting Sep–Mar only does not explain the gap; their capacity factors are bias-corrected against observed generation, this pipeline's are not. The reconstruction also counts 17% fewer events than real ERA5 fields do (5.64 vs 6.82), which [`PLAN.md`](PLAN.md) addresses. Comparing the two DART endpoints: event frequency rises from 3.47/winter under 1950-control forcing to 5.50/winter under the 2080s SSP5-8.5 future — a **~59% increase**, and the future figure lands close to where present-day ERA5 already sits. This is a genuine, if single-threshold, answer to proposal questions 1 and 2 (baseline climatology and the climate-change signal) for Germany.
+
+How robust it is (`dunkelflaute/scripts/analysis/robustness_mockert_events.py`, output in `dunkelflaute/results/robustness/robustness_summary.json`):
+- ~~Significant at the headline threshold~~ Significant only by within-run tests (2026-11-05: against block nulls from long control runs Germany alone gives p = 0.13-0.20, and the increase turns out to be a broad Northern-Hemisphere signal at all three resolutions; see PLAN.md Phase 2b): exact Poisson test p = 0.015, and resampling whole winters puts the 2080C/1950C ratio at 1.58 with a 90% interval of 1.19 to 2.12. Germany's 2024 weights give a similar ratio (3.88 to 6.00).
+- It is a shift in the low tail, not the mean. Mean combined CF is unchanged (0.201 to 0.199), while the 5th percentile of the 48 h mean drops from 0.070 to 0.061, close to the threshold itself. Onshore CF below 0.05 goes from 14% to 17% of the time.
+- The ratio depends strongly on the threshold: at 48 h it is 2.32 at CF < 0.04, 1.58 at 0.06, 1.18 at 0.08 and 1.03 at 0.10. A Li-style count (wind and solar CF both below 0.2 for more than 24 h) rises only 16%, from 9.35 to 10.8 per winter.
+- DART has fewer events than ERA5 at every threshold, so 2080C landing near today's ERA5 is not meaningful on its own.
+- It does not depend on the wind reconstruction's error. The log law overestimates 100 m wind against ERA5's native 100 m wind (onshore CF 0.252 vs 0.207), so it undercounts events. Quantile-mapping it onto ERA5 100 m wind (`wind/scripts/methods/calibration/`, results in `dunkelflaute/results/wind_calibration/`) fixes the mean and most of the calm-hour bias. Applied to DART, it moves events from 3.47 to 3.59 (1950C) and from 5.50 to 6.00 (2080C), a ratio of 1.67 instead of 1.58, with the same threshold dependence.
+
+Source data: `dunkelflaute/results/{1950c,2080c,validation_era5_2015_2026}/summary.json`; write-up: `dunkelflaute/results/report_dunkelflaute.html`.
 
 ---
 
@@ -62,7 +71,7 @@ The ERA5 validation figure (5.64/winter) sits inside the published ~4–6/year r
   - `scripts/era5/` — the ERA5-side pipeline. Start with `compute_germany_dunkelflaute_2015_2026_mockert.py`, the current, validated version.
   - `scripts/dart/` — the DART-side pipeline (1950C/2080C), Mockert-weighted; `compute_germany_dunkelflaute_dart_mockert.py` + `make_report.py`.
   - `smard_validation/` — SMARD real-generation data and CF computation, used as ground truth throughout the ERA5 validation.
-  - `results/` — finished 1950C/2080C/ERA5-validation summaries and figures (the Key Findings table above comes from here). `reports/` — the earlier Mockert/Li/Kaspar/Lohmann literature-comparison write-ups.
+  - `results/` — finished 1950C/2080C/ERA5-validation summaries and figures (the Key Findings table above comes from here). `reports/` — the earlier Mockert/Li/Kaspar/Biewald literature-comparison write-ups.
   - `context/` — not part of the reconstruction/validation pipeline itself, but the motivation for the 1950C-vs-2080C comparison: TCo1279-DART's climate pattern-scaling coefficients (local change in wind speed and cloud cover — the two Dunkelflaute drivers — per 1K of global warming), visualized from an externally-supplied dataset. Also shows the South Korea domain from the proposal, alongside Germany, though no Dunkelflaute detection has been run there yet.
 - **[`boundaries/`](boundaries/)** — Germany's real land (Natural Earth) and EEZ (Marine Regions) polygons, used by every Germany-domain script instead of a lat/lon bounding box.
 
@@ -83,12 +92,18 @@ Everything else at the repo root is either a fixed project file (`LICENSE`, `Pro
 
 Four published Dunkelflaute definitions are checked against this pipeline's ERA5 output — algorithm faithfully reproduced from each paper's own text, not a secondhand summary:
 
-- **Mockert et al. (2023)** — 48h rolling-mean combined CF < 6%, their exact window-expansion event-construction rule, their capacity weights. The only definition also run on DART 1950C/2080C so far (see Key Findings).
-- **Li et al. (2021)** — instantaneous wind CF < 20% *and* solar CF < 20%, sustained > 24h, no smoothing.
-- **Kaspar et al. (2019)** — the paper Mockert calibrated their threshold against; instantaneous CF < 10%, ≥ 48h, no smoothing.
-- **Lohmann et al. (2025)** — not a new definition but a report card on the others: evaluated against real grid-stress data (Energy Not Served), found CF-threshold methods are weak predictors (F-score 0.14) next to residual-load-based ones (F-score 0.41).
+- **Mockert et al. (2023)** — 48h rolling-mean combined CF < 6%, their exact window-expansion event-construction rule, their capacity weights (Germany 2018: 44% solar, 50% onshore, 6% offshore). ERA5 1979–2018: about 4.3 events/year, median 3.2 days, longest 8 days, mostly under blocked weather regimes. The only definition also run on DART 1950C/2080C so far (see Key Findings).
+- **Li et al. (2021)** — instantaneous wind CF < 20% *and* solar CF < 20%, sustained > 24h, no smoothing. Renewables.ninja (MERRA-2) CFs, 1985–2016; about 5–10 events/year longer than one day in Germany.
+- **Kaspar et al. (2019)** — the paper Mockert calibrated their threshold against; CF ≤ 10%, ≥ 48h, no smoothing. COSMO-REA6 wind and SARAH-2 PV, 1995–2015.
+- **Biewald et al. (2025)** — cited as "Lohmann et al." in earlier versions of this repo and the proposal. Not a new definition but a report card on the others, scored against shortage days from the ERAA 2023 adequacy simulation (PECD v3.1, 1982–2016, 2033 capacities): Li's per-technology method peaks at F = 0.14 (23% threshold, 24h), high residual load reaches F = 0.41.
 
-Visual reports: [Mockert Comparison](https://claude.ai/artifact/54xCd9Uaf2QZiD9jRb4yQm), [Li Comparison](https://claude.ai/artifact/3W6FQWUhVoSF8rKKxXR9pk), [Kaspar and Lohmann Comparison](https://claude.ai/artifact/5j1r6dcDGJukME3RfFsLPL). Write-ups: `dunkelflaute/reports/`.
+References:
+- Mockert, F., Grams, C. M., Brown, T., and Neumann, F.: Meteorological conditions during periods of low wind speed and insolation in Germany: the role of weather regimes, Meteorol. Appl., 30, e2141, https://doi.org/10.1002/met.2141, 2023.
+- Li, B., Basu, S., Watson, S. J., and Russchenberg, H. W. J.: A brief climatology of Dunkelflaute events over and surrounding the North and Baltic Sea areas, Energies, 14, 6508, https://doi.org/10.3390/en14206508, 2021.
+- Kaspar, F., Borsche, M., Pfeifroth, U., Trentmann, J., Drücke, J., and Becker, P.: A climatological assessment of balancing effects and shortfall risks of photovoltaics and wind energy in Germany and Europe, Adv. Sci. Res., 16, 119–128, https://doi.org/10.5194/asr-16-119-2019, 2019.
+- Biewald, Cozian, Dubus, Zappa, and Stoop: Evaluation of 'Dunkelflaute' event detection methods considering grid operators' needs, Environ. Res.: Energy, 2, 025007, https://doi.org/10.1088/2753-3751/adcf29, 2025.
+
+Visual reports: [Mockert Comparison](https://claude.ai/artifact/54xCd9Uaf2QZiD9jRb4yQm), [Li Comparison](https://claude.ai/artifact/3W6FQWUhVoSF8rKKxXR9pk), [Kaspar and Lohmann Comparison](https://claude.ai/artifact/5j1r6dcDGJukME3RfFsLPL) (the last one predates the Biewald correction). Write-ups: `dunkelflaute/reports/`.
 
 ---
 

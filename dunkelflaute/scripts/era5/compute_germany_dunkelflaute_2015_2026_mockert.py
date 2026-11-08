@@ -36,7 +36,7 @@ import os
 import numpy as np
 import pandas as pd
 
-_ROOT = "/work/ab0995/a270321/AWI-dark-doldrums-project"
+_ROOT = "/work/ab0246/a270092/software/dark-doldrums-project"
 os.chdir(_ROOT)
 
 SOLAR_PATH = "dunkelflaute/smard_validation/data/germany_solar_cf_v5_sepmar_2015_2026.npz"

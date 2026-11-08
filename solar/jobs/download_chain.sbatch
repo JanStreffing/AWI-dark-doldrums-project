@@ -6,11 +6,11 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/download_chain2_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/download_chain2_%j.log
 
 set -euo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 for year in 2022 2021 2020 2019 2018 2017 2016; do
   echo "=== $(date) starting ${year} (full year) ==="

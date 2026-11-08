@@ -1,6 +1,6 @@
 #!/bin/bash
 # Self-contained, session-independent chain: finish 2025, then all of 2024, then all of 2023.
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 echo "=== $(date) starting 2025 remaining ===" >> logs/download_chain.log
 ./scripts/download/download_era5.sh 202501 202502 202503 202504 202505 202506 202507 202509 202510 >> logs/download_chain.log 2>&1

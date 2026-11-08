@@ -6,11 +6,11 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=32G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/backfill_hourly_2015_2025_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/backfill_hourly_2015_2025_%j.log
 
 set -uo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 # Fetches the 16 hourly timestamps/day missing from era5_ssrd_3h_*.nc /
 # era5_tsr_3h_*.nc for 2015-2025, merges them with the existing 8/day samples,

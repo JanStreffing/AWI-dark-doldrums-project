@@ -18,7 +18,7 @@ import os, sys, time
 import joblib
 import numpy as np
 
-sys.path.insert(0, "/work/ab0995/a270321/AWI-dark-doldrums-project/dunkelflaute/scripts/era5")
+sys.path.insert(0, "/work/ab0246/a270092/software/dark-doldrums-project/dunkelflaute/scripts/era5")
 from compute_germany_solar_cf_v5_sepmar import (load_month, reconstruct_solar, germany_land_mask,
                                                   month_available, MONTHS, YEARS)
 from core.capacity_factor import solar_cf

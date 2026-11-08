@@ -33,7 +33,7 @@ from concurrent.futures import ProcessPoolExecutor
 import netCDF4 as nc
 import numpy as np
 
-_ROOT = "/work/ab0995/a270321/AWI-dark-doldrums-project"
+_ROOT = "/work/ab0246/a270092/software/dark-doldrums-project"
 os.chdir(_ROOT)
 sys.path.insert(0, f"{_ROOT}/dunkelflaute/scripts")
 from core.capacity_factor import ONSHORE, OFFSHORE, SSRD_ACCUM_SECONDS_DART, solar_cf, wind_cf, wind_speed  # noqa: E402

@@ -42,7 +42,7 @@ TB = 8
 # inside it), but writing a real-looking number there anyway is misleading for
 # anyone who doesn't already know to discount those cells. Written as NaN instead.
 LAT_MIN, ELEV_MAX = -60.0, 3000.0
-REGRID_INDEX = "/work/ab0995/a270321/AWI-dark-doldrums-project/wind/data/results/tco1279_era5_regrid_index.npz"
+REGRID_INDEX = "/work/ab0246/a270092/software/dark-doldrums-project/wind/data/results/tco1279_era5_regrid_index.npz"
 ERA5_OROGRAPHY = "data/static/era5_geopotential_surface.nc"
 
 

@@ -1,8 +1,8 @@
 # Germany ERA5 combined-CF files — which one to use
 
 **Use `combined_cf_2015_2026_sepmar_mockertweights.npz`.** It's the current,
-validated version: real Germany land+EEZ boundary (`boundaries/land.geojson` +
-`boundaries/eez.geojson`, not a bounding box), solar reconstructed with
+validated version: real Germany land+EEZ boundary (`boundaries/germany/germany_land.geojson` +
+`boundaries/germany/germany_eez.geojson`, not a bounding box), solar reconstructed with
 `model_v5` (trained on genuine 3-hour-sum ERA5 ssrd/tsr), Sep–Mar extended
 winter 2015–2026, Mockert et al. (2023)'s own capacity weights (44% solar /
 50% onshore / 6% offshore), and their exact event-construction rule (a

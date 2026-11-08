@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=0
 #SBATCH --time=00:30:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/dart_test_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/dart_test_%j.log
 
 # One-month DART reconstruction test -- single process, no multiprocessing.
 # First attempt on `shared` with 32G was OOM-killed: at DART's full 6.6M-cell
@@ -18,6 +18,6 @@
 
 set -euo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 python3 -u scripts/core/reconstruct_ssrd_dart.py /work/ab0995/ICCP_AWI_hackthon_2025/TCo1279-DART-1950C 195001

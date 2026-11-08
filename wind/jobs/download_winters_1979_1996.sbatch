@@ -6,11 +6,11 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/wind/logs/download_winters_1979_1996_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/wind/logs/download_winters_1979_1996_%j.log
 
 set -euo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/wind
+cd /work/ab0246/a270092/software/dark-doldrums-project/wind
 
 # Winters 1979-80 .. 1995-96 (17 winters), 5 parallel CDS requests at a time.
 # Deliberately stops at 1995-96: winters 1996-97 .. 2005-06 are covered by the

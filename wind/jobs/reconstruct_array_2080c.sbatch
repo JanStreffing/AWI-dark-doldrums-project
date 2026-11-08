@@ -6,13 +6,13 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=02:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/wind/logs/dart_reconstruct_2080c_%A_%a.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/wind/logs/dart_reconstruct_2080c_%A_%a.log
 
 # 91 tasks = Sep/Oct/Nov/Dec/Jan/Feb/Mar calendar-month files across DART years
 # 2080-2092 (7 months x 13 years, Sep-Mar extended winter). Same method/tuning as
 # the 1950C array job: chunk=7, %20 throttle matching the account's MaxJobs limit.
 set -uo pipefail
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/wind
+cd /work/ab0246/a270092/software/dark-doldrums-project/wind
 module load analysis-toolbox/python-04.2026
 
 MONTHS=(9 10 11 12 1 2 3)

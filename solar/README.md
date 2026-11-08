@@ -174,7 +174,7 @@ Phase 6: Literature validation (NOT in solar/ -- the gate before DART)
   - Solar CF alone isn't what gets checked against the literature -- it's
     weighted-combined with wind onshore/offshore CF first, in dunkelflaute/,
     on the same 2015-2026 ERA5 period, THEN checked against four published
-    Dunkelflaute definitions (Mockert, Li, Kaspar, Lohmann). This is the
+    Dunkelflaute definitions (Mockert, Li, Kaspar, Biewald). This is the
     trustworthiness gate: only once the combined pipeline held up here did
     it get applied to DART. See the root README's dunkelflaute/ section,
     dunkelflaute/data/germany_era5/README.md, and dunkelflaute/reports/.
@@ -198,7 +198,7 @@ Phase 7: Apply to DART (dart_reconstruct_year.py)
 
 - [Mockert Comparison](https://claude.ai/artifact/54xCd9Uaf2QZiD9jRb4yQm) — 48h rolling-mean combined CF < 6%, their exact window-expansion event rule, their capacity weights.
 - [Li Comparison](https://claude.ai/artifact/3W6FQWUhVoSF8rKKxXR9pk) — instantaneous wind CF < 20% and solar CF < 20%, sustained > 24h, no smoothing.
-- [Kaspar and Lohmann Comparison](https://claude.ai/artifact/5j1r6dcDGJukME3RfFsLPL) — Kaspar et al. (2019), the paper Mockert's own threshold was calibrated against; and Lohmann et al. (2025)'s finding that this whole family of CF-threshold definitions, including the ones above, are weak predictors of real grid stress next to residual-load-based methods.
+- [Kaspar and Lohmann Comparison](https://claude.ai/artifact/5j1r6dcDGJukME3RfFsLPL) — Kaspar et al. (2019), the paper Mockert's own threshold was calibrated against; and Biewald et al. (2025)'s finding (cited as Lohmann et al. in the artifact) that this whole family of CF-threshold definitions, including the ones above, are weak predictors of real grid stress next to residual-load-based methods.
 
 ### Scope: what's global vs. what's Germany-only
 
@@ -369,6 +369,7 @@ Every script `chdir`s to this `solar/` root on import (the `_root` snippet at th
 - **Untested cross-resolution transfer**: the model's being *pointwise* means it needs no regridding to run on DART's grid (see Grid Systems, above) — but that sidesteps, rather than answers, whether the relationship it learned actually holds at a different resolution. ERA5's cloud fractions at 0.25° are area averages over a much larger footprint (~28 km) than DART's ~9 km native cells; if the true cloud–clearness relationship is nonlinear in sub-grid cloud heterogeneity — plausible, since a partly-cloudy coarse cell and a genuinely overcast fine cell can share the same mean `tcc` but very different `kt` — a model fit on coarser, more-averaged ERA5 inputs could behave differently on DART's less-averaged fields. The wind side already ran this exact style of check for its own resolution mismatch (`wind/README.md`'s z0 coarsening sensitivity test, costed at ~0.2–0.25 m/s RMSE); no analogous test has been run for solar. See Recommendations, below.
 - **DART reconstruction is finished** (jobs complete) — `data/dart_reconstructed_1950c/` and `data/dart_reconstructed_2080c/` hold the results, one `<year>/` folder per year.
 - **DART output not yet checked** — monthly-sum residuals and CF ranges of the finished files have not been verified.
+- **Stale `ssrd:comment` in the DART output.** All 229 files in `data/dart_reconstructed_{1950c,2080c}/` say "v3-area-weighted ML model" in the variable comment, while the global `model` attribute correctly names `model_v5`. The files were made with v5; only the comment text is stale. None of them carries `valid_training_region` either (written Sep 30 to Oct 1, before that fix).
 
 ---
 

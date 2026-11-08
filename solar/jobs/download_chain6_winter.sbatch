@@ -6,13 +6,13 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/download_chain6_winter_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/download_chain6_winter_%j.log
 
 # Winter-only (Jan, Feb, Oct, Nov, Dec) backfill, 1991 -> 1979, then a retry pass.
 # Runs in parallel with chain5 (2003 -> 1992) to cover the full 1979-2003 winter gap faster.
 set -uo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 
 run_year () {
   local year=$1 months=""

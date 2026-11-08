@@ -7,7 +7,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/work/ab0995/a270321/AWI-dark-doldrums-project"
+ROOT = "/work/ab0246/a270092/software/dark-doldrums-project"
 SMARD_PATH = f"{ROOT}/dunkelflaute/smard_validation/data/cf_smard_solar_fullyear_2015_2026.csv"
 INK, SEC, MUTED, GRID, AXIS, SURF = "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7", "#fcfcfb"
 COL = {"v4": "#1baf7a", "v5": "#eda100", "real": "#2a78d6", "smard": "#eb6834"}

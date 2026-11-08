@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=0
 #SBATCH --time=04:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/evaluate_v4_vs_all_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/evaluate_v4_vs_all_%j.log
 set -uo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
 # Measured: sklearn's predict() on 8M rows takes 60s with unrestricted threading
@@ -16,6 +16,6 @@ export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
 export OMP_NUM_THREADS=16
 export OPENBLAS_NUM_THREADS=16
 export MKL_NUM_THREADS=16
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 python3 -u scripts/evaluation/evaluate_v4_vs_all.py --workers 4
 echo "=== $(date) EVALUATION COMPLETE ==="

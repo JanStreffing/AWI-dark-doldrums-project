@@ -6,11 +6,11 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=7-00:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/wind/logs/download_gap_2004_2006_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/wind/logs/download_gap_2004_2006_%j.log
 
 set -euo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/wind
+cd /work/ab0246/a270092/software/dark-doldrums-project/wind
 
 # Replaces the login-node sequential job (download_all_winters.py 1996 2005,
 # PID 63551, killed 2026-09-23 ~12:xx): that job crawled because each ~2GB

@@ -1,0 +1,3 @@
+[submodule "paper"]
+	path = paper
+	url = git@github.com:CliDyn/dunkelflaute_under_climate_change.git

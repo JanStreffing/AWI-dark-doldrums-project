@@ -108,7 +108,7 @@ Phase 6: Literature validation (NOT in wind/ — the gate before DART is trusted
   - Wind CF alone isn't what gets checked against the literature — it's
     weighted-combined with solar CF first, in dunkelflaute/, on the same
     2015-2026 ERA5 period, THEN checked against four published Dunkelflaute
-    definitions (Mockert, Li, Kaspar, Lohmann). See solar/README.md's Pipeline
+    definitions (Mockert, Li, Kaspar, Biewald). See solar/README.md's Pipeline
     section for the linked visual reports — the same combined pipeline covers
     both wind and solar.
 ```
@@ -190,7 +190,7 @@ The log-law ratio `ln(100/z0)/ln(10/z0)` is only logarithmically sensitive to z0
 | offshore, reconstruction | 0.274 | −0.033 | 0.704 | 0.433 |
 | offshore, real ERA5 | 0.270 | −0.008 | 0.714 | 0.433 |
 
-Onshore reconstruction tracks real ERA5 closely (r 0.911 vs 0.948). Offshore is markedly noisier for *both* reconstruction and real ERA5 (r ~0.70–0.71) — the gap there is dominated by something other than the log-law reconstruction itself (turbine curve simplification, offshore capacity data quality — see `dunkelflaute/smard_validation/`'s notes on the 2015 offshore capacity growth artifact), since real ERA5 has the same ceiling.
+Onshore reconstruction tracks real ERA5 closely (r 0.911 vs 0.948). Offshore pools at r ~0.70–0.71 for *both* reconstruction and real ERA5, but that figure is dominated by SMARD's offshore capacity data: offshore capacity roughly tripled within 2015 (993 to 3283 MW), and excluding the 2015–17 capacity-step years gives r = 0.855 (reconstruction) and 0.871 (real ERA5), RMSE 0.158 / 0.162 (`dunkelflaute/smard_validation/data/wind_cf_comparison_fullyear_2015_2026.json`, flag set in `compare_wind_cf_fullyear.py`).
 
 **Visual reports — Phase 5, SMARD validation**: reconstructed and real-ERA5 wind capacity factor against SMARD's actual metered generation, Germany, real land/EEZ boundary.
 
@@ -261,7 +261,8 @@ Every script `chdir`s to this `wind/` root on import, so they run from anywhere;
 - **TCo1279's own roughness field is unusable** (Key Finding 3) — not flagged anywhere in the DART init files themselves; discovered by direct inspection.
 - **Fetch and displacement height are both unaddressed** (Key Finding 5) — stated as open limitations, not corrected for.
 - **Neither method is precise in the low-wind regime** (MAPE 15–39% at <3 m/s, Key Finding 2) — the regime this whole project's dark-doldrum analysis actually cares about most.
-- **Offshore SMARD comparison is noisier for both reconstruction and real ERA5** (Key Finding 6, r ~0.70–0.71) — the gap there isn't attributable to the log-law method itself, since real ERA5 hits the same ceiling; see `dunkelflaute/smard_validation/`'s notes on the 2015 offshore capacity growth artifact.
+- **Offshore SMARD comparison is noisier for both reconstruction and real ERA5** (Key Finding 6, r ~0.70–0.71 pooled) — mostly the 2015–17 offshore capacity-step artifact in SMARD; without those years r = 0.855 / 0.871 for reconstruction / real ERA5.
+- **The 2080C output files are mislabelled.** Every file in `data/dart_2080c_100m/` has the global attribute `description = "...TCo1279-DART-1950C"`, from a hardcoded string in `reconstruct_month.py` (fixed 2026-10-28 for future runs). The data are 2080C; `title` and `land_z0_source` in the same files carry the correct 2080s years.
 - **Untested cross-resolution transfer, beyond the z0 coarsening check already run**: the fetch and displacement-height caveats (Key Finding 5) are both resolution-dependent effects that the z0 sensitivity test (Key Finding 4) doesn't cover.
 
 ---

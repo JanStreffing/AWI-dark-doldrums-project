@@ -9,6 +9,14 @@ Affiliation: Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Res
 Date: September 2026
 Duration: 4 weeks (short-term internship extension)
 
+> **Errata (2026-10-28).** The proposal is kept as written; these points were found wrong when checked against the papers:
+> - Mockert et al. (2023) is Mockert, Grams, Brown, Neumann, Meteorol. Appl., 30, e2141, https://doi.org/10.1002/met.2141, not Meteorol. Z. 32, 181–197. Kaspar is not an author.
+> - "Lohmann et al. (2025)" is Biewald et al. (2025), Environ. Res.: Energy, 2, 025007. Its 23% optimum uses a 24 h duration, not 48 h.
+> - Mockert's 0.06 threshold gives about 4.3 events per year (1979–2018), and their weights are Germany's 2018 mix (44% solar, 50% onshore, 6% offshore). The 2024 weights in Sec. 5.4 are this project's alternative, not Mockert's.
+> - The "30 and 54 day" Dunkelflaute periods of winter 2022/23 have no peer-reviewed source. Mockert's longest event in 40 years is 8 days.
+>
+> Current status and next steps: [`README.md`](README.md) and [`PLAN.md`](PLAN.md).
+
 ---
 
 ## 1. Background and motivation

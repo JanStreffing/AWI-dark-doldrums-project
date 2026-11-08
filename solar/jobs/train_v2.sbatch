@@ -7,14 +7,14 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=0
 #SBATCH --time=08:00:00
-#SBATCH --output=/work/ab0995/a270321/AWI-dark-doldrums-project/solar/logs/train_v2_%j.log
+#SBATCH --output=/work/ab0246/a270092/software/dark-doldrums-project/solar/logs/train_v2_%j.log
 
 # v2 = same method as v1, trained on ERA5 2015-2025.
 # 3 year-block CV folds (for an honest evaluation) + the final model on everything.
 set -euo pipefail
 export PATH=/sw/spack-levante/mambaforge-4.11.0-0-Linux-x86_64-sobz6z/bin:$PATH
 export OMP_NUM_THREADS=64
-cd /work/ab0995/a270321/AWI-dark-doldrums-project/solar
+cd /work/ab0246/a270092/software/dark-doldrums-project/solar
 F=models/model_v2/cv_folds
 
 echo "##### extract features for all 132 months #####"

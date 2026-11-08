@@ -24,7 +24,7 @@ from concurrent.futures import ProcessPoolExecutor
 import numpy as np
 import xarray as xr
 
-_ROOT = "/work/ab0995/a270321/AWI-dark-doldrums-project"
+_ROOT = "/work/ab0246/a270092/software/dark-doldrums-project"
 sys.path.insert(0, f"{_ROOT}/dunkelflaute/scripts")
 from core.capacity_factor import wind_cf, ONSHORE, OFFSHORE  # noqa: E402
 
