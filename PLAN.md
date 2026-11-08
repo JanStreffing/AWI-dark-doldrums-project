@@ -330,5 +330,5 @@ Detailed methods log, updated with every step: [`docs/methods_notes.md`](docs/me
 
 - [ ] Where is the long MR control (the proposal mentions 184 years) and the MR SSP5-8.5 transient (2015-2099), with sub-daily wind?
 - [ ] Does TCo2559-DART-1950C have atmospheric output anywhere?
-- [ ] Is Amanda continuing, and is she a co-author?
+- [x] Is Amanda continuing, and is she a co-author? (Jan 2026-11-08: no longer our intern, but she is a co-author of paper 1 and will read and edit the draft.)
 - [ ] When does Korea need to happen for the IBS collaboration?
