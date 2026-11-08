@@ -1,0 +1,2676 @@
+{
+ "winters": {
+  "historical": [
+   1961,
+   1990
+  ],
+  "ssp585": [
+   2071,
+   2100
+  ]
+ },
+ "target": 5.0,
+ "common_regions": {
+  "wind": [
+   "DE",
+   "FR",
+   "IB",
+   "UK",
+   "PL",
+   "SC",
+   "IT",
+   "BK",
+   "UA",
+   "RU",
+   "TR",
+   "KZ",
+   "US_NP",
+   "US_SP",
+   "US_MW",
+   "US_NE",
+   "US_CA",
+   "CA_PR",
+   "CN_NE",
+   "CN_N",
+   "CN_E",
+   "KR",
+   "JP",
+   "IN_N"
+  ],
+  "comb": [
+   "DE",
+   "FR",
+   "IB",
+   "UK",
+   "PL",
+   "SC",
+   "IT",
+   "BK",
+   "UA",
+   "RU",
+   "TR",
+   "KZ",
+   "US_NP",
+   "US_SP",
+   "US_MW",
+   "US_NE",
+   "CA_PR",
+   "CN_NE",
+   "CN_N",
+   "KR",
+   "JP"
+  ]
+ },
+ "models": {
+  "IPSL-CM6A-LR": {
+   "dT": 5.043825256617367,
+   "6h|wind": {
+    "mean_ratio": 1.4377162836130166,
+    "pct_per_K": 7.463414914937427,
+    "n_up": 24,
+    "n": 24
+   },
+   "6h|comb": {
+    "mean_ratio": 1.3404040264207175,
+    "pct_per_K": 5.980517842737054,
+    "n_up": 20,
+    "n": 21
+   },
+   "d3h|wind": {
+    "mean_ratio": 1.4661960021625258,
+    "pct_per_K": 7.882152052755864,
+    "n_up": 24,
+    "n": 24
+   },
+   "d3h|comb": {
+    "mean_ratio": 1.3284227187803732,
+    "pct_per_K": 5.792024394444639,
+    "n_up": 20,
+    "n": 21
+   },
+   "day|wind": {
+    "mean_ratio": 1.448951246362202,
+    "pct_per_K": 7.629389972233991,
+    "n_up": 24,
+    "n": 24
+   },
+   "day|comb": {
+    "mean_ratio": 1.327164305607167,
+    "pct_per_K": 5.772147668954175,
+    "n_up": 20,
+    "n": 21
+   },
+   "corr_regions_6h_day|wind": 0.9104872423030249,
+   "corr_regions_6h_d3h|wind": 0.8635596172090204,
+   "corr_regions_6h_day|comb": 0.9313062770757012,
+   "corr_regions_6h_d3h|comb": 0.9390068689795571
+  },
+  "MPI-ESM1-2-HR": {
+   "dT": 3.212100957381267,
+   "6h|wind": {
+    "mean_ratio": 1.2764342988159525,
+    "pct_per_K": 7.894605237443342,
+    "n_up": 21,
+    "n": 24
+   },
+   "6h|comb": {
+    "mean_ratio": 1.2639877540098925,
+    "pct_per_K": 7.565962012971017,
+    "n_up": 18,
+    "n": 21
+   },
+   "d3h|wind": {
+    "mean_ratio": 1.270290184381357,
+    "pct_per_K": 7.732650907715399,
+    "n_up": 21,
+    "n": 24
+   },
+   "d3h|comb": {
+    "mean_ratio": 1.2443320690459432,
+    "pct_per_K": 7.042396843544441,
+    "n_up": 17,
+    "n": 21
+   },
+   "day|wind": {
+    "mean_ratio": 1.2702097016287228,
+    "pct_per_K": 7.730525865735971,
+    "n_up": 21,
+    "n": 24
+   },
+   "day|comb": {
+    "mean_ratio": 1.2444120648205437,
+    "pct_per_K": 7.044539180495724,
+    "n_up": 17,
+    "n": 21
+   },
+   "corr_regions_6h_day|wind": 0.9857555627581307,
+   "corr_regions_6h_d3h|wind": 0.9846662871961197,
+   "corr_regions_6h_day|comb": 0.9777970942376709,
+   "corr_regions_6h_d3h|comb": 0.9771770973976173
+  },
+  "MPI-ESM1-2-LR": {
+   "dT": 3.3563311016698663,
+   "6h|wind": {
+    "mean_ratio": 1.257500682530902,
+    "pct_per_K": 7.06509780058846,
+    "n_up": 21,
+    "n": 24
+   },
+   "6h|comb": {
+    "mean_ratio": 1.2252580850143246,
+    "pct_per_K": 6.239718428006458,
+    "n_up": 19,
+    "n": 21
+   },
+   "d3h|wind": {
+    "mean_ratio": 1.2557262326709393,
+    "pct_per_K": 7.020062417363926,
+    "n_up": 20,
+    "n": 24
+   },
+   "d3h|comb": {
+    "mean_ratio": 1.1994317076110848,
+    "pct_per_K": 5.567518790961912,
+    "n_up": 17,
+    "n": 21
+   },
+   "day|wind": {
+    "mean_ratio": 1.262753621579851,
+    "pct_per_K": 7.198155946625606,
+    "n_up": 20,
+    "n": 24
+   },
+   "day|comb": {
+    "mean_ratio": 1.1970181559494415,
+    "pct_per_K": 5.504182358314824,
+    "n_up": 17,
+    "n": 21
+   },
+   "corr_regions_6h_day|wind": 0.9833526927624267,
+   "corr_regions_6h_d3h|wind": 0.9818278217012327,
+   "corr_regions_6h_day|comb": 0.9487734042350675,
+   "corr_regions_6h_d3h|comb": 0.951488429944561
+  },
+  "MRI-ESM2-0": {
+   "dT": 3.929743096927268,
+   "6h|wind": {
+    "mean_ratio": 1.2063918456052296,
+    "pct_per_K": 4.89053862704556,
+    "n_up": 23,
+    "n": 24
+   },
+   "6h|comb": {
+    "mean_ratio": 0.9145620791119813,
+    "pct_per_K": -2.2470353565587353,
+    "n_up": 8,
+    "n": 21
+   },
+   "d3h|wind": {
+    "mean_ratio": 1.2335779232965547,
+    "pct_per_K": 5.487043804137337,
+    "n_up": 23,
+    "n": 24
+   },
+   "d3h|comb": {
+    "mean_ratio": 0.8947640858780324,
+    "pct_per_K": -2.7899213723437843,
+    "n_up": 5,
+    "n": 21
+   },
+   "day|wind": {
+    "mean_ratio": 1.2377473248518878,
+    "pct_per_K": 5.577657877125652,
+    "n_up": 23,
+    "n": 24
+   },
+   "day|comb": {
+    "mean_ratio": 0.8975414010757982,
+    "pct_per_K": -2.713227286234521,
+    "n_up": 5,
+    "n": 21
+   },
+   "corr_regions_6h_day|wind": 0.9702096770144366,
+   "corr_regions_6h_d3h|wind": 0.9712679508520751,
+   "corr_regions_6h_day|comb": 0.9484192807937579,
+   "corr_regions_6h_d3h|comb": 0.9485225538735429
+  }
+ },
+ "regions": {
+  "IPSL-CM6A-LR": {
+   "dT": 5.043825256617367,
+   "6h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.4866666666666668
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.3533333333333333
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.1842105263157896
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.6
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.5466666666666666
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.589403973509934
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.6866666666666668
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.368421052631579
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.210526315789474
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.5231788079470199
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.3933333333333333
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.5133333333333332
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.3973509933774835
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.6466666666666665
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.4304635761589404
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.6225165562913906
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.496732026143791
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.0463576158940397
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.5695364238410596
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.8533333333333335
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.8410596026490067
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.1866666666666668
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.52
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.084967320261438
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.3533333333333333
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.26
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.3986928104575165
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.3599999999999999
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.2781456953642385
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.5394736842105263
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2649006622516556
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.4933333333333334
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.205298013245033
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1133333333333333
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.1776315789473686
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.5128205128205128
+     },
+     "US_CA": {
+      "valid": false,
+      "ratio": 1.4166666666666665
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.3311258278145697
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.774834437086093
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.5033112582781456
+     },
+     "CN_E": {
+      "valid": false,
+      "ratio": 0.7826086956521738
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.6866666666666668
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.6533333333333335
+     },
+     "IN_N": {
+      "valid": false,
+      "ratio": NaN
+     }
+    }
+   },
+   "d3h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.3178807947019868
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.493421052631579
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2828947368421053
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.131578947368421
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.71523178807947
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.64
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.7600000000000002
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.390728476821192
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.230263157894737
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.410596026490066
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.4675324675324675
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.3774834437086094
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.4172185430463577
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5779220779220777
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.4705882352941178
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.576158940397351
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.7857142857142854
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.225806451612903
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.7434210526315792
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.42
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.9150326797385624
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.9133333333333333
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.1466666666666667
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.4238410596026492
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.019607843137255
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.2894736842105263
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.1776315789473686
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.3733333333333333
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.2133333333333334
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.5266666666666668
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2450331125827814
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.490066225165563
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1400000000000001
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.4052287581699348
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.24
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.6600000000000001
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.493421052631579
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.7933333333333333
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.7500000000000002
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.6199999999999999
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.8133333333333332
+     }
+    }
+   },
+   "day": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2516556291390728
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.509933774834437
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2866666666666666
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.1800000000000002
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.655629139072848
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.477124183006536
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5855263157894737
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.71523178807947
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3466666666666667
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.4
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.1973684210526316
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.383116883116883
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.4172185430463577
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.3157894736842106
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.4437086092715232
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.6533333333333335
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.4183006535947713
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.5228758169934642
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.7266666666666666
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.1666666666666665
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.7236842105263157
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.381578947368421
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.900662251655629
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.8733333333333333
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.16
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.3733333333333333
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.08
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.3841059602649006
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.1400000000000001
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.390728476821192
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.3066666666666666
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.185430463576159
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.467105263157895
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2266666666666668
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.48
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.3509933774834437
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.130718954248366
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.3137254901960786
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.3333333333333335
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.1866666666666668
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.6866666666666668
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.5133333333333332
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.7933333333333333
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.8
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.6688741721854305
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.8199999999999998
+     }
+    }
+   }
+  },
+  "MPI-ESM1-2-HR": {
+   "dT": 3.212100957381267,
+   "6h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2781456953642385
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.2287581699346406
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.5555555555555558
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.5165562913907287
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.7133333333333334
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2709677419354837
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5526315789473684
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.5266666666666668
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3933333333333333
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.254901960784314
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.28476821192053
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.3157894736842106
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.0933333333333333
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.5562913907284768
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.0666666666666667
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.473684210526316
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.304635761589404
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.9400000000000001
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.7
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.5533333333333333
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.217105263157895
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.254901960784314
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.1266666666666665
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1133333333333333
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.3443708609271523
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2533333333333334
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.493421052631579
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.609271523178808
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.28476821192053
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.5033112582781456
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3026315789473684
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.3947368421052633
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1764705882352942
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 0.986842105263158
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.9869281045751634
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.28476821192053
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0266666666666668
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.8815789473684211
+     },
+     "CN_E": {
+      "valid": false,
+      "ratio": 0.47619047619047616
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.1623376623376622
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3466666666666667
+     },
+     "IN_N": {
+      "valid": false,
+      "ratio": NaN
+     }
+    }
+   },
+   "d3h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2582781456953642
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.236842105263158
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.576158940397351
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.6026490066225165
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.6199999999999999
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.7
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.509933774834437
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.375
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.2933333333333334
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.16
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.3026315789473684
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.5629139072847682
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1800000000000002
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.5294117647058825
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.0460526315789473
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.493421052631579
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.2933333333333334
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.8400000000000001
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.7
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.5562913907284768
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.24
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.2317880794701987
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.9466666666666665
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1907894736842106
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.3066666666666666
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2781456953642385
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.5165562913907287
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.642384105960265
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2649006622516556
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.4866666666666668
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.4172185430463577
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3377483443708609
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.3509933774834437
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.3223684210526316
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.185430463576159
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.392156862745098
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 0.96
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.4066666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.9006622516556292
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5364238410596027
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.26
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.9337748344370862
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.8609271523178808
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.47333333333333333
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.1266666666666667
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3636363636363635
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.6026490066225165
+     }
+    }
+   },
+   "day": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2866666666666666
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.236842105263158
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.5471698113207546
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.5657894736842106
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.64
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.3066666666666666
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.6490066225165565
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.5165562913907287
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3725490196078431
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.26
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.1447368421052633
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.3466666666666667
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.6158940397350994
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1225806451612903
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.5933333333333333
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.0198675496688743
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5328947368421053
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.8636363636363636
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.6821192052980132
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.5496688741721855
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.230263157894737
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.9155844155844155
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1437908496732025
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.2866666666666666
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.5562913907284768
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.655629139072848
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2533333333333334
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.4866666666666668
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3576158940397351
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.3733333333333333
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1788079470198676
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.4133333333333333
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 0.9536423841059603
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.8866666666666667
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5165562913907287
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.271523178807947
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.8940397350993378
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.8400000000000001
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.46052631578947373
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.1400000000000001
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3178807947019868
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.5328947368421053
+     }
+    }
+   }
+  },
+  "MPI-ESM1-2-LR": {
+   "dT": 3.3563311016698663,
+   "6h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.34
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.381578947368421
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.223684210526316
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.361842105263158
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.390728476821192
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2666666666666666
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.7549668874172186
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.3630573248407645
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.2119205298013245
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.9205298013245035
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.4635761589403973
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.215686274509804
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.5
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.4133333333333333
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.54
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.22
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.4539473684210527
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.7866666666666666
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0263157894736843
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.1
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.609271523178808
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.2533333333333334
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.34
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.8
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2532467532467533
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.2763157894736843
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.1973684210526316
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.4066666666666667
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.084967320261438
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2066666666666666
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5789473684210527
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.1733333333333333
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.099337748344371
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.9084967320261439
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.3774834437086094
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.403973509933775
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.2733333333333332
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.4266666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.1474358974358974
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.3071895424836604
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.9673202614379086
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0066225165562914
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.28476821192053
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.7933333333333333
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.44
+     },
+     "IN_N": {
+      "valid": false,
+      "ratio": 3.0
+     }
+    }
+   },
+   "d3h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.3026315789473684
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.4466666666666668
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2077922077922076
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.4133333333333333
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.4342105263157896
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.28
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.8079470198675496
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.4437086092715232
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3071895424836604
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.96
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.4313725490196079
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1973684210526316
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.5533333333333332
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.4768211920529801
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.6026490066225165
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.1644736842105265
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.3133333333333332
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.7682119205298014
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.02
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.58
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.2960526315789473
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.655629139072848
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1733333333333333
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.3355263157894737
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2266666666666668
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.4266666666666667
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.0927152317880795
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.25
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.4933333333333334
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.099337748344371
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.02
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.8815789473684211
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.3774834437086094
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.0733333333333333
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.4834437086092715
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.210526315789474
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.470198675496689
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.9542483660130718
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.3157894736842106
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.9144736842105264
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.9072847682119205
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.3333333333333335
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.794701986754967
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.3947368421052633
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.4333333333333333
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.7039473684210527
+     }
+    }
+   },
+   "day": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.3071895424836604
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.4172185430463577
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2266666666666668
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.3333333333333335
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.4533333333333334
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.271523178807947
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.7866666666666666
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.4533333333333334
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.3066666666666666
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.9133333333333333
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.4487179487179487
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.196078431372549
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.5733333333333333
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.5197368421052633
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.6118421052631577
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.185430463576159
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.4078947368421053
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.7733333333333333
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0264900662251657
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.9933333333333334
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.6103896103896104
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3267973856209152
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.6490066225165565
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1258278145695364
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.3733333333333333
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.2866666666666666
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.4078947368421053
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.0714285714285714
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2333333333333334
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.5526315789473684
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.086092715231788
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.0132450331125826
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.9072847682119205
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.3666666666666667
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.0463576158940397
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.46
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.2352941176470589
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.4370860927152318
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.0
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.3800000000000001
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.9199999999999999
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.9533333333333334
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.2980132450331126
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.7756410256410255
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.3266666666666667
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3594771241830066
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 1.7218543046357615
+     }
+    }
+   }
+  },
+  "MRI-ESM2-0": {
+   "dT": 3.929743096927268,
+   "6h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.1883116883116882
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.1466666666666667
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 0.8169934640522877
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.1199999999999999
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.2066666666666666
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2649006622516556
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.4066666666666667
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.2763157894736843
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.08
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.1168831168831168
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.1233766233766234
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1578947368421053
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.2875816993464053
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1568627450980393
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.215686274509804
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.4133333333333333
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5533333333333332
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.0193548387096774
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0331125827814571
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.1052631578947367
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.16
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.08
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3289473684210527
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.1866666666666665
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.74
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 0.7266666666666667
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.04
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 0.8940397350993378
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 0.8333333333333334
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2733333333333332
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.0866666666666667
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 0.6291390728476821
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 0.6622516556291391
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.9266666666666667
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2582781456953642
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 0.9738562091503269
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.0596026490066224
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.086092715231788
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 0.8692810457516341
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.8940397350993378
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.4834437086092715
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.0733333333333333
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.7748344370860927
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.8466666666666667
+     },
+     "CN_E": {
+      "valid": false,
+      "ratio": 0.846153846153846
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 0.8692810457516341
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.0264900662251657
+     },
+     "IN_N": {
+      "valid": false,
+      "ratio": 10.571428571428571
+     }
+    }
+   },
+   "d3h": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2179487179487178
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.217105263157895
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 0.8881578947368421
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.1589403973509933
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.3
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.2516556291390728
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.3790849673202614
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.2129032258064516
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.0986842105263157
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.1266666666666667
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.1907894736842106
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.205298013245033
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.3774834437086094
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1533333333333333
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.279220779220779
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.4052287581699348
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5460526315789473
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.0394736842105263
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0064516129032257
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.2516129032258063
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.1045751633986929
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.1
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3133333333333332
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.2649006622516556
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.7843137254901962
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 0.7152317880794702
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.0596026490066224
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 0.8933333333333333
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 0.7908496732026145
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.26
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.0915032679738563
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 0.6466666666666667
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 0.6447368421052632
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.8533333333333333
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2866666666666666
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 0.8866666666666667
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.1324503311258278
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 0.9150326797385622
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 0.8466666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.8344370860927153
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5364238410596027
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.9800000000000001
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.8
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.8741721854304637
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.6209150326797386
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 0.8881578947368421
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 0.9266666666666667
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.2399999999999998
+     }
+    }
+   },
+   "day": {
+    "n_winters": [
+     30,
+     30
+    ],
+    "wind": {
+     "DE": {
+      "valid": true,
+      "ratio": 1.2582781456953642
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 1.2516556291390728
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 0.9199999999999999
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 1.1533333333333333
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 1.2631578947368423
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.236842105263158
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.4172185430463577
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 1.271523178807947
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 1.0784313725490198
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 1.1176470588235294
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.1666666666666665
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 1.1493506493506493
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.3333333333333335
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 1.1523178807947019
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 1.243421052631579
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 1.44
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5394736842105263
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 1.0197368421052633
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 1.0264900662251657
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 1.2828947368421053
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 1.118421052631579
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 1.1059602649006621
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 1.3509933774834437
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.3133333333333335
+     }
+    },
+    "comb": {
+     "DE": {
+      "valid": true,
+      "ratio": 0.7894736842105263
+     },
+     "FR": {
+      "valid": true,
+      "ratio": 0.6887417218543047
+     },
+     "IB": {
+      "valid": true,
+      "ratio": 1.08
+     },
+     "UK": {
+      "valid": true,
+      "ratio": 0.8800000000000001
+     },
+     "PL": {
+      "valid": true,
+      "ratio": 0.7880794701986755
+     },
+     "SC": {
+      "valid": true,
+      "ratio": 1.1644736842105265
+     },
+     "IT": {
+      "valid": true,
+      "ratio": 1.099337748344371
+     },
+     "BK": {
+      "valid": true,
+      "ratio": 0.6821192052980132
+     },
+     "UA": {
+      "valid": true,
+      "ratio": 0.6490066225165563
+     },
+     "RU": {
+      "valid": true,
+      "ratio": 0.8800000000000001
+     },
+     "TR": {
+      "valid": true,
+      "ratio": 1.2516556291390728
+     },
+     "KZ": {
+      "valid": true,
+      "ratio": 0.9066666666666666
+     },
+     "US_NP": {
+      "valid": true,
+      "ratio": 1.1266666666666667
+     },
+     "US_SP": {
+      "valid": true,
+      "ratio": 0.9477124183006536
+     },
+     "US_MW": {
+      "valid": true,
+      "ratio": 0.8866666666666667
+     },
+     "US_NE": {
+      "valid": true,
+      "ratio": 0.8266666666666668
+     },
+     "US_CA": {
+      "valid": true,
+      "ratio": 1.5333333333333334
+     },
+     "CA_PR": {
+      "valid": true,
+      "ratio": 0.980263157894737
+     },
+     "CN_NE": {
+      "valid": true,
+      "ratio": 0.7828947368421053
+     },
+     "CN_N": {
+      "valid": true,
+      "ratio": 0.880794701986755
+     },
+     "CN_E": {
+      "valid": true,
+      "ratio": 0.6209150326797386
+     },
+     "KR": {
+      "valid": true,
+      "ratio": 0.9013157894736842
+     },
+     "JP": {
+      "valid": true,
+      "ratio": 0.9400000000000001
+     },
+     "IN_N": {
+      "valid": true,
+      "ratio": 2.178807947019868
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "variant": "area",
+ "months": "Sep-Mar 2015-2026",
+ "train_years_excluded": [],
+ "n_months": 80,
+ "rows_used": 32000000,
+ "mask": "lat >= -60 and elevation <= 3000 m",
+ "weights": "cos(lat)",
+ "max_iter": 250,
+ "n_iter_": 250,
+ "sklearn": "1.1.1",
+ "features": [
+  "tcc",
+  "lcc",
+  "tcc_prev",
+  "lcc_prev",
+  "mu"
+ ],
+ "dt_seconds": 21600.0,
+ "note": "6 h windows; clouds at window start and end only, as in 6-hourly TCo319/TCO95 output"
+}

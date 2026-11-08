@@ -1,0 +1,4860 @@
+{
+ "cmip6": {
+  "eu_in_cmip_regions": true,
+  "models": {
+   "ACCESS-CM2": {
+    "group": "cmip6",
+    "dT": 4.988672542816801,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.2218305142360952,
+     "mean_G_change_pct": -4.093158023213213,
+     "mean_s_change_pct": -2.003389404888205
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.086843358560241,
+     "mean_G_change_pct": -1.9566594270073434,
+     "mean_s_change_pct": -0.8938645244306678
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.6093081771881175,
+     "mean_G_change_pct": -3.493039953694769,
+     "mean_s_change_pct": -1.952035746695277
+    },
+    "stored_field_transfer_change_pct": 1.6093081771881175
+   },
+   "AWI-ESM-1-REcoM": {
+    "group": "cmip6",
+    "dT": 4.105880371839703,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.9084838969443441,
+     "mean_G_change_pct": -2.6525154436081126,
+     "mean_s_change_pct": -1.7623034483805213
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.9068406513847771,
+     "mean_G_change_pct": -0.8198327581305831,
+     "mean_s_change_pct": 0.0735154973615848
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.7511719026164921,
+     "mean_G_change_pct": -3.743465989429822,
+     "mean_s_change_pct": -3.004611386874319
+    },
+    "stored_field_transfer_change_pct": 0.7511719026164921
+   },
+   "CESM2-WACCM": {
+    "group": "cmip6",
+    "dT": 5.109541636725453,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.900852543364369,
+     "mean_G_change_pct": -5.440696378672612,
+     "mean_s_change_pct": -7.233625024772455
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -2.7579240698159957,
+     "mean_G_change_pct": -5.6823325258435045,
+     "mean_s_change_pct": -8.278116761185528
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -2.575532217024985,
+     "mean_G_change_pct": -3.934423991475667,
+     "mean_s_change_pct": -6.436859312660414
+    },
+    "stored_field_transfer_change_pct": -2.575532217024985
+   },
+   "CMCC-CM2-SR5": {
+    "group": "cmip6",
+    "dT": 4.629245017777578,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.5363268201102267,
+     "mean_G_change_pct": -4.360519217589502,
+     "mean_s_change_pct": -1.9750848287698881
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.3059880546443825,
+     "mean_G_change_pct": -2.2098884301817723,
+     "mean_s_change_pct": -0.9302562373626543
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.45717317544260394,
+     "mean_G_change_pct": -5.327709739325813,
+     "mean_s_change_pct": -4.92547733805894
+    },
+    "stored_field_transfer_change_pct": 0.45717317544260394
+   },
+   "CanESM5": {
+    "group": "cmip6",
+    "dT": 6.2524911437527635,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -3.95680927974561,
+     "mean_G_change_pct": -6.340952018371975,
+     "mean_s_change_pct": -10.07999656458421
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -4.4248241076423405,
+     "mean_G_change_pct": -5.967581604017401,
+     "mean_s_change_pct": -10.173476812584335
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -2.5144524996883613,
+     "mean_G_change_pct": -7.017003163378302,
+     "mean_s_change_pct": -9.370270124045026
+    },
+    "stored_field_transfer_change_pct": -2.5144524996883613
+   },
+   "FGOALS-g3": {
+    "group": "cmip6",
+    "dT": 3.1094400707356726,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.2462012452732805,
+     "mean_G_change_pct": -1.9130011504866111,
+     "mean_s_change_pct": -3.1454404366214437
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -1.4796628326895434,
+     "mean_G_change_pct": -1.8916205145972367,
+     "mean_s_change_pct": -3.3541017303138476
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -0.17128961413910948,
+     "mean_G_change_pct": -2.2596717599822678,
+     "mean_s_change_pct": -2.460662564338305
+    },
+    "stored_field_transfer_change_pct": -0.17128961413910948
+   },
+   "GFDL-CM4": {
+    "group": "cmip6",
+    "dT": 4.34077524700956,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.5382624489105199,
+     "mean_G_change_pct": -3.808408232414241,
+     "mean_s_change_pct": -5.3088435317262235
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -2.1009319927435954,
+     "mean_G_change_pct": -2.1054313379563467,
+     "mean_s_change_pct": -4.167759318117048
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -0.9781815824889168,
+     "mean_G_change_pct": -3.432162633779248,
+     "mean_s_change_pct": -4.378707115017136
+    },
+    "stored_field_transfer_change_pct": -0.9781815824889168
+   },
+   "GFDL-ESM4": {
+    "group": "cmip6",
+    "dT": 3.3518523516244727,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.7917034710935564,
+     "mean_G_change_pct": -0.34878139062565483,
+     "mean_s_change_pct": 0.45764121790789203
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.280125551706759,
+     "mean_G_change_pct": 1.4750888580267185,
+     "mean_s_change_pct": 2.774475365586293
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -0.27974498106605294,
+     "mean_G_change_pct": -0.7665299058153614,
+     "mean_s_change_pct": -1.016827996096272
+    },
+    "stored_field_transfer_change_pct": -0.27974498106605294
+   },
+   "HadGEM3-GC31-LL": {
+    "group": "cmip6",
+    "dT": 5.79185724728984,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.15059259876270414,
+     "mean_G_change_pct": -6.86826564731113,
+     "mean_s_change_pct": -6.767333501891681
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -1.396874363253089,
+     "mean_G_change_pct": -5.045057807138113,
+     "mean_s_change_pct": -6.367433784514873
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.9363764930292466,
+     "mean_G_change_pct": -6.8439326713916495,
+     "mean_s_change_pct": -5.059366488981757
+    },
+    "stored_field_transfer_change_pct": 1.9363764930292466
+   },
+   "HadGEM3-GC31-MM": {
+    "group": "cmip6",
+    "dT": 5.529367936884569,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.03990735053070871,
+     "mean_G_change_pct": -7.181669847067914,
+     "mean_s_change_pct": -7.176283857266349
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -1.7099910742263869,
+     "mean_G_change_pct": -6.094177225045843,
+     "mean_s_change_pct": -7.6962487042925005
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.0372560643421982,
+     "mean_G_change_pct": -5.170476864949408,
+     "mean_s_change_pct": -4.19269821751432
+    },
+    "stored_field_transfer_change_pct": 1.0372560643421982
+   },
+   "INM-CM4-8": {
+    "group": "cmip6",
+    "dT": 3.240709470314414,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.8384081229251383,
+     "mean_G_change_pct": -2.687284196054403,
+     "mean_s_change_pct": -1.8785814237851735
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.1517475653330589,
+     "mean_G_change_pct": -3.236969250285191,
+     "mean_s_change_pct": -2.122372670782069
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.1168161147194964,
+     "mean_G_change_pct": -2.828160124643729,
+     "mean_s_change_pct": -1.7833617059441425
+    },
+    "stored_field_transfer_change_pct": 1.1168161147194964
+   },
+   "INM-CM5-0": {
+    "group": "cmip6",
+    "dT": 3.110888024663552,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 0.47004799034952727,
+     "mean_G_change_pct": -1.6452537621860108,
+     "mean_s_change_pct": -1.2000906670095859
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.1372693270192138,
+     "mean_G_change_pct": -0.9957483502821507,
+     "mean_s_change_pct": -0.8688088593532918
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.280490040953159,
+     "mean_G_change_pct": -2.330286142303653,
+     "mean_s_change_pct": -1.1160733823127866
+    },
+    "stored_field_transfer_change_pct": 1.280490040953159
+   },
+   "IPSL-CM6A-LR": {
+    "group": "cmip6",
+    "dT": 5.09454072124521,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -2.6737835675795365,
+     "mean_G_change_pct": -2.9325820432567262,
+     "mean_s_change_pct": -5.62649885911655
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -3.8163923411089096,
+     "mean_G_change_pct": 0.5249123345157125,
+     "mean_s_change_pct": -3.330609492831737
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -1.674595334545146,
+     "mean_G_change_pct": -5.497863418143373,
+     "mean_s_change_pct": -7.131685782007121
+    },
+    "stored_field_transfer_change_pct": -1.674595334545146
+   },
+   "KACE-1-0-G": {
+    "group": "cmip6",
+    "dT": 5.015923094488187,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -6.813791088376184,
+     "mean_G_change_pct": -4.776273037274607,
+     "mean_s_change_pct": -11.361547009283832
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -11.004331771724555,
+     "mean_G_change_pct": -2.4807867716582193,
+     "mean_s_change_pct": -13.097628723053791
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -5.54081904211347,
+     "mean_G_change_pct": -4.88275212604031,
+     "mean_s_change_pct": -10.218232349846232
+    },
+    "stored_field_transfer_change_pct": -5.54081904211347
+   },
+   "MPI-ESM1-2-HR": {
+    "group": "cmip6",
+    "dT": 3.3126760857890076,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -4.59615134849489,
+     "mean_G_change_pct": -3.9380350939260467,
+     "mean_s_change_pct": -8.350410730927832
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -3.968941027968639,
+     "mean_G_change_pct": -2.9941294058690278,
+     "mean_s_change_pct": -6.851039716863295
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -1.010126193155965,
+     "mean_G_change_pct": -3.5306929990049385,
+     "mean_s_change_pct": -4.4778246940630835
+    },
+    "stored_field_transfer_change_pct": -1.010126193155965
+   },
+   "MPI-ESM1-2-LR": {
+    "group": "cmip6",
+    "dT": 3.4328723572643867,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.6412800076547025,
+     "mean_G_change_pct": -3.838847177536299,
+     "mean_s_change_pct": -5.423173621253345
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -1.4044965205662074,
+     "mean_G_change_pct": -3.0100394497305016,
+     "mean_s_change_pct": -4.390823412290881
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.20992449704245544,
+     "mean_G_change_pct": -4.155082855416634,
+     "mean_s_change_pct": -3.947202758372484
+    },
+    "stored_field_transfer_change_pct": 0.20992449704245544
+   },
+   "MRI-ESM2-0": {
+    "group": "cmip6",
+    "dT": 3.9559705319665,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.5307136398918981,
+     "mean_G_change_pct": -3.0290657374031484,
+     "mean_s_change_pct": -1.5512053635970093
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.239142970042617,
+     "mean_G_change_pct": -2.3224993419390993,
+     "mean_s_change_pct": -1.1137075395367213
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.1800877966442314,
+     "mean_G_change_pct": -2.2296704594597485,
+     "mean_s_change_pct": -1.1122687418419308
+    },
+    "stored_field_transfer_change_pct": 1.1800877966442314
+   },
+   "NorESM2-LM": {
+    "group": "cmip6",
+    "dT": 3.418696514395606,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.6169659908418899,
+     "mean_G_change_pct": -1.9969042766306135,
+     "mean_s_change_pct": -3.597027184258893
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -2.764822598323826,
+     "mean_G_change_pct": -1.3148031440871466,
+     "mean_s_change_pct": -4.039424077488796
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -1.8390923182888421,
+     "mean_G_change_pct": -3.0338623875484227,
+     "mean_s_change_pct": -4.828149533096035
+    },
+    "stored_field_transfer_change_pct": -1.8390923182888421
+   },
+   "NorESM2-MM": {
+    "group": "cmip6",
+    "dT": 3.4865109776798135,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.7722278317428133,
+     "mean_G_change_pct": -3.042577841778453,
+     "mean_s_change_pct": -4.789363233706292
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -3.0036302502618417,
+     "mean_G_change_pct": -1.5943144490937124,
+     "mean_s_change_pct": -4.540812032129485
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -2.042914020942199,
+     "mean_G_change_pct": -3.060837874342478,
+     "mean_s_change_pct": -5.086317989399354
+    },
+    "stored_field_transfer_change_pct": -2.042914020942199
+   },
+   "UKESM1-0-LL": {
+    "group": "cmip6",
+    "dT": 6.276844143860899,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -0.5085224991146537,
+     "mean_G_change_pct": -7.9946606706392185,
+     "mean_s_change_pct": -8.65177893374526
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -5.004827329934691,
+     "mean_G_change_pct": -5.197025609320482,
+     "mean_s_change_pct": -9.935441053259229
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.7675391732327619,
+     "mean_G_change_pct": -8.489307071926937,
+     "mean_s_change_pct": -7.884813761806847
+    },
+    "stored_field_transfer_change_pct": 0.7675391732327619
+   },
+   "EC-Earth3": {
+    "group": "cmip6_windonly",
+    "dT": 4.990506921400595,
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": -1.4889081952620176,
+     "mean_G_change_pct": -9.207524972820554,
+     "mean_s_change_pct": -10.583904272626523
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": -3.1296963685255035,
+     "mean_G_change_pct": -8.638116873460698,
+     "mean_s_change_pct": -11.493826568415663
+    },
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": -0.22830761372745959,
+     "mean_G_change_pct": -7.933203299599848,
+     "mean_s_change_pct": -8.133741165383398
+    },
+    "stored_field_transfer_change_pct": -0.22830761372745959
+   }
+  },
+  "ensemble_eu_transfer_change_pct": {
+   "median": -0.8773618721939671,
+   "p10_p90": [
+    -4.020743486620538,
+    1.5998253273263188
+   ],
+   "n": 20
+  },
+  "ensemble_eu_mean_G_change_pct": {
+   "median": -3.8236277049752703,
+   "p10_p90": [
+    -6.8996060672868085,
+    -1.8862264116565508
+   ],
+   "n": 20
+  },
+  "ensemble_eu_mean_s_change_pct": {
+   "median": -5.0491033827162575,
+   "p10_p90": [
+    -8.794600696829155,
+    -1.5160938939382664
+   ],
+   "n": 20
+  },
+  "ensemble_eu_flat_transfer_change_pct": {
+   "median": -1.594826953457965,
+   "p10_p90": [
+    -4.482824429871576,
+    1.2432412282090313
+   ],
+   "n": 20
+  },
+  "ensemble_eu_flat_mean_G_change_pct": {
+   "median": -2.266193886060436,
+   "p10_p90": [
+    -5.710857433660894,
+    -0.6853582488659516
+   ],
+   "n": 20
+  },
+  "ensemble_eu_flat_mean_s_change_pct": {
+   "median": -4.103591697802922,
+   "p10_p90": [
+    -9.959244629191739,
+    -0.7745764236818028
+   ],
+   "n": 20
+  },
+  "ensemble_cmip22_transfer_change_pct": {
+   "median": 0.01931744145167298,
+   "p10_p90": [
+    -2.5205604714220238,
+    1.3133718545766553
+   ],
+   "n": 20
+  },
+  "ensemble_cmip22_mean_G_change_pct": {
+   "median": -3.6370794942173803,
+   "p10_p90": [
+    -6.861239720590315,
+    -2.256671629930016
+   ],
+   "n": 20
+  },
+  "ensemble_cmip22_mean_s_change_pct": {
+   "median": -4.42826590454011,
+   "p10_p90": [
+    -8.033359398030665,
+    -1.115692918265701
+   ],
+   "n": 20
+  }
+ },
+ "ours": {
+  "9km": {
+   "spd100|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 4.139278120978834,
+     "mean_G_change_pct": -4.599223202768636,
+     "mean_s_change_pct": -0.7496642962909085
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.563875501749613,
+     "mean_G_change_pct": -2.297967308390459,
+     "mean_s_change_pct": 0.1695998048925773
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33620464671096917,
+      "mean_G_change_pct": -3.408637495380329,
+      "transfer_change_pct": 3.1808567236251584
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6618774837383388,
+      "mean_G_change_pct": -0.7201166789241653,
+      "transfer_change_pct": 2.3992717184800005
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1298505180706973,
+      "mean_G_change_pct": -5.65035064558701,
+      "transfer_change_pct": 3.731333557257832
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3355538166156977,
+      "mean_G_change_pct": 0.52037783556238,
+      "transfer_change_pct": 0.8109559460538707
+     },
+     "PL": {
+      "mean_s_change_pct": -3.257346186501897,
+      "mean_G_change_pct": -7.582246701482564,
+      "transfer_change_pct": 4.6797291219695
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4441185573217163,
+      "mean_G_change_pct": -0.2992135017276132,
+      "transfer_change_pct": 1.7485639986195345
+     },
+     "IT": {
+      "mean_s_change_pct": -3.5854764486530133,
+      "mean_G_change_pct": -9.918052385744813,
+      "transfer_change_pct": 7.029794653429189
+     },
+     "BK": {
+      "mean_s_change_pct": -1.129986428066443,
+      "mean_G_change_pct": -9.735546048864974,
+      "transfer_change_pct": 9.533719248395588
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123
+   },
+   "spd100|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.495709622471527,
+     "mean_G_change_pct": -4.047178874703357,
+     "mean_s_change_pct": -0.7496642962909085
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.745268264600216,
+     "mean_G_change_pct": -2.4754203887220694,
+     "mean_s_change_pct": 0.1695998048925773
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33620464671096917,
+      "mean_G_change_pct": -3.4696832374293995,
+      "transfer_change_pct": 3.2461082650600215
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6618774837383388,
+      "mean_G_change_pct": -0.9500186342022543,
+      "transfer_change_pct": 2.6369476116251844
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1298505180706973,
+      "mean_G_change_pct": -3.751432251804565,
+      "transfer_change_pct": 1.6847853133526547
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3355538166156977,
+      "mean_G_change_pct": 0.37469556583000774,
+      "transfer_change_pct": 0.9572713973070357
+     },
+     "PL": {
+      "mean_s_change_pct": -3.257346186501897,
+      "mean_G_change_pct": -7.5404603944184245,
+      "transfer_change_pct": 4.632420003590365
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4441185573217163,
+      "mean_G_change_pct": -0.7916352433902762,
+      "transfer_change_pct": 2.253594045418472
+     },
+     "IT": {
+      "mean_s_change_pct": -3.5854764486530133,
+      "mean_G_change_pct": -9.320459446179186,
+      "transfer_change_pct": 6.324450876680721
+     },
+     "BK": {
+      "mean_s_change_pct": -1.129986428066443,
+      "mean_G_change_pct": -6.928437356032758,
+      "transfer_change_pct": 6.23009946673776
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123
+   },
+   "spd100|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.495709622471527,
+     "mean_G_change_pct": -4.047178874703357,
+     "mean_s_change_pct": -0.7496642962909085
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.745268264600216,
+     "mean_G_change_pct": -2.4754203887220694,
+     "mean_s_change_pct": 0.1695998048925773
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33620464671096917,
+      "mean_G_change_pct": -3.4696832374293995,
+      "transfer_change_pct": 3.2461082650600215
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6618774837383388,
+      "mean_G_change_pct": -0.9500186342022543,
+      "transfer_change_pct": 2.6369476116251844
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1298505180706973,
+      "mean_G_change_pct": -3.751432251804565,
+      "transfer_change_pct": 1.6847853133526547
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3355538166156977,
+      "mean_G_change_pct": 0.37469556583000774,
+      "transfer_change_pct": 0.9572713973070357
+     },
+     "PL": {
+      "mean_s_change_pct": -3.257346186501897,
+      "mean_G_change_pct": -7.5404603944184245,
+      "transfer_change_pct": 4.632420003590365
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4441185573217163,
+      "mean_G_change_pct": -0.7916352433902762,
+      "transfer_change_pct": 2.253594045418472
+     },
+     "IT": {
+      "mean_s_change_pct": -3.5854764486530133,
+      "mean_G_change_pct": -9.320459446179186,
+      "transfer_change_pct": 6.324450876680721
+     },
+     "BK": {
+      "mean_s_change_pct": -1.129986428066443,
+      "mean_G_change_pct": -6.928437356032758,
+      "transfer_change_pct": 6.23009946673776
+     },
+     "UA": {
+      "mean_s_change_pct": -5.639887136700983,
+      "mean_G_change_pct": -8.256993214402053,
+      "transfer_change_pct": 2.852649122147488
+     },
+     "RU": {
+      "mean_s_change_pct": -3.650594852066169,
+      "mean_G_change_pct": -4.304505442159567,
+      "transfer_change_pct": 0.683324322753931
+     },
+     "TR": {
+      "mean_s_change_pct": -3.0683657176514445,
+      "mean_G_change_pct": -4.277604059301721,
+      "transfer_change_pct": 1.2632762999365443
+     },
+     "KZ": {
+      "mean_s_change_pct": -5.0893725530419704,
+      "mean_G_change_pct": -4.802790426991788,
+      "transfer_change_pct": -0.30104046887046154
+     },
+     "US_NP": {
+      "mean_s_change_pct": -4.412488895061251,
+      "mean_G_change_pct": -7.8085547413162875,
+      "transfer_change_pct": 3.683710388448591
+     },
+     "US_SP": {
+      "mean_s_change_pct": 2.5638168025009733,
+      "mean_G_change_pct": -7.055685407518775,
+      "transfer_change_pct": 10.349747859454261
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.4839576907585186,
+      "mean_G_change_pct": -2.5285136795096252,
+      "transfer_change_pct": 2.0975939384247466
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.6888963471247234,
+      "mean_G_change_pct": -2.165198377262778,
+      "transfer_change_pct": 2.917259172654374
+     },
+     "US_CA": {
+      "mean_s_change_pct": -4.077140744902397,
+      "mean_G_change_pct": -10.32387160067383,
+      "transfer_change_pct": 6.965879289474741
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -4.481947820775545,
+      "mean_G_change_pct": -7.017207320046692,
+      "transfer_change_pct": 2.7265899702512586
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -1.423568144198506,
+      "mean_G_change_pct": -0.17955867325567532,
+      "transfer_change_pct": -1.2462472159091909
+     },
+     "CN_N": {
+      "mean_s_change_pct": -2.7973511284495323,
+      "mean_G_change_pct": 1.4189809216088811,
+      "transfer_change_pct": -4.1573401859730685
+     },
+     "KR": {
+      "mean_s_change_pct": -2.961757969190204,
+      "mean_G_change_pct": -4.600537976916696,
+      "transfer_change_pct": 1.7178084372529767
+     },
+     "JP": {
+      "mean_s_change_pct": -5.467773562710521,
+      "mean_G_change_pct": -7.85206008689221,
+      "transfer_change_pct": 2.5874550493803605
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.7321064981453986,
+     "mean_G_change_pct": -4.642342321921167,
+     "mean_s_change_pct": -2.1044912471003916
+    }
+   },
+   "spd10|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 4.079165449042635,
+     "mean_G_change_pct": -4.599223202768636,
+     "mean_s_change_pct": -0.8053130998466899
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.5324421545047127,
+     "mean_G_change_pct": -2.297967308390459,
+     "mean_s_change_pct": 0.13916872955862303
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33315581560590113,
+      "mean_G_change_pct": -3.408637495380329,
+      "transfer_change_pct": 3.1840131457171683
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6781222098072757,
+      "mean_G_change_pct": -0.7201166789241653,
+      "transfer_change_pct": 2.4156342740406345
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1570871192804097,
+      "mean_G_change_pct": -5.65035064558701,
+      "transfer_change_pct": 3.7024658281289202
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3347384951585939,
+      "mean_G_change_pct": 0.52037783556238,
+      "transfer_change_pct": 0.8101448453848858
+     },
+     "PL": {
+      "mean_s_change_pct": -3.317173944538021,
+      "mean_G_change_pct": -7.582246701482564,
+      "transfer_change_pct": 4.614992904196646
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3333127029711678,
+      "mean_G_change_pct": -0.2992135017276132,
+      "transfer_change_pct": 1.6374256031842283
+     },
+     "IT": {
+      "mean_s_change_pct": -3.7639340666781096,
+      "mean_G_change_pct": -9.918052385744813,
+      "transfer_change_pct": 6.831688792320079
+     },
+     "BK": {
+      "mean_s_change_pct": -1.2173272606081142,
+      "mean_G_change_pct": -9.735546048864974,
+      "transfer_change_pct": 9.436958199368517
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123
+   },
+   "spd10|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.43613568738271,
+     "mean_G_change_pct": -4.047178874703357,
+     "mean_s_change_pct": -0.8053130998466899
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.713738200946314,
+     "mean_G_change_pct": -2.4754203887220694,
+     "mean_s_change_pct": 0.13916872955862303
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33315581560590113,
+      "mean_G_change_pct": -3.4696832374293995,
+      "transfer_change_pct": 3.249266683272367
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6781222098072757,
+      "mean_G_change_pct": -0.9500186342022543,
+      "transfer_change_pct": 2.6533481458251407
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1570871192804097,
+      "mean_G_change_pct": -3.751432251804565,
+      "transfer_change_pct": 1.6564871247697566
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3347384951585939,
+      "mean_G_change_pct": 0.37469556583000774,
+      "transfer_change_pct": 0.9564591194191507
+     },
+     "PL": {
+      "mean_s_change_pct": -3.317173944538021,
+      "mean_G_change_pct": -7.5404603944184245,
+      "transfer_change_pct": 4.567713042803723
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3333127029711678,
+      "mean_G_change_pct": -0.7916352433902762,
+      "transfer_change_pct": 2.141904013411189
+     },
+     "IT": {
+      "mean_s_change_pct": -3.7639340666781096,
+      "mean_G_change_pct": -9.320459446179186,
+      "transfer_change_pct": 6.127650565458187
+     },
+     "BK": {
+      "mean_s_change_pct": -1.2173272606081142,
+      "mean_G_change_pct": -6.928437356032758,
+      "transfer_change_pct": 6.136256804102169
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123
+   },
+   "spd10|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.43613568738271,
+     "mean_G_change_pct": -4.047178874703357,
+     "mean_s_change_pct": -0.8053130998466899
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.713738200946314,
+     "mean_G_change_pct": -2.4754203887220694,
+     "mean_s_change_pct": 0.13916872955862303
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": -0.33315581560590113,
+      "mean_G_change_pct": -3.4696832374293995,
+      "transfer_change_pct": 3.249266683272367
+     },
+     "FR": {
+      "mean_s_change_pct": 1.6781222098072757,
+      "mean_G_change_pct": -0.9500186342022543,
+      "transfer_change_pct": 2.6533481458251407
+     },
+     "IB": {
+      "mean_s_change_pct": -2.1570871192804097,
+      "mean_G_change_pct": -3.751432251804565,
+      "transfer_change_pct": 1.6564871247697566
+     },
+     "UK": {
+      "mean_s_change_pct": 1.3347384951585939,
+      "mean_G_change_pct": 0.37469556583000774,
+      "transfer_change_pct": 0.9564591194191507
+     },
+     "PL": {
+      "mean_s_change_pct": -3.317173944538021,
+      "mean_G_change_pct": -7.5404603944184245,
+      "transfer_change_pct": 4.567713042803723
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3333127029711678,
+      "mean_G_change_pct": -0.7916352433902762,
+      "transfer_change_pct": 2.141904013411189
+     },
+     "IT": {
+      "mean_s_change_pct": -3.7639340666781096,
+      "mean_G_change_pct": -9.320459446179186,
+      "transfer_change_pct": 6.127650565458187
+     },
+     "BK": {
+      "mean_s_change_pct": -1.2173272606081142,
+      "mean_G_change_pct": -6.928437356032758,
+      "transfer_change_pct": 6.136256804102169
+     },
+     "UA": {
+      "mean_s_change_pct": -5.779337315291622,
+      "mean_G_change_pct": -8.256993214402053,
+      "transfer_change_pct": 2.700648241124992
+     },
+     "RU": {
+      "mean_s_change_pct": -4.185594103136503,
+      "mean_G_change_pct": -4.304505442159567,
+      "transfer_change_pct": 0.12426012277013676
+     },
+     "TR": {
+      "mean_s_change_pct": -3.0082958525235792,
+      "mean_G_change_pct": -4.277604059301721,
+      "transfer_change_pct": 1.3260305431181285
+     },
+     "KZ": {
+      "mean_s_change_pct": -5.0080222297509085,
+      "mean_G_change_pct": -4.802790426991788,
+      "transfer_change_pct": -0.21558594383139784
+     },
+     "US_NP": {
+      "mean_s_change_pct": -4.63641648446802,
+      "mean_G_change_pct": -7.8085547413162875,
+      "transfer_change_pct": 3.4408162795880104
+     },
+     "US_SP": {
+      "mean_s_change_pct": 2.6562860846799374,
+      "mean_G_change_pct": -7.055685407518775,
+      "transfer_change_pct": 10.44923676588645
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.5665452828973017,
+      "mean_G_change_pct": -2.5285136795096252,
+      "transfer_change_pct": 2.0128639365991408
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.6903273074987393,
+      "mean_G_change_pct": -2.165198377262778,
+      "transfer_change_pct": 2.918721801852042
+     },
+     "US_CA": {
+      "mean_s_change_pct": -3.8838331136040627,
+      "mean_G_change_pct": -10.32387160067383,
+      "transfer_change_pct": 7.181441262040633
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -4.956245534380432,
+      "mean_G_change_pct": -7.017207320046692,
+      "transfer_change_pct": 2.216498049010074
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -1.2881996802472262,
+      "mean_G_change_pct": -0.17955867325567532,
+      "transfer_change_pct": -1.1106352489092086
+     },
+     "CN_N": {
+      "mean_s_change_pct": -2.768778312495801,
+      "mean_G_change_pct": 1.4189809216088811,
+      "transfer_change_pct": -4.129167140164403
+     },
+     "KR": {
+      "mean_s_change_pct": -2.9984679668595082,
+      "mean_G_change_pct": -4.600537976916696,
+      "transfer_change_pct": 1.6793281388416403
+     },
+     "JP": {
+      "mean_s_change_pct": -5.481327475854303,
+      "mean_G_change_pct": -7.85206008689221,
+      "transfer_change_pct": 2.572746187569064
+     }
+    },
+    "days_ctl": 3608,
+    "days_fut": 2123,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.666194931570772,
+     "mean_G_change_pct": -4.642342321921167,
+     "mean_s_change_pct": -2.1662252162774593
+    }
+   },
+   "dT": 5.499058424604016
+  },
+  "31km": {
+   "spd100|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.236032346666712,
+     "mean_G_change_pct": -2.218464759433525,
+     "mean_s_change_pct": 0.9107207449767785
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.1363719504662138,
+     "mean_G_change_pct": -0.4533148258138797,
+     "mean_s_change_pct": 1.673172584398115
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.809022275850226,
+      "mean_G_change_pct": 0.7756334433130396,
+      "transfer_change_pct": 2.0177385773327394
+     },
+     "FR": {
+      "mean_s_change_pct": 1.5771566533396175,
+      "mean_G_change_pct": -0.5347261801879832,
+      "transfer_change_pct": 2.123236334073164
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5364470325924473,
+      "mean_G_change_pct": -4.370139524227912,
+      "transfer_change_pct": 2.963187938931866
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7809949712787256,
+      "mean_G_change_pct": -0.9904823578576805,
+      "transfer_change_pct": 1.7891990298742444
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7919522635202911,
+      "mean_G_change_pct": -0.582406090311316,
+      "transfer_change_pct": 2.3882677707815825
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4067367580017143,
+      "mean_G_change_pct": -0.9345929440254586,
+      "transfer_change_pct": 2.3634180402693383
+     },
+     "IT": {
+      "mean_s_change_pct": -1.9559070342853757,
+      "mean_G_change_pct": -7.515631950168567,
+      "transfer_change_pct": 6.011529335300803
+     },
+     "BK": {
+      "mean_s_change_pct": 2.4122571047014763,
+      "mean_G_change_pct": -3.595372472002323,
+      "transfer_change_pct": 6.231681746769957
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013
+   },
+   "spd100|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.72746338742218,
+     "mean_G_change_pct": -1.748545184278745,
+     "mean_s_change_pct": 0.9107207449767785
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.322861923149011,
+     "mean_G_change_pct": -0.6347983423024162,
+     "mean_s_change_pct": 1.673172584398115
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.809022275850226,
+      "mean_G_change_pct": 0.5605929411979238,
+      "transfer_change_pct": 2.235895064746729
+     },
+     "FR": {
+      "mean_s_change_pct": 1.5771566533396175,
+      "mean_G_change_pct": -0.8642100845207223,
+      "transfer_change_pct": 2.462649200598288
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5364470325924473,
+      "mean_G_change_pct": -1.7005214416728198,
+      "transfer_change_pct": 0.16691279698193284
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7809949712787256,
+      "mean_G_change_pct": -1.1230565192983488,
+      "transfer_change_pct": 1.9256779422481607
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7919522635202911,
+      "mean_G_change_pct": -0.6001654383519295,
+      "transfer_change_pct": 2.40656104954442
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4067367580017143,
+      "mean_G_change_pct": -1.147152610539004,
+      "transfer_change_pct": 2.5835263586074575
+     },
+     "IT": {
+      "mean_s_change_pct": -1.9559070342853757,
+      "mean_G_change_pct": -6.85131245840781,
+      "transfer_change_pct": 5.255474396176085
+     },
+     "BK": {
+      "mean_s_change_pct": 2.4122571047014763,
+      "mean_G_change_pct": -2.2625358626372494,
+      "transfer_change_pct": 4.783010290474365
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013
+   },
+   "spd100|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.72746338742218,
+     "mean_G_change_pct": -1.748545184278745,
+     "mean_s_change_pct": 0.9107207449767785
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.322861923149011,
+     "mean_G_change_pct": -0.6347983423024162,
+     "mean_s_change_pct": 1.673172584398115
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.809022275850226,
+      "mean_G_change_pct": 0.5605929411979238,
+      "transfer_change_pct": 2.235895064746729
+     },
+     "FR": {
+      "mean_s_change_pct": 1.5771566533396175,
+      "mean_G_change_pct": -0.8642100845207223,
+      "transfer_change_pct": 2.462649200598288
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5364470325924473,
+      "mean_G_change_pct": -1.7005214416728198,
+      "transfer_change_pct": 0.16691279698193284
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7809949712787256,
+      "mean_G_change_pct": -1.1230565192983488,
+      "transfer_change_pct": 1.9256779422481607
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7919522635202911,
+      "mean_G_change_pct": -0.6001654383519295,
+      "transfer_change_pct": 2.40656104954442
+     },
+     "SC": {
+      "mean_s_change_pct": 1.4067367580017143,
+      "mean_G_change_pct": -1.147152610539004,
+      "transfer_change_pct": 2.5835263586074575
+     },
+     "IT": {
+      "mean_s_change_pct": -1.9559070342853757,
+      "mean_G_change_pct": -6.85131245840781,
+      "transfer_change_pct": 5.255474396176085
+     },
+     "BK": {
+      "mean_s_change_pct": 2.4122571047014763,
+      "mean_G_change_pct": -2.2625358626372494,
+      "transfer_change_pct": 4.783010290474365
+     },
+     "UA": {
+      "mean_s_change_pct": -0.2604119707173447,
+      "mean_G_change_pct": -3.3671399134958646,
+      "transfer_change_pct": 3.214980846057358
+     },
+     "RU": {
+      "mean_s_change_pct": -0.35873980068384936,
+      "mean_G_change_pct": -0.8780728449106379,
+      "transfer_change_pct": 0.5239335625650599
+     },
+     "TR": {
+      "mean_s_change_pct": 1.436633690494804,
+      "mean_G_change_pct": 3.6057120557521527,
+      "transfer_change_pct": -2.0935895543000016
+     },
+     "KZ": {
+      "mean_s_change_pct": -2.354000661578881,
+      "mean_G_change_pct": -2.7722212816835956,
+      "transfer_change_pct": 0.4301451967923198
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.4678890534637463,
+      "mean_G_change_pct": -6.914288546274028,
+      "transfer_change_pct": 3.7023936745904873
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.2428297951763367,
+      "mean_G_change_pct": -4.71261507064733,
+      "transfer_change_pct": 6.249982482192262
+     },
+     "US_MW": {
+      "mean_s_change_pct": -2.03948071450768,
+      "mean_G_change_pct": -3.762403053464669,
+      "transfer_change_pct": 1.7902798839773304
+     },
+     "US_NE": {
+      "mean_s_change_pct": -0.47608604757076733,
+      "mean_G_change_pct": -3.388160601889445,
+      "transfer_change_pct": 3.0142005084064616
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.2265233695457853,
+      "mean_G_change_pct": -11.233917134308546,
+      "transfer_change_pct": 10.147337219320018
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -3.3424077384591855,
+      "mean_G_change_pct": -6.722265096465185,
+      "transfer_change_pct": 3.6234342112845486
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -3.39261196633166,
+      "mean_G_change_pct": -2.7636438880785597,
+      "transfer_change_pct": -0.6468445583554527
+     },
+     "CN_N": {
+      "mean_s_change_pct": -3.0681122543879336,
+      "mean_G_change_pct": 0.8537000603368705,
+      "transfer_change_pct": -3.888615204378776
+     },
+     "KR": {
+      "mean_s_change_pct": -3.2304243777534603,
+      "mean_G_change_pct": -3.4713642865952243,
+      "transfer_change_pct": 0.24960459356031528
+     },
+     "JP": {
+      "mean_s_change_pct": -6.235462959726712,
+      "mean_G_change_pct": -7.574501657128952,
+      "transfer_change_pct": 1.4487762807994908
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.2538966473585846,
+     "mean_G_change_pct": -3.04952466968559,
+     "mean_s_change_pct": -0.9312237031473471
+    }
+   },
+   "spd10|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 3.205228201850363,
+     "mean_G_change_pct": -2.218464759433525,
+     "mean_s_change_pct": 0.881797108180328
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.133509672877807,
+     "mean_G_change_pct": -0.4533148258138797,
+     "mean_s_change_pct": 1.6703578785848585
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.8271223677852397,
+      "mean_G_change_pct": 0.7756334433130396,
+      "transfer_change_pct": 2.035699359435106
+     },
+     "FR": {
+      "mean_s_change_pct": 1.551476407784902,
+      "mean_G_change_pct": -0.5347261801879832,
+      "transfer_change_pct": 2.097418031294196
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5511455025988385,
+      "mean_G_change_pct": -4.370139524227912,
+      "transfer_change_pct": 2.9478177711482534
+     },
+     "UK": {
+      "mean_s_change_pct": 0.8154773400084636,
+      "mean_G_change_pct": -0.9904823578576805,
+      "transfer_change_pct": 1.8240263571362547
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7692675002441094,
+      "mean_G_change_pct": -0.582406090311316,
+      "transfer_change_pct": 2.365450116094836
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3884457771015768,
+      "mean_G_change_pct": -0.9345929440254586,
+      "transfer_change_pct": 2.344954500428642
+     },
+     "IT": {
+      "mean_s_change_pct": -2.105511359676515,
+      "mean_G_change_pct": -7.515631950168567,
+      "transfer_change_pct": 5.849767592699595
+     },
+     "BK": {
+      "mean_s_change_pct": 2.3592443347936864,
+      "mean_G_change_pct": -3.595372472002323,
+      "transfer_change_pct": 6.176691886566021
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013
+   },
+   "spd10|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.6969438035058664,
+     "mean_G_change_pct": -1.748545184278745,
+     "mean_s_change_pct": 0.881797108180328
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.3199907489968963,
+     "mean_G_change_pct": -0.6347983423024162,
+     "mean_s_change_pct": 1.6703578785848585
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.8271223677852397,
+      "mean_G_change_pct": 0.5605929411979238,
+      "transfer_change_pct": 2.2538942544945595
+     },
+     "FR": {
+      "mean_s_change_pct": 1.551476407784902,
+      "mean_G_change_pct": -0.8642100845207223,
+      "transfer_change_pct": 2.436745089099679
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5511455025988385,
+      "mean_G_change_pct": -1.7005214416728198,
+      "transfer_change_pct": 0.15196005234692223
+     },
+     "UK": {
+      "mean_s_change_pct": 0.8154773400084636,
+      "mean_G_change_pct": -1.1230565192983488,
+      "transfer_change_pct": 1.9605519659749104
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7692675002441094,
+      "mean_G_change_pct": -0.6001654383519295,
+      "transfer_change_pct": 2.383739318123834
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3884457771015768,
+      "mean_G_change_pct": -1.147152610539004,
+      "transfer_change_pct": 2.5650231172914983
+     },
+     "IT": {
+      "mean_s_change_pct": -2.105511359676515,
+      "mean_G_change_pct": -6.85131245840781,
+      "transfer_change_pct": 5.094866308891577
+     },
+     "BK": {
+      "mean_s_change_pct": 2.3592443347936864,
+      "mean_G_change_pct": -2.2625358626372494,
+      "transfer_change_pct": 4.72877032182395
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013
+   },
+   "spd10|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.6969438035058664,
+     "mean_G_change_pct": -1.748545184278745,
+     "mean_s_change_pct": 0.881797108180328
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.3199907489968963,
+     "mean_G_change_pct": -0.6347983423024162,
+     "mean_s_change_pct": 1.6703578785848585
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 2.8271223677852397,
+      "mean_G_change_pct": 0.5605929411979238,
+      "transfer_change_pct": 2.2538942544945595
+     },
+     "FR": {
+      "mean_s_change_pct": 1.551476407784902,
+      "mean_G_change_pct": -0.8642100845207223,
+      "transfer_change_pct": 2.436745089099679
+     },
+     "IB": {
+      "mean_s_change_pct": -1.5511455025988385,
+      "mean_G_change_pct": -1.7005214416728198,
+      "transfer_change_pct": 0.15196005234692223
+     },
+     "UK": {
+      "mean_s_change_pct": 0.8154773400084636,
+      "mean_G_change_pct": -1.1230565192983488,
+      "transfer_change_pct": 1.9605519659749104
+     },
+     "PL": {
+      "mean_s_change_pct": 1.7692675002441094,
+      "mean_G_change_pct": -0.6001654383519295,
+      "transfer_change_pct": 2.383739318123834
+     },
+     "SC": {
+      "mean_s_change_pct": 1.3884457771015768,
+      "mean_G_change_pct": -1.147152610539004,
+      "transfer_change_pct": 2.5650231172914983
+     },
+     "IT": {
+      "mean_s_change_pct": -2.105511359676515,
+      "mean_G_change_pct": -6.85131245840781,
+      "transfer_change_pct": 5.094866308891577
+     },
+     "BK": {
+      "mean_s_change_pct": 2.3592443347936864,
+      "mean_G_change_pct": -2.2625358626372494,
+      "transfer_change_pct": 4.72877032182395
+     },
+     "UA": {
+      "mean_s_change_pct": -0.34853833174525173,
+      "mean_G_change_pct": -3.3671399134958646,
+      "transfer_change_pct": 3.123783751250264
+     },
+     "RU": {
+      "mean_s_change_pct": -0.6679240943278097,
+      "mean_G_change_pct": -0.8780728449106379,
+      "transfer_change_pct": 0.21201035594680118
+     },
+     "TR": {
+      "mean_s_change_pct": 1.5239169158822063,
+      "mean_G_change_pct": 3.6057120557521527,
+      "transfer_change_pct": -2.0093439816809666
+     },
+     "KZ": {
+      "mean_s_change_pct": -2.3182434171519217,
+      "mean_G_change_pct": -2.7722212816835956,
+      "transfer_change_pct": 0.46692197488837905
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.5527750036947414,
+      "mean_G_change_pct": -6.914288546274028,
+      "transfer_change_pct": 3.6112025036735496
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.3572915003019714,
+      "mean_G_change_pct": -4.71261507064733,
+      "transfer_change_pct": 6.370105104101231
+     },
+     "US_MW": {
+      "mean_s_change_pct": -2.0527635879327932,
+      "mean_G_change_pct": -3.762403053464669,
+      "transfer_change_pct": 1.7764777174160473
+     },
+     "US_NE": {
+      "mean_s_change_pct": -0.5192501540335903,
+      "mean_G_change_pct": -3.388160601889445,
+      "transfer_change_pct": 2.969522644149114
+     },
+     "US_CA": {
+      "mean_s_change_pct": -1.870435648164892,
+      "mean_G_change_pct": -11.233917134308546,
+      "transfer_change_pct": 10.548490125796327
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -3.7721230959537277,
+      "mean_G_change_pct": -6.722265096465185,
+      "transfer_change_pct": 3.1627504715486587
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -3.3779994578971073,
+      "mean_G_change_pct": -2.7636438880785597,
+      "transfer_change_pct": -0.6318167343821512
+     },
+     "CN_N": {
+      "mean_s_change_pct": -3.0162751058621873,
+      "mean_G_change_pct": 0.8537000603368705,
+      "transfer_change_pct": -3.8372168436892284
+     },
+     "KR": {
+      "mean_s_change_pct": -3.2583857878409006,
+      "mean_G_change_pct": -3.4713642865952243,
+      "transfer_change_pct": 0.22063763481197096
+     },
+     "JP": {
+      "mean_s_change_pct": -6.272975132616843,
+      "mean_G_change_pct": -7.574501657128952,
+      "transfer_change_pct": 1.408189891153011
+     }
+    },
+    "days_ctl": 3591,
+    "days_fut": 4013,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.225784774683179,
+     "mean_G_change_pct": -3.04952466968559,
+     "mean_s_change_pct": -0.9587319788906803
+    }
+   },
+   "dT": 5.683237583890389
+  },
+  "100km": {
+   "spd100|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.557572827307866,
+     "mean_G_change_pct": -3.691995497007664,
+     "mean_s_change_pct": -1.238150023509664
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.0792315233284597,
+     "mean_G_change_pct": -1.9870483024212635,
+     "mean_s_change_pct": 0.05107848357625011
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.4744950910139831,
+      "mean_G_change_pct": -0.9433086047623385,
+      "transfer_change_pct": 2.4408282385782964
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6643441573742757,
+      "mean_G_change_pct": -4.112865786188746,
+      "transfer_change_pct": 2.5535455292205356
+     },
+     "IB": {
+      "mean_s_change_pct": -5.682866153694555,
+      "mean_G_change_pct": -7.488024880641831,
+      "transfer_change_pct": 1.9512703351304284
+     },
+     "UK": {
+      "mean_s_change_pct": -1.76763004346292,
+      "mean_G_change_pct": -2.53299277075143,
+      "transfer_change_pct": 0.7852531323633727
+     },
+     "PL": {
+      "mean_s_change_pct": 1.4933158436357896,
+      "mean_G_change_pct": -1.4328185550581463,
+      "transfer_change_pct": 2.9686700540670463
+     },
+     "SC": {
+      "mean_s_change_pct": 0.7195556840686734,
+      "mean_G_change_pct": -0.9132557953456577,
+      "transfer_change_pct": 1.6478606624130476
+     },
+     "IT": {
+      "mean_s_change_pct": -4.156473897306445,
+      "mean_G_change_pct": -7.481948982973297,
+      "transfer_change_pct": 3.594406766150793
+     },
+     "BK": {
+      "mean_s_change_pct": -0.3212525549575629,
+      "mean_G_change_pct": -4.630748600339862,
+      "transfer_change_pct": 4.5187479005394104
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd100|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.5048830896487964,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.238150023509664
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.105787895330913,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": 0.05107848357625011
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.4744950910139831,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.283518871748136
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6643441573742757,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.6864102972756765
+     },
+     "IB": {
+      "mean_s_change_pct": -5.682866153694555,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3806508738526624
+     },
+     "UK": {
+      "mean_s_change_pct": -1.76763004346292,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 0.8685926556073031
+     },
+     "PL": {
+      "mean_s_change_pct": 1.4933158436357896,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.8403835946993805
+     },
+     "SC": {
+      "mean_s_change_pct": 0.7195556840686734,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 1.8500340573240681
+     },
+     "IT": {
+      "mean_s_change_pct": -4.156473897306445,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.619322483466836
+     },
+     "BK": {
+      "mean_s_change_pct": -0.3212525549575629,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.510151883216307
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd100|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.5048830896487964,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.238150023509664
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.105787895330913,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": 0.05107848357625011
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.4744950910139831,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.283518871748136
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6643441573742757,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.6864102972756765
+     },
+     "IB": {
+      "mean_s_change_pct": -5.682866153694555,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3806508738526624
+     },
+     "UK": {
+      "mean_s_change_pct": -1.76763004346292,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 0.8685926556073031
+     },
+     "PL": {
+      "mean_s_change_pct": 1.4933158436357896,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.8403835946993805
+     },
+     "SC": {
+      "mean_s_change_pct": 0.7195556840686734,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 1.8500340573240681
+     },
+     "IT": {
+      "mean_s_change_pct": -4.156473897306445,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.619322483466836
+     },
+     "BK": {
+      "mean_s_change_pct": -0.3212525549575629,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.510151883216307
+     },
+     "UA": {
+      "mean_s_change_pct": 0.0412974856659698,
+      "mean_G_change_pct": -3.635273532308303,
+      "transfer_change_pct": 3.8152663871327652
+     },
+     "RU": {
+      "mean_s_change_pct": -0.23238731549208858,
+      "mean_G_change_pct": -2.6114187424523205,
+      "transfer_change_pct": 2.4428237851302104
+     },
+     "TR": {
+      "mean_s_change_pct": 0.18502862167180112,
+      "mean_G_change_pct": -1.3215630985804472,
+      "transfer_change_pct": 1.5267689350991098
+     },
+     "KZ": {
+      "mean_s_change_pct": -3.569964803983061,
+      "mean_G_change_pct": -4.367827947535208,
+      "transfer_change_pct": 0.834304111710904
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.482498190032679,
+      "mean_G_change_pct": -5.174397165005306,
+      "transfer_change_pct": 1.7842216916001963
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.6059592576372683,
+      "mean_G_change_pct": -4.746581128094318,
+      "transfer_change_pct": 6.669094360040062
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.028212919177827978,
+      "mean_G_change_pct": -1.8413627990295,
+      "transfer_change_pct": 1.9046471828857436
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.3890889975326939,
+      "mean_G_change_pct": -2.3330801061112183,
+      "transfer_change_pct": 2.7871966338258947
+     },
+     "US_CA": {
+      "mean_s_change_pct": -1.3068476380564853,
+      "mean_G_change_pct": -13.62631716954641,
+      "transfer_change_pct": 14.262989753108357
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.225615523101687,
+      "mean_G_change_pct": -5.24966822047247,
+      "transfer_change_pct": 3.1916011697008084
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -2.0507384694521513,
+      "mean_G_change_pct": -0.8183111443045621,
+      "transfer_change_pct": -1.2425956236142621
+     },
+     "CN_N": {
+      "mean_s_change_pct": -4.673166069689039,
+      "mean_G_change_pct": -1.046969888447713,
+      "transfer_change_pct": -3.664563052948866
+     },
+     "KR": {
+      "mean_s_change_pct": -4.216798056992843,
+      "mean_G_change_pct": -3.9725943867443436,
+      "transfer_change_pct": -0.25430622507078837
+     },
+     "JP": {
+      "mean_s_change_pct": -6.395350408049172,
+      "mean_G_change_pct": -5.356870347824982,
+      "transfer_change_pct": -1.097258791040323
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.4090570470340995,
+     "mean_G_change_pct": -3.875358256511704,
+     "mean_s_change_pct": -1.6276808809654981
+    }
+   },
+   "spd10|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.451654729903102,
+     "mean_G_change_pct": -3.691995497007664,
+     "mean_s_change_pct": -1.3402666178303475
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.9879219705804907,
+     "mean_G_change_pct": -1.9870483024212635,
+     "mean_s_change_pct": -0.03991515445114002
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.9433086047623385,
+      "transfer_change_pct": 2.4364954268969674
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6875133849697188,
+      "mean_G_change_pct": -4.112865786188746,
+      "transfer_change_pct": 2.529382509034961
+     },
+     "IB": {
+      "mean_s_change_pct": -5.705426962984051,
+      "mean_G_change_pct": -7.488024880641831,
+      "transfer_change_pct": 1.9268834281809255
+     },
+     "UK": {
+      "mean_s_change_pct": -1.564776829929504,
+      "mean_G_change_pct": -2.53299277075143,
+      "transfer_change_pct": 0.9933781372240214
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.4328185550581463,
+      "transfer_change_pct": 2.9673655319356618
+     },
+     "SC": {
+      "mean_s_change_pct": 0.0904812785858855,
+      "mean_G_change_pct": -0.9132557953456577,
+      "transfer_change_pct": 1.012988247810842
+     },
+     "IT": {
+      "mean_s_change_pct": -4.482221709350598,
+      "mean_G_change_pct": -7.481948982973297,
+      "transfer_change_pct": 3.24231567855946
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805243306,
+      "mean_G_change_pct": -4.630748600339862,
+      "transfer_change_pct": 4.504428879581979
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd10|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.398832408062648,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.3402666178303475
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.0142556101845477,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": -0.03991515445114002
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.279192713584499
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6875133849697188,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.6622159723306726
+     },
+     "IB": {
+      "mean_s_change_pct": -5.705426962984051,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3564004599910584
+     },
+     "UK": {
+      "mean_s_change_pct": -1.564776829929504,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 1.076889759442179
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.839080697844132
+     },
+     "SC": {
+      "mean_s_change_pct": 0.0904812785858855,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 1.2138989077212559
+     },
+     "IT": {
+      "mean_s_change_pct": -4.482221709350598,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.2671467136780485
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805243306,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.495834039909341
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd10|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.398832408062648,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.3402666178303475
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.0142556101845477,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": -0.03991515445114002
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.279192713584499
+     },
+     "FR": {
+      "mean_s_change_pct": -1.6875133849697188,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.6622159723306726
+     },
+     "IB": {
+      "mean_s_change_pct": -5.705426962984051,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3564004599910584
+     },
+     "UK": {
+      "mean_s_change_pct": -1.564776829929504,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 1.076889759442179
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.839080697844132
+     },
+     "SC": {
+      "mean_s_change_pct": 0.0904812785858855,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 1.2138989077212559
+     },
+     "IT": {
+      "mean_s_change_pct": -4.482221709350598,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.2671467136780485
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805243306,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.495834039909341
+     },
+     "UA": {
+      "mean_s_change_pct": 0.12251313653983686,
+      "mean_G_change_pct": -3.635273532308303,
+      "transfer_change_pct": 3.8995458261462668
+     },
+     "RU": {
+      "mean_s_change_pct": -0.3919871129342445,
+      "mean_G_change_pct": -2.6114187424523205,
+      "transfer_change_pct": 2.2789444109969192
+     },
+     "TR": {
+      "mean_s_change_pct": 0.3233378414013943,
+      "mean_G_change_pct": -1.3215630985804472,
+      "transfer_change_pct": 1.6669304780588812
+     },
+     "KZ": {
+      "mean_s_change_pct": -3.542164141053672,
+      "mean_G_change_pct": -4.367827947535208,
+      "transfer_change_pct": 0.8633745200606446
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.6021467013080066,
+      "mean_G_change_pct": -5.174397165005306,
+      "transfer_change_pct": 1.6580442588202127
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.6102396888322046,
+      "mean_G_change_pct": -4.746581128094318,
+      "transfer_change_pct": 6.673588089761906
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.08981473870985912,
+      "mean_G_change_pct": -1.8413627990295,
+      "transfer_change_pct": 1.9674045940404117
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.3378929414568965,
+      "mean_G_change_pct": -2.3330801061112183,
+      "transfer_change_pct": 2.734777599692917
+     },
+     "US_CA": {
+      "mean_s_change_pct": -1.4665705803421414,
+      "mean_G_change_pct": -13.62631716954641,
+      "transfer_change_pct": 14.078068910264196
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.5030688227732467,
+      "mean_G_change_pct": -5.24966822047247,
+      "transfer_change_pct": 2.8987754935678955
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -2.0102704897008605,
+      "mean_G_change_pct": -0.8183111443045621,
+      "transfer_change_pct": -1.2017937576466853
+     },
+     "CN_N": {
+      "mean_s_change_pct": -4.682619185191516,
+      "mean_G_change_pct": -1.046969888447713,
+      "transfer_change_pct": -3.6741161868870886
+     },
+     "KR": {
+      "mean_s_change_pct": -4.2302616866881415,
+      "mean_G_change_pct": -3.9725943867443436,
+      "transfer_change_pct": -0.2683268368006586
+     },
+     "JP": {
+      "mean_s_change_pct": -6.416884125373123,
+      "mean_G_change_pct": -5.356870347824982,
+      "transfer_change_pct": -1.120011332511739
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.347539333275694,
+     "mean_G_change_pct": -3.875358256511704,
+     "mean_s_change_pct": -1.685650338230343
+    }
+   },
+   "spd100_native|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.6795005757990644,
+     "mean_G_change_pct": -3.691995497007664,
+     "mean_s_change_pct": -2.086524503539787
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.2067401584975457,
+     "mean_G_change_pct": -1.9870483024212635,
+     "mean_s_change_pct": -0.8067593142262176
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.33096206256557625,
+      "mean_G_change_pct": -0.9433086047623385,
+      "transfer_change_pct": 1.286405440540661
+     },
+     "FR": {
+      "mean_s_change_pct": -2.3903395360242663,
+      "mean_G_change_pct": -4.112865786188746,
+      "transfer_change_pct": 1.7964101902592677
+     },
+     "IB": {
+      "mean_s_change_pct": -6.402263412550191,
+      "mean_G_change_pct": -7.488024880641831,
+      "transfer_change_pct": 1.1736442408572412
+     },
+     "UK": {
+      "mean_s_change_pct": -1.8372349296276291,
+      "mean_G_change_pct": -2.53299277075143,
+      "transfer_change_pct": 0.7138393400007992
+     },
+     "PL": {
+      "mean_s_change_pct": 0.032835684604659576,
+      "mean_G_change_pct": -1.4328185550581463,
+      "transfer_change_pct": 1.4869596737748791
+     },
+     "SC": {
+      "mean_s_change_pct": -0.17001985264942787,
+      "mean_G_change_pct": -0.9132557953456577,
+      "transfer_change_pct": 0.7500861479121212
+     },
+     "IT": {
+      "mean_s_change_pct": -4.767136793570359,
+      "mean_G_change_pct": -7.481948982973297,
+      "transfer_change_pct": 2.934359467757619
+     },
+     "BK": {
+      "mean_s_change_pct": -1.4889992510666583,
+      "mean_G_change_pct": -4.630748600339862,
+      "transfer_change_pct": 3.294300105289927
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd100_native|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.6274467735793523,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -2.086524503539787
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.233455164536914,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": -0.8067593142262176
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.33096206256557625,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 1.1308688192313454
+     },
+     "FR": {
+      "mean_s_change_pct": -2.3903395360242663,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 1.9282940403882787
+     },
+     "IB": {
+      "mean_s_change_pct": -6.402263412550191,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 0.6073771391089888
+     },
+     "UK": {
+      "mean_s_change_pct": -1.8372349296276291,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 0.7971198110399147
+     },
+     "PL": {
+      "mean_s_change_pct": 0.032835684604659576,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 1.360519245616465
+     },
+     "SC": {
+      "mean_s_change_pct": -0.17001985264942787,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 0.9504739064085665
+     },
+     "IT": {
+      "mean_s_change_pct": -4.767136793570359,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 2.9591164356544963
+     },
+     "BK": {
+      "mean_s_change_pct": -1.4889992510666583,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 3.285804791186764
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd100_native|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.6274467735793523,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -2.086524503539787
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.233455164536914,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": -0.8067593142262176
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.33096206256557625,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 1.1308688192313454
+     },
+     "FR": {
+      "mean_s_change_pct": -2.3903395360242663,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 1.9282940403882787
+     },
+     "IB": {
+      "mean_s_change_pct": -6.402263412550191,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 0.6073771391089888
+     },
+     "UK": {
+      "mean_s_change_pct": -1.8372349296276291,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 0.7971198110399147
+     },
+     "PL": {
+      "mean_s_change_pct": 0.032835684604659576,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 1.360519245616465
+     },
+     "SC": {
+      "mean_s_change_pct": -0.17001985264942787,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 0.9504739064085665
+     },
+     "IT": {
+      "mean_s_change_pct": -4.767136793570359,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 2.9591164356544963
+     },
+     "BK": {
+      "mean_s_change_pct": -1.4889992510666583,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 3.285804791186764
+     },
+     "UA": {
+      "mean_s_change_pct": -1.2089142767137573,
+      "mean_G_change_pct": -3.635273532308303,
+      "transfer_change_pct": 2.51789149882351
+     },
+     "RU": {
+      "mean_s_change_pct": -1.7819465894985287,
+      "mean_G_change_pct": -2.6114187424523205,
+      "transfer_change_pct": 0.8517139712306054
+     },
+     "TR": {
+      "mean_s_change_pct": -1.0060928214956522,
+      "mean_G_change_pct": -1.3215630985804472,
+      "transfer_change_pct": 0.31969525155728373
+     },
+     "KZ": {
+      "mean_s_change_pct": -3.058891950520737,
+      "mean_G_change_pct": -4.367827947535208,
+      "transfer_change_pct": 1.3687193011744814
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.598278204634797,
+      "mean_G_change_pct": -5.174397165005306,
+      "transfer_change_pct": 1.662123849729813
+     },
+     "US_SP": {
+      "mean_s_change_pct": -0.12639421898387182,
+      "mean_G_change_pct": -4.746581128094318,
+      "transfer_change_pct": 4.850415831607635
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.6682834400818849,
+      "mean_G_change_pct": -1.8413627990295,
+      "transfer_change_pct": 1.1950852134854362
+     },
+     "US_NE": {
+      "mean_s_change_pct": -0.4404104066447534,
+      "mean_G_change_pct": -2.3330801061112183,
+      "transfer_change_pct": 1.9378820398173513
+     },
+     "US_CA": {
+      "mean_s_change_pct": -3.482995976538217,
+      "mean_G_change_pct": -13.62631716954641,
+      "transfer_change_pct": 11.74353212762611
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.7986981431115887,
+      "mean_G_change_pct": -5.24966822047247,
+      "transfer_change_pct": 2.586766749338665
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -1.740752116349853,
+      "mean_G_change_pct": -0.8183111443045621,
+      "transfer_change_pct": -0.9300516886614041
+     },
+     "CN_N": {
+      "mean_s_change_pct": -4.39388583078455,
+      "mean_G_change_pct": -1.046969888447713,
+      "transfer_change_pct": -3.3823278969464354
+     },
+     "KR": {
+      "mean_s_change_pct": -4.174148584757031,
+      "mean_G_change_pct": -3.9725943867443436,
+      "transfer_change_pct": -0.20989237054309662
+     },
+     "JP": {
+      "mean_s_change_pct": -6.503457596345797,
+      "mean_G_change_pct": -5.356870347824982,
+      "transfer_change_pct": -1.2114849252498727
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.6508928700738594,
+     "mean_G_change_pct": -3.875358256511704,
+     "mean_s_change_pct": -2.3488793720354235
+    }
+   },
+   "spd10_cmip|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.7763612573002057,
+     "mean_G_change_pct": -3.691995497007664,
+     "mean_s_change_pct": -1.019102317063006
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.516049636001836,
+     "mean_G_change_pct": -1.9870483024212635,
+     "mean_s_change_pct": 0.4819013058019883
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.9433086047623385,
+      "transfer_change_pct": 2.4364954268969674
+     },
+     "FR": {
+      "mean_s_change_pct": -1.7793787112633797,
+      "mean_G_change_pct": -4.112865786188746,
+      "transfer_change_pct": 2.433576823478867
+     },
+     "IB": {
+      "mean_s_change_pct": -5.736094345762388,
+      "mean_G_change_pct": -7.488024880641831,
+      "transfer_change_pct": 1.8937337924297193
+     },
+     "UK": {
+      "mean_s_change_pct": -0.932603561545764,
+      "mean_G_change_pct": -2.53299277075143,
+      "transfer_change_pct": 1.6419804554390849
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.4328185550581463,
+      "transfer_change_pct": 2.9673655319356618
+     },
+     "SC": {
+      "mean_s_change_pct": 2.159255637761448,
+      "mean_G_change_pct": -0.9132557953456577,
+      "transfer_change_pct": 3.1008299422585983
+     },
+     "IT": {
+      "mean_s_change_pct": -4.49132222169919,
+      "mean_G_change_pct": -7.481948982973297,
+      "transfer_change_pct": 3.232479206380745
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805241085,
+      "mean_G_change_pct": -4.630748600339862,
+      "transfer_change_pct": 4.504428879582001
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd10_cmip|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.724132436840759,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.019102317063006
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.5432962433885153,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": 0.4819013058019883
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.279192713584499
+     },
+     "FR": {
+      "mean_s_change_pct": -1.7793787112633797,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.5662861642966384
+     },
+     "IB": {
+      "mean_s_change_pct": -5.736094345762388,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3234363621662748
+     },
+     "UK": {
+      "mean_s_change_pct": -0.932603561545764,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 1.726028408184721
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.839080697844132
+     },
+     "SC": {
+      "mean_s_change_pct": 2.159255637761448,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 3.3058932330325863
+     },
+     "IT": {
+      "mean_s_change_pct": -4.49132222169919,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.257307875707882
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805241085,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.495834039909341
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032
+   },
+   "spd10_cmip|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.724132436840759,
+     "mean_G_change_pct": -3.6444557458500477,
+     "mean_s_change_pct": -1.019102317063006
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 2.5432962433885153,
+     "mean_G_change_pct": -2.0122447123330733,
+     "mean_s_change_pct": 0.4819013058019883
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.470203151118099,
+      "mean_G_change_pct": -0.7909620138788598,
+      "transfer_change_pct": 2.279192713584499
+     },
+     "FR": {
+      "mean_s_change_pct": -1.7793787112633797,
+      "mean_G_change_pct": -4.236933048934699,
+      "transfer_change_pct": 2.5662861642966384
+     },
+     "IB": {
+      "mean_s_change_pct": -5.736094345762388,
+      "mean_G_change_pct": -6.96732262681593,
+      "transfer_change_pct": 1.3234363621662748
+     },
+     "UK": {
+      "mean_s_change_pct": -0.932603561545764,
+      "mean_G_change_pct": -2.6135218403125715,
+      "transfer_change_pct": 1.726028408184721
+     },
+     "PL": {
+      "mean_s_change_pct": 1.492030012939538,
+      "mean_G_change_pct": -1.3098626278685077,
+      "transfer_change_pct": 2.839080697844132
+     },
+     "SC": {
+      "mean_s_change_pct": 2.159255637761448,
+      "mean_G_change_pct": -1.1099440306707287,
+      "transfer_change_pct": 3.3058932330325863
+     },
+     "IT": {
+      "mean_s_change_pct": -4.49132222169919,
+      "mean_G_change_pct": -7.504195351223175,
+      "transfer_change_pct": 3.257307875707882
+     },
+     "BK": {
+      "mean_s_change_pct": -0.33490849805241085,
+      "mean_G_change_pct": -4.622904427095909,
+      "transfer_change_pct": 4.495834039909341
+     },
+     "UA": {
+      "mean_s_change_pct": -0.16914743637755913,
+      "mean_G_change_pct": -3.635273532308303,
+      "transfer_change_pct": 3.596882617720931
+     },
+     "RU": {
+      "mean_s_change_pct": -0.3919871129342445,
+      "mean_G_change_pct": -2.6114187424523205,
+      "transfer_change_pct": 2.2789444109969192
+     },
+     "TR": {
+      "mean_s_change_pct": 0.28474105628057966,
+      "mean_G_change_pct": -1.3215630985804472,
+      "transfer_change_pct": 1.6278167807478816
+     },
+     "KZ": {
+      "mean_s_change_pct": -3.555667945914509,
+      "mean_G_change_pct": -4.367827947535208,
+      "transfer_change_pct": 0.8492539531311127
+     },
+     "US_NP": {
+      "mean_s_change_pct": -3.6021467013080066,
+      "mean_G_change_pct": -5.174397165005306,
+      "transfer_change_pct": 1.6580442588202127
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.6102396888322046,
+      "mean_G_change_pct": -4.746581128094318,
+      "transfer_change_pct": 6.673588089761906
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.046598319262081134,
+      "mean_G_change_pct": -1.8413627990295,
+      "transfer_change_pct": 1.92337747561242
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.4430670383945623,
+      "mean_G_change_pct": -2.3330801061112183,
+      "transfer_change_pct": 2.8424641091599367
+     },
+     "US_CA": {
+      "mean_s_change_pct": -3.11291472263473,
+      "mean_G_change_pct": -13.62631716954641,
+      "transfer_change_pct": 12.171997421423919
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.5800472834129007,
+      "mean_G_change_pct": -5.24966822047247,
+      "transfer_change_pct": 2.817532020121516
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -2.013496683137528,
+      "mean_G_change_pct": -0.8183111443045621,
+      "transfer_change_pct": -1.2050465692028167
+     },
+     "CN_N": {
+      "mean_s_change_pct": -4.682619185191516,
+      "mean_G_change_pct": -1.046969888447713,
+      "transfer_change_pct": -3.6741161868870886
+     },
+     "KR": {
+      "mean_s_change_pct": -4.252327661013955,
+      "mean_G_change_pct": -3.9725943867443436,
+      "transfer_change_pct": -0.29130566683871484
+     },
+     "JP": {
+      "mean_s_change_pct": -6.536296388771234,
+      "mean_G_change_pct": -5.356870347824982,
+      "transfer_change_pct": -1.24618241734058
+     }
+    },
+    "days_ctl": 31200,
+    "days_fut": 4032,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 2.355286808725165,
+     "mean_G_change_pct": -3.875358256511704,
+     "mean_s_change_pct": -1.6665828888377634
+    }
+   },
+   "dT": 4.8951380965125395
+  },
+  "eerie_ctl": {
+   "spd100|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.306483336899076,
+     "mean_G_change_pct": -2.204471703740117,
+     "mean_s_change_pct": 0.04089849747545421
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.625092338192826,
+     "mean_G_change_pct": -1.290307260074379,
+     "mean_s_change_pct": 0.3138483014678073
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.123477969375597,
+      "mean_G_change_pct": -0.5704782790837526,
+      "transfer_change_pct": 1.7036753462558618
+     },
+     "FR": {
+      "mean_s_change_pct": -0.35912011566944235,
+      "mean_G_change_pct": -1.909744299001126,
+      "transfer_change_pct": 1.5808136825112618
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7538472793940052,
+      "mean_G_change_pct": -3.4566119090367664,
+      "transfer_change_pct": 1.763729928390756
+     },
+     "UK": {
+      "mean_s_change_pct": 0.10189764501453702,
+      "mean_G_change_pct": -1.1030504685570874,
+      "transfer_change_pct": 1.2183875430743507
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9438651820900645,
+      "mean_G_change_pct": -0.909171103599371,
+      "transfer_change_pct": 1.8700381320119641
+     },
+     "SC": {
+      "mean_s_change_pct": -0.24087917347171972,
+      "mean_G_change_pct": -1.9590921501305592,
+      "transfer_change_pct": 1.7525469871106925
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9932204780818243,
+      "mean_G_change_pct": -4.556811961833363,
+      "transfer_change_pct": 3.7337305647486385
+     },
+     "BK": {
+      "mean_s_change_pct": 1.5050142299404268,
+      "mean_G_change_pct": -3.1708134586789116,
+      "transfer_change_pct": 4.828944511089084
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367
+   },
+   "spd100|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9608670348889383,
+     "mean_G_change_pct": -1.8785988524682398,
+     "mean_s_change_pct": 0.04089849747545421
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.631771049883057,
+     "mean_G_change_pct": -1.2964703389023091,
+     "mean_s_change_pct": 0.3138483014678073
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.123477969375597,
+      "mean_G_change_pct": -0.5493296860715646,
+      "transfer_change_pct": 1.682047642481188
+     },
+     "FR": {
+      "mean_s_change_pct": -0.35912011566944235,
+      "mean_G_change_pct": -1.9174172403871759,
+      "transfer_change_pct": 1.5887602883958518
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7538472793940052,
+      "mean_G_change_pct": -2.4106007239151905,
+      "transfer_change_pct": 0.6729762140078366
+     },
+     "UK": {
+      "mean_s_change_pct": 0.10189764501453702,
+      "mean_G_change_pct": -1.122296364399189,
+      "transfer_change_pct": 1.2380890376715525
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9438651820900645,
+      "mean_G_change_pct": -0.8003819486414598,
+      "transfer_change_pct": 1.7583204098915894
+     },
+     "SC": {
+      "mean_s_change_pct": -0.24087917347171972,
+      "mean_G_change_pct": -2.0929264550121562,
+      "transfer_change_pct": 1.8916378709751047
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9932204780818243,
+      "mean_G_change_pct": -4.1531678677917405,
+      "transfer_change_pct": 3.2968720190472034
+     },
+     "BK": {
+      "mean_s_change_pct": 1.5050142299404268,
+      "mean_G_change_pct": -1.982670533527442,
+      "transfer_change_pct": 3.558232796641181
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367
+   },
+   "spd100|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9608670348889383,
+     "mean_G_change_pct": -1.8785988524682398,
+     "mean_s_change_pct": 0.04089849747545421
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.631771049883057,
+     "mean_G_change_pct": -1.2964703389023091,
+     "mean_s_change_pct": 0.3138483014678073
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.123477969375597,
+      "mean_G_change_pct": -0.5493296860715646,
+      "transfer_change_pct": 1.682047642481188
+     },
+     "FR": {
+      "mean_s_change_pct": -0.35912011566944235,
+      "mean_G_change_pct": -1.9174172403871759,
+      "transfer_change_pct": 1.5887602883958518
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7538472793940052,
+      "mean_G_change_pct": -2.4106007239151905,
+      "transfer_change_pct": 0.6729762140078366
+     },
+     "UK": {
+      "mean_s_change_pct": 0.10189764501453702,
+      "mean_G_change_pct": -1.122296364399189,
+      "transfer_change_pct": 1.2380890376715525
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9438651820900645,
+      "mean_G_change_pct": -0.8003819486414598,
+      "transfer_change_pct": 1.7583204098915894
+     },
+     "SC": {
+      "mean_s_change_pct": -0.24087917347171972,
+      "mean_G_change_pct": -2.0929264550121562,
+      "transfer_change_pct": 1.8916378709751047
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9932204780818243,
+      "mean_G_change_pct": -4.1531678677917405,
+      "transfer_change_pct": 3.2968720190472034
+     },
+     "BK": {
+      "mean_s_change_pct": 1.5050142299404268,
+      "mean_G_change_pct": -1.982670533527442,
+      "transfer_change_pct": 3.558232796641181
+     },
+     "UA": {
+      "mean_s_change_pct": 0.26236176277631973,
+      "mean_G_change_pct": -1.9004698745618054,
+      "transfer_change_pct": 2.204731902968904
+     },
+     "RU": {
+      "mean_s_change_pct": -0.9845599500953761,
+      "mean_G_change_pct": -1.7576745700262353,
+      "transfer_change_pct": 0.786946579844483
+     },
+     "TR": {
+      "mean_s_change_pct": 0.6154880326763701,
+      "mean_G_change_pct": -1.7696711103939111,
+      "transfer_change_pct": 2.4281290412361045
+     },
+     "KZ": {
+      "mean_s_change_pct": 1.3569931244788558,
+      "mean_G_change_pct": 0.663846225693332,
+      "transfer_change_pct": 0.6885758142316956
+     },
+     "US_NP": {
+      "mean_s_change_pct": -1.562012097090948,
+      "mean_G_change_pct": -2.5906484882012415,
+      "transfer_change_pct": 1.0559934699757134
+     },
+     "US_SP": {
+      "mean_s_change_pct": 0.46822071408816335,
+      "mean_G_change_pct": -2.4371678710255806,
+      "transfer_change_pct": 2.9779666310557174
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.4732911372785198,
+      "mean_G_change_pct": -1.043491888229875,
+      "transfer_change_pct": 0.5762134919992556
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.21671719970324244,
+      "mean_G_change_pct": -1.2776564571824967,
+      "transfer_change_pct": 1.5137137179463078
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.0401186155136974,
+      "mean_G_change_pct": -5.050085423651329,
+      "transfer_change_pct": 3.1700574156044548
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -1.5056966869956612,
+      "mean_G_change_pct": -1.786940025668693,
+      "transfer_change_pct": 0.28636042777463455
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.4675129816874901,
+      "mean_G_change_pct": 1.4372064129157813,
+      "transfer_change_pct": -1.8777325026576808
+     },
+     "CN_N": {
+      "mean_s_change_pct": -1.0692850561575873,
+      "mean_G_change_pct": 2.008253762903278,
+      "transfer_change_pct": -3.016950791270223
+     },
+     "KR": {
+      "mean_s_change_pct": -0.29280392538781896,
+      "mean_G_change_pct": -1.2469613502691823,
+      "transfer_change_pct": 0.9662056357229387
+     },
+     "JP": {
+      "mean_s_change_pct": -2.3701513169807287,
+      "mean_G_change_pct": -3.4534106222675054,
+      "transfer_change_pct": 1.122006807561693
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.2985979055047958,
+     "mean_G_change_pct": -1.6015300954414264,
+     "mean_s_change_pct": -0.34174831607551104
+    }
+   },
+   "spd10|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.2981475353274745,
+     "mean_G_change_pct": -2.204471703740117,
+     "mean_s_change_pct": 0.033071956250904644
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.634781055117367,
+     "mean_G_change_pct": -1.290307260074379,
+     "mean_s_change_pct": 0.3234159456690633
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1287011017356408,
+      "mean_G_change_pct": -0.5704782790837526,
+      "transfer_change_pct": 1.7089284464112398
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3472099724300515,
+      "mean_G_change_pct": -1.909744299001126,
+      "transfer_change_pct": 1.5929557073783407
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7634730371579255,
+      "mean_G_change_pct": -3.4566119090367664,
+      "transfer_change_pct": 1.753759532743504
+     },
+     "UK": {
+      "mean_s_change_pct": 0.12155165442873095,
+      "mean_G_change_pct": -1.1030504685570874,
+      "transfer_change_pct": 1.2382607641466814
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9527963613388923,
+      "mean_G_change_pct": -0.909171103599371,
+      "transfer_change_pct": 1.879051255979447
+     },
+     "SC": {
+      "mean_s_change_pct": -0.23875941672789613,
+      "mean_G_change_pct": -1.9590921501305592,
+      "transfer_change_pct": 1.7547091016711258
+     },
+     "IT": {
+      "mean_s_change_pct": -1.0621099933362466,
+      "mean_G_change_pct": -4.556811961833363,
+      "transfer_change_pct": 3.661552008404878
+     },
+     "BK": {
+      "mean_s_change_pct": 1.4730789521560927,
+      "mean_G_change_pct": -3.1708134586789116,
+      "transfer_change_pct": 4.7959634658845784
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367
+   },
+   "spd10|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9526321579320713,
+     "mean_G_change_pct": -1.8785988524682398,
+     "mean_s_change_pct": 0.033071956250904644
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.6414591212186203,
+     "mean_G_change_pct": -1.2964703389023091,
+     "mean_s_change_pct": 0.3234159456690633
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1287011017356408,
+      "mean_G_change_pct": -0.5493296860715646,
+      "transfer_change_pct": 1.6872996255432815
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3472099724300515,
+      "mean_G_change_pct": -1.9174172403871759,
+      "transfer_change_pct": 1.6009032631262077
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7634730371579255,
+      "mean_G_change_pct": -2.4106007239151905,
+      "transfer_change_pct": 0.6631126859655057
+     },
+     "UK": {
+      "mean_s_change_pct": 0.12155165442873095,
+      "mean_G_change_pct": -1.122296364399189,
+      "transfer_change_pct": 1.2579661269358722
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9527963613388923,
+      "mean_G_change_pct": -0.8003819486414598,
+      "transfer_change_pct": 1.7673236494445854
+     },
+     "SC": {
+      "mean_s_change_pct": -0.23875941672789613,
+      "mean_G_change_pct": -2.0929264550121562,
+      "transfer_change_pct": 1.8938029410431545
+     },
+     "IT": {
+      "mean_s_change_pct": -1.0621099933362466,
+      "mean_G_change_pct": -4.1531678677917405,
+      "transfer_change_pct": 3.224997431518406
+     },
+     "BK": {
+      "mean_s_change_pct": 1.4730789521560927,
+      "mean_G_change_pct": -1.982670533527442,
+      "transfer_change_pct": 3.5256515398795596
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367
+   },
+   "spd10|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9526321579320713,
+     "mean_G_change_pct": -1.8785988524682398,
+     "mean_s_change_pct": 0.033071956250904644
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.6414591212186203,
+     "mean_G_change_pct": -1.2964703389023091,
+     "mean_s_change_pct": 0.3234159456690633
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1287011017356408,
+      "mean_G_change_pct": -0.5493296860715646,
+      "transfer_change_pct": 1.6872996255432815
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3472099724300515,
+      "mean_G_change_pct": -1.9174172403871759,
+      "transfer_change_pct": 1.6009032631262077
+     },
+     "IB": {
+      "mean_s_change_pct": -1.7634730371579255,
+      "mean_G_change_pct": -2.4106007239151905,
+      "transfer_change_pct": 0.6631126859655057
+     },
+     "UK": {
+      "mean_s_change_pct": 0.12155165442873095,
+      "mean_G_change_pct": -1.122296364399189,
+      "transfer_change_pct": 1.2579661269358722
+     },
+     "PL": {
+      "mean_s_change_pct": 0.9527963613388923,
+      "mean_G_change_pct": -0.8003819486414598,
+      "transfer_change_pct": 1.7673236494445854
+     },
+     "SC": {
+      "mean_s_change_pct": -0.23875941672789613,
+      "mean_G_change_pct": -2.0929264550121562,
+      "transfer_change_pct": 1.8938029410431545
+     },
+     "IT": {
+      "mean_s_change_pct": -1.0621099933362466,
+      "mean_G_change_pct": -4.1531678677917405,
+      "transfer_change_pct": 3.224997431518406
+     },
+     "BK": {
+      "mean_s_change_pct": 1.4730789521560927,
+      "mean_G_change_pct": -1.982670533527442,
+      "transfer_change_pct": 3.5256515398795596
+     },
+     "UA": {
+      "mean_s_change_pct": 0.21380068784875306,
+      "mean_G_change_pct": -1.9004698745618054,
+      "transfer_change_pct": 2.1552300604366748
+     },
+     "RU": {
+      "mean_s_change_pct": -1.060323880697911,
+      "mean_G_change_pct": -1.7576745700262353,
+      "transfer_change_pct": 0.7098271404674783
+     },
+     "TR": {
+      "mean_s_change_pct": 0.6303037234506537,
+      "mean_G_change_pct": -1.7696711103939111,
+      "transfer_change_pct": 2.4432116444827567
+     },
+     "KZ": {
+      "mean_s_change_pct": 1.4210144249197532,
+      "mean_G_change_pct": 0.663846225693332,
+      "transfer_change_pct": 0.7521749144462575
+     },
+     "US_NP": {
+      "mean_s_change_pct": -1.6159399489155235,
+      "mean_G_change_pct": -2.5906484882012415,
+      "transfer_change_pct": 1.0006313810308587
+     },
+     "US_SP": {
+      "mean_s_change_pct": 0.5160152455149447,
+      "mean_G_change_pct": -2.4371678710255806,
+      "transfer_change_pct": 3.0269550935509315
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.496490844680364,
+      "mean_G_change_pct": -1.043491888229875,
+      "transfer_change_pct": 0.5527691447354544
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.2153959704064734,
+      "mean_G_change_pct": -1.2776564571824967,
+      "transfer_change_pct": 1.5123753894085823
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.0062285370589406,
+      "mean_G_change_pct": -5.050085423651329,
+      "transfer_change_pct": 3.2057500000643335
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -1.6129924727962375,
+      "mean_G_change_pct": -1.786940025668693,
+      "transfer_change_pct": 0.17711244606157805
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.43205779643812336,
+      "mean_G_change_pct": 1.4372064129157813,
+      "transfer_change_pct": -1.8427796618775028
+     },
+     "CN_N": {
+      "mean_s_change_pct": -1.0689910029844207,
+      "mean_G_change_pct": 2.008253762903278,
+      "transfer_change_pct": -3.0166625271716874
+     },
+     "KR": {
+      "mean_s_change_pct": -0.3208102366326182,
+      "mean_G_change_pct": -1.2469613502691823,
+      "transfer_change_pct": 0.9378456868770924
+     },
+     "JP": {
+      "mean_s_change_pct": -2.390664375936935,
+      "mean_G_change_pct": -3.4534106222675054,
+      "transfer_change_pct": 1.1007600094216086
+     }
+    },
+    "days_ctl": 16766,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.2880117266086815,
+     "mean_G_change_pct": -1.6015300954414264,
+     "mean_s_change_pct": -0.35197242699969356
+    }
+   },
+   "spd10_cmip|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 2.2961763503629964,
+     "mean_G_change_pct": -2.2034677387505006,
+     "mean_s_change_pct": 0.031531071143993394
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.5941387693272713,
+     "mean_G_change_pct": -1.288384527196009,
+     "mean_s_change_pct": 0.28544652266650594
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1181570106870264,
+      "mean_G_change_pct": -0.5698419218570949,
+      "transfer_change_pct": 1.6976729849081718
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3572716448293711,
+      "mean_G_change_pct": -1.9094148533263078,
+      "transfer_change_pct": 1.5823569674663807
+     },
+     "IB": {
+      "mean_s_change_pct": -1.6350070759425073,
+      "mean_G_change_pct": -3.456926277059802,
+      "transfer_change_pct": 1.8871568211571876
+     },
+     "UK": {
+      "mean_s_change_pct": 0.0417838612470911,
+      "mean_G_change_pct": -1.1004945306680614,
+      "transfer_change_pct": 1.1549889824973514
+     },
+     "PL": {
+      "mean_s_change_pct": 1.0007437445773038,
+      "mean_G_change_pct": -0.9081637386120334,
+      "transfer_change_pct": 1.9264023709823608
+     },
+     "SC": {
+      "mean_s_change_pct": -0.37618035834952046,
+      "mean_G_change_pct": -1.954007591516549,
+      "transfer_change_pct": 1.6092725407820918
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9282582655869676,
+      "mean_G_change_pct": -4.557794978754859,
+      "transfer_change_pct": 3.8028634317071264
+     },
+     "BK": {
+      "mean_s_change_pct": 1.3882812973488923,
+      "mean_G_change_pct": -3.171098018209295,
+      "transfer_change_pct": 4.708696703403303
+     }
+    },
+    "days_ctl": 16768,
+    "days_fut": 6367
+   },
+   "spd10_cmip|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9503633791829955,
+     "mean_G_change_pct": -1.8774609944680485,
+     "mean_s_change_pct": 0.031531071143993394
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.6008241241856158,
+     "mean_G_change_pct": -1.294607326209625,
+     "mean_s_change_pct": 0.28544652266650594
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1181570106870264,
+      "mean_G_change_pct": -0.5488043014316601,
+      "transfer_change_pct": 1.6761601511269708
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3572716448293711,
+      "mean_G_change_pct": -1.9171848692995597,
+      "transfer_change_pct": 1.5904042134103902
+     },
+     "IB": {
+      "mean_s_change_pct": -1.6350070759425073,
+      "mean_G_change_pct": -2.4102618235285034,
+      "transfer_change_pct": 0.7944019136357339
+     },
+     "UK": {
+      "mean_s_change_pct": 0.0417838612470911,
+      "mean_G_change_pct": -1.1198205990925802,
+      "transfer_change_pct": 1.1747596610135247
+     },
+     "PL": {
+      "mean_s_change_pct": 1.0007437445773038,
+      "mean_G_change_pct": -0.7992597019522485,
+      "transfer_change_pct": 1.8145060622747788
+     },
+     "SC": {
+      "mean_s_change_pct": -0.37618035834952046,
+      "mean_G_change_pct": -2.087967159272075,
+      "transfer_change_pct": 1.7482905331024146
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9282582655869676,
+      "mean_G_change_pct": -4.153823661076162,
+      "transfer_change_pct": 3.365356364434602
+     },
+     "BK": {
+      "mean_s_change_pct": 1.3882812973488923,
+      "mean_G_change_pct": -1.982565840091599,
+      "transfer_change_pct": 3.4390281344655493
+     }
+    },
+    "days_ctl": 16768,
+    "days_fut": 6367
+   },
+   "spd10_cmip|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.9503633791829955,
+     "mean_G_change_pct": -1.8774609944680485,
+     "mean_s_change_pct": 0.031531071143993394
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.6008241241856158,
+     "mean_G_change_pct": -1.294607326209625,
+     "mean_s_change_pct": 0.28544652266650594
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1181570106870264,
+      "mean_G_change_pct": -0.5488043014316601,
+      "transfer_change_pct": 1.6761601511269708
+     },
+     "FR": {
+      "mean_s_change_pct": -0.3572716448293711,
+      "mean_G_change_pct": -1.9171848692995597,
+      "transfer_change_pct": 1.5904042134103902
+     },
+     "IB": {
+      "mean_s_change_pct": -1.6350070759425073,
+      "mean_G_change_pct": -2.4102618235285034,
+      "transfer_change_pct": 0.7944019136357339
+     },
+     "UK": {
+      "mean_s_change_pct": 0.0417838612470911,
+      "mean_G_change_pct": -1.1198205990925802,
+      "transfer_change_pct": 1.1747596610135247
+     },
+     "PL": {
+      "mean_s_change_pct": 1.0007437445773038,
+      "mean_G_change_pct": -0.7992597019522485,
+      "transfer_change_pct": 1.8145060622747788
+     },
+     "SC": {
+      "mean_s_change_pct": -0.37618035834952046,
+      "mean_G_change_pct": -2.087967159272075,
+      "transfer_change_pct": 1.7482905331024146
+     },
+     "IT": {
+      "mean_s_change_pct": -0.9282582655869676,
+      "mean_G_change_pct": -4.153823661076162,
+      "transfer_change_pct": 3.365356364434602
+     },
+     "BK": {
+      "mean_s_change_pct": 1.3882812973488923,
+      "mean_G_change_pct": -1.982565840091599,
+      "transfer_change_pct": 3.4390281344655493
+     },
+     "UA": {
+      "mean_s_change_pct": 0.1795982076469027,
+      "mean_G_change_pct": -1.896344873983835,
+      "transfer_change_pct": 2.116071087223137
+     },
+     "RU": {
+      "mean_s_change_pct": -1.0644661633572805,
+      "mean_G_change_pct": -1.7536758658132756,
+      "transfer_change_pct": 0.7015119481871501
+     },
+     "TR": {
+      "mean_s_change_pct": 0.2080516217936923,
+      "mean_G_change_pct": -1.768200033361944,
+      "transfer_change_pct": 2.0118247408953183
+     },
+     "KZ": {
+      "mean_s_change_pct": 1.2589074373817954,
+      "mean_G_change_pct": 0.6638846709040136,
+      "transfer_change_pct": 0.5910985537892488
+     },
+     "US_NP": {
+      "mean_s_change_pct": -1.5293935962451433,
+      "mean_G_change_pct": -2.5918004413907902,
+      "transfer_change_pct": 1.0906749636681479
+     },
+     "US_SP": {
+      "mean_s_change_pct": 0.41665780322435175,
+      "mean_G_change_pct": -2.4407787284437155,
+      "transfer_change_pct": 2.928925112793168
+     },
+     "US_MW": {
+      "mean_s_change_pct": -0.5079391887768958,
+      "mean_G_change_pct": -1.0445906764113944,
+      "transfer_change_pct": 0.5423164749686737
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.16956864939845495,
+      "mean_G_change_pct": -1.279858433562675,
+      "transfer_change_pct": 1.4682181973834307
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.357468814269459,
+      "mean_G_change_pct": -5.052207291978017,
+      "transfer_change_pct": 2.8381265123195387
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -1.572354871949988,
+      "mean_G_change_pct": -1.7924339024892322,
+      "transfer_change_pct": 0.22409579962578974
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.542579114624564,
+      "mean_G_change_pct": 1.4362222221988574,
+      "transfer_change_pct": -1.9507837471399614
+     },
+     "CN_N": {
+      "mean_s_change_pct": -1.2042116114463597,
+      "mean_G_change_pct": 2.0090675129964986,
+      "transfer_change_pct": -3.1499936258445715
+     },
+     "KR": {
+      "mean_s_change_pct": -0.4366906807905191,
+      "mean_G_change_pct": -1.2413326353768572,
+      "transfer_change_pct": 0.8147557840321396
+     },
+     "JP": {
+      "mean_s_change_pct": -2.2986238563195593,
+      "mean_G_change_pct": -3.448496603618545,
+      "transfer_change_pct": 1.1909423539251618
+     }
+    },
+    "days_ctl": 16768,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 1.2282132358768336,
+     "mean_G_change_pct": -1.6009196834579678,
+     "mean_s_change_pct": -0.4103952549628465
+    }
+   },
+   "dT": 2.3003656700642523
+  },
+  "eerie_hist": {
+   "spd100|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.5964944012457711,
+     "mean_G_change_pct": -1.4385905135718553,
+     "mean_s_change_pct": 0.12706139803577848
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.9991856283552947,
+     "mean_G_change_pct": -0.7262390171772437,
+     "mean_s_change_pct": 0.2648425807872745
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1377652375990754,
+      "mean_G_change_pct": -0.10566771110067652,
+      "transfer_change_pct": 1.2447482456799275
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7533967769338901,
+      "mean_G_change_pct": -0.08054100645527029,
+      "transfer_change_pct": 0.8346099866723966
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5286579778623457,
+      "mean_G_change_pct": -2.3754570625345584,
+      "transfer_change_pct": 1.891736472308203
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6906616356043838,
+      "mean_G_change_pct": -0.05531732019363744,
+      "transfer_change_pct": 0.7463918397619285
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5744239208645641,
+      "mean_G_change_pct": -1.9244987570513405,
+      "transfer_change_pct": 1.3765668480678173
+     },
+     "SC": {
+      "mean_s_change_pct": -0.6831868253364126,
+      "mean_G_change_pct": -1.4651702910852937,
+      "transfer_change_pct": 0.7936112215944036
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3231805997384374,
+      "mean_G_change_pct": -2.8344436079110857,
+      "transfer_change_pct": 2.5845197634015937
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5441168579506384,
+      "mean_G_change_pct": -2.667628352242979,
+      "transfer_change_pct": 3.299770832479898
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd100|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.3069970080204107,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.12706139803577848
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.0504158273499309,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.2648425807872745
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1377652375990754,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.3107045474504364
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7533967769338901,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9513331035375661
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5286579778623457,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8253825438686802
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6906616356043838,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7787031656959931
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5744239208645641,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.286163829049558
+     },
+     "SC": {
+      "mean_s_change_pct": -0.6831868253364126,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.9251744910161008
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3231805997384374,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.29987914139671
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5441168579506384,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 2.0786352421482412
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd100|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.3069970080204107,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.12706139803577848
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.0504158273499309,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.2648425807872745
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1377652375990754,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.3107045474504364
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7533967769338901,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9513331035375661
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5286579778623457,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8253825438686802
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6906616356043838,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7787031656959931
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5744239208645641,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.286163829049558
+     },
+     "SC": {
+      "mean_s_change_pct": -0.6831868253364126,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.9251744910161008
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3231805997384374,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.29987914139671
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5441168579506384,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 2.0786352421482412
+     },
+     "UA": {
+      "mean_s_change_pct": -1.3990536478526439,
+      "mean_G_change_pct": -2.668261437759789,
+      "transfer_change_pct": 1.3040019716646922
+     },
+     "RU": {
+      "mean_s_change_pct": -2.495609167731594,
+      "mean_G_change_pct": -2.3276232961597754,
+      "transfer_change_pct": -0.17198913064354615
+     },
+     "TR": {
+      "mean_s_change_pct": -0.06950807989517527,
+      "mean_G_change_pct": -1.6826834790375278,
+      "transfer_change_pct": 1.6407846107134416
+     },
+     "KZ": {
+      "mean_s_change_pct": -1.6909921280114926,
+      "mean_G_change_pct": -0.18066177562837682,
+      "transfer_change_pct": -1.513063880455956
+     },
+     "US_NP": {
+      "mean_s_change_pct": -2.249341255807824,
+      "mean_G_change_pct": -3.0116889910563605,
+      "transfer_change_pct": 0.786020219671868
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.146306202707592,
+      "mean_G_change_pct": -0.7484920234259174,
+      "transfer_change_pct": 1.9090875944985486
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.1379926264246656,
+      "mean_G_change_pct": -0.2223319144069147,
+      "transfer_change_pct": 0.36112744238767647
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.6181880637464943,
+      "mean_G_change_pct": -0.9385462102568853,
+      "transfer_change_pct": 1.5714833716326426
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.0065522199423036,
+      "mean_G_change_pct": -4.047011002026846,
+      "transfer_change_pct": 2.1265192500961483
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.0048913216306308,
+      "mean_G_change_pct": -2.642509945726812,
+      "transfer_change_pct": 0.6549250845936383
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.9367285555155314,
+      "mean_G_change_pct": 0.4126583406744322,
+      "transfer_change_pct": -1.3438414224747008
+     },
+     "CN_N": {
+      "mean_s_change_pct": -0.5403695540514675,
+      "mean_G_change_pct": 2.215578131336371,
+      "transfer_change_pct": -2.696211023574846
+     },
+     "KR": {
+      "mean_s_change_pct": 0.7908753089848286,
+      "mean_G_change_pct": 0.06767046289433143,
+      "transfer_change_pct": 0.7227157809760909
+     },
+     "JP": {
+      "mean_s_change_pct": -1.1920995267232226,
+      "mean_G_change_pct": -1.825683810684997,
+      "transfer_change_pct": 0.6453666381948775
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.7478592077929029,
+     "mean_G_change_pct": -1.2224825362532135,
+     "mean_s_change_pct": -0.4943314577732762
+    }
+   },
+   "spd10|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.5898472146273546,
+     "mean_G_change_pct": -1.4385905135718553,
+     "mean_s_change_pct": 0.12069660755697487
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.0036031518358612,
+     "mean_G_change_pct": -0.7262390171772437,
+     "mean_s_change_pct": 0.26930323225111685
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1348924402933225,
+      "mean_G_change_pct": -0.10566771110067652,
+      "transfer_change_pct": 1.2418724095439426
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7762377181751878,
+      "mean_G_change_pct": -0.08054100645527029,
+      "transfer_change_pct": 0.8574693390661858
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5393037166296466,
+      "mean_G_change_pct": -2.3754570625345584,
+      "transfer_change_pct": 1.8808316952439563
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7097819540424322,
+      "mean_G_change_pct": -0.05531732019363744,
+      "transfer_change_pct": 0.7655227409018028
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5727420986739951,
+      "mean_G_change_pct": -1.9244987570513405,
+      "transfer_change_pct": 1.3782816720241176
+     },
+     "SC": {
+      "mean_s_change_pct": -0.7016538525813631,
+      "mean_G_change_pct": -1.4651702910852937,
+      "transfer_change_pct": 0.7748695976432574
+     },
+     "IT": {
+      "mean_s_change_pct": -0.36255375118883215,
+      "mean_G_change_pct": -2.8344436079110857,
+      "transfer_change_pct": 2.5439980467435674
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5209141670186934,
+      "mean_G_change_pct": -2.667628352242979,
+      "transfer_change_pct": 3.2759322158520066
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd10|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.3004139581815066,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.12069660755697487
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.0548342970948976,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.26930323225111685
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1348924402933225,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.3078268378393432
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7762377181751878,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9742189172313065
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5393037166296466,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8145918913867067
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7097819540424322,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7978402024876541
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5727420986739951,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.2878771238037157
+     },
+     "SC": {
+      "mean_s_change_pct": -0.7016538525813631,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.9064084041124687
+     },
+     "IT": {
+      "mean_s_change_pct": -0.36255375118883215,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.2594698600911345
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5209141670186934,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 2.0550784284997237
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd10|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.3004139581815066,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.12069660755697487
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 1.0548342970948976,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.26930323225111685
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 1.1348924402933225,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.3078268378393432
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7762377181751878,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9742189172313065
+     },
+     "IB": {
+      "mean_s_change_pct": -0.5393037166296466,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8145918913867067
+     },
+     "UK": {
+      "mean_s_change_pct": 0.7097819540424322,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7978402024876541
+     },
+     "PL": {
+      "mean_s_change_pct": -0.5727420986739951,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.2878771238037157
+     },
+     "SC": {
+      "mean_s_change_pct": -0.7016538525813631,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.9064084041124687
+     },
+     "IT": {
+      "mean_s_change_pct": -0.36255375118883215,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.2594698600911345
+     },
+     "BK": {
+      "mean_s_change_pct": 0.5209141670186934,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 2.0550784284997237
+     },
+     "UA": {
+      "mean_s_change_pct": -1.4663579434275653,
+      "mean_G_change_pct": -2.668261437759789,
+      "transfer_change_pct": 1.234852589799007
+     },
+     "RU": {
+      "mean_s_change_pct": -2.6917837186229865,
+      "mean_G_change_pct": -2.3276232961597754,
+      "transfer_change_pct": -0.372838702970657
+     },
+     "TR": {
+      "mean_s_change_pct": -0.05989946367657151,
+      "mean_G_change_pct": -1.6826834790375278,
+      "transfer_change_pct": 1.6505576766987495
+     },
+     "KZ": {
+      "mean_s_change_pct": -1.6282969175368533,
+      "mean_G_change_pct": -0.18066177562837682,
+      "transfer_change_pct": -1.4502551987016
+     },
+     "US_NP": {
+      "mean_s_change_pct": -2.2853262469383906,
+      "mean_G_change_pct": -3.0116889910563605,
+      "transfer_change_pct": 0.748917819644257
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.1811639914962146,
+      "mean_G_change_pct": -0.7484920234259174,
+      "transfer_change_pct": 1.9442082586569764
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.12514855526279955,
+      "mean_G_change_pct": -0.2223319144069147,
+      "transfer_change_pct": 0.348254751124899
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.6194917647037723,
+      "mean_G_change_pct": -0.9385462102568853,
+      "transfer_change_pct": 1.5727994243528665
+     },
+     "US_CA": {
+      "mean_s_change_pct": -1.9912663260111096,
+      "mean_G_change_pct": -4.047011002026846,
+      "transfer_change_pct": 2.142449857460038
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.133215060028437,
+      "mean_G_change_pct": -2.642509945726812,
+      "transfer_change_pct": 0.5231183398570094
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.917578531384089,
+      "mean_G_change_pct": 0.4126583406744322,
+      "transfer_change_pct": -1.3247700977553678
+     },
+     "CN_N": {
+      "mean_s_change_pct": -0.5247021154041298,
+      "mean_G_change_pct": 2.215578131336371,
+      "transfer_change_pct": -2.680883185163352
+     },
+     "KR": {
+      "mean_s_change_pct": 0.7570542031852812,
+      "mean_G_change_pct": 0.06767046289433143,
+      "transfer_change_pct": 0.6889175465982111
+     },
+     "JP": {
+      "mean_s_change_pct": -1.2139046387510288,
+      "mean_G_change_pct": -1.825683810684997,
+      "transfer_change_pct": 0.6231560307017991
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.7296271261706768,
+     "mean_G_change_pct": -1.2224825362532135,
+     "mean_s_change_pct": -0.5119954357580588
+    }
+   },
+   "spd10_cmip|box": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.4927628451581216,
+     "mean_G_change_pct": -1.4385905135718553,
+     "mean_s_change_pct": 0.024647169201243158
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.8597241039739023,
+     "mean_G_change_pct": -0.7262390171772437,
+     "mean_s_change_pct": 0.12674520448766824
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.9338706343295922,
+      "mean_G_change_pct": -0.10566771110067652,
+      "transfer_change_pct": 1.040637963747404
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7070094646793423,
+      "mean_G_change_pct": -0.08054100645527029,
+      "transfer_change_pct": 0.7881852834946912
+     },
+     "IB": {
+      "mean_s_change_pct": -0.46587741066252963,
+      "mean_G_change_pct": -2.3754570625345584,
+      "transfer_change_pct": 1.9560446527214115
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6394420041299975,
+      "mean_G_change_pct": -0.05531732019363744,
+      "transfer_change_pct": 0.695143859278069
+     },
+     "PL": {
+      "mean_s_change_pct": -0.7333275720413313,
+      "mean_G_change_pct": -1.9244987570513405,
+      "transfer_change_pct": 1.214545090174246
+     },
+     "SC": {
+      "mean_s_change_pct": -0.9132685086592596,
+      "mean_G_change_pct": -1.4651702910852937,
+      "transfer_change_pct": 0.5601083231751014
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3197930453570641,
+      "mean_G_change_pct": -2.8344436079110857,
+      "transfer_change_pct": 2.588006137078791
+     },
+     "BK": {
+      "mean_s_change_pct": 0.3491217871911978,
+      "mean_G_change_pct": -2.667628352242979,
+      "transfer_change_pct": 3.099431451595258
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd10_cmip|bilin_sector": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.2034307178442645,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.024647169201243158
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.9108816137430198,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.12674520448766824
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.9338706343295922,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.1064612970471455
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7070094646793423,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9048546605173735
+     },
+     "IB": {
+      "mean_s_change_pct": -0.46587741066252963,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8890177032579549
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6394420041299975,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7274387489887291
+     },
+     "PL": {
+      "mean_s_change_pct": -0.7333275720413313,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.1242865548025671
+     },
+     "SC": {
+      "mean_s_change_pct": -0.9132685086592596,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.6913668073592838
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3197930453570641,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.3033558414548017
+     },
+     "BK": {
+      "mean_s_change_pct": 0.3491217871911978,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 1.8806641293262594
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367
+   },
+   "spd10_cmip|bilin_global": {
+    "eu": {
+     "n_regions": 8,
+     "transfer_change_pct": 1.2034307178442645,
+     "mean_G_change_pct": -1.1618786057882038,
+     "mean_s_change_pct": 0.024647169201243158
+    },
+    "eu_flat": {
+     "n_regions": 5,
+     "transfer_change_pct": 0.9108816137430198,
+     "mean_G_change_pct": -0.7769426370101606,
+     "mean_s_change_pct": 0.12674520448766824
+    },
+    "regions": {
+     "DE": {
+      "mean_s_change_pct": 0.9338706343295922,
+      "mean_G_change_pct": -0.1707019121265363,
+      "transfer_change_pct": 1.1064612970471455
+     },
+     "FR": {
+      "mean_s_change_pct": 0.7070094646793423,
+      "mean_G_change_pct": -0.19607103791354774,
+      "transfer_change_pct": 0.9048546605173735
+     },
+     "IB": {
+      "mean_s_change_pct": -0.46587741066252963,
+      "mean_G_change_pct": -1.3429559973570093,
+      "transfer_change_pct": 0.8890177032579549
+     },
+     "UK": {
+      "mean_s_change_pct": 0.6394420041299975,
+      "mean_G_change_pct": -0.08736124530877021,
+      "transfer_change_pct": 0.7274387489887291
+     },
+     "PL": {
+      "mean_s_change_pct": -0.7333275720413313,
+      "mean_G_change_pct": -1.8369614166199422,
+      "transfer_change_pct": 1.1242865548025671
+     },
+     "SC": {
+      "mean_s_change_pct": -0.9132685086592596,
+      "mean_G_change_pct": -1.5936175730820068,
+      "transfer_change_pct": 0.6913668073592838
+     },
+     "IT": {
+      "mean_s_change_pct": -0.3197930453570641,
+      "mean_G_change_pct": -2.5640887977097404,
+      "transfer_change_pct": 2.3033558414548017
+     },
+     "BK": {
+      "mean_s_change_pct": 0.3491217871911978,
+      "mean_G_change_pct": -1.5032708661880778,
+      "transfer_change_pct": 1.8806641293262594
+     },
+     "UA": {
+      "mean_s_change_pct": -1.5774849939063196,
+      "mean_G_change_pct": -2.668261437759789,
+      "transfer_change_pct": 1.1206790919037868
+     },
+     "RU": {
+      "mean_s_change_pct": -2.768141461580975,
+      "mean_G_change_pct": -2.3276232961597754,
+      "transfer_change_pct": -0.4510161217402775
+     },
+     "TR": {
+      "mean_s_change_pct": -0.42000626778080363,
+      "mean_G_change_pct": -1.6826834790375278,
+      "transfer_change_pct": 1.2842877083484083
+     },
+     "KZ": {
+      "mean_s_change_pct": -1.6912343761517845,
+      "mean_G_change_pct": -0.18066177562837682,
+      "transfer_change_pct": -1.5133065670381307
+     },
+     "US_NP": {
+      "mean_s_change_pct": -2.2418748388135623,
+      "mean_G_change_pct": -3.0116889910563605,
+      "transfer_change_pct": 0.7937184844592382
+     },
+     "US_SP": {
+      "mean_s_change_pct": 1.1660297829696464,
+      "mean_G_change_pct": -0.7484920234259174,
+      "transfer_change_pct": 1.9289599175132288
+     },
+     "US_MW": {
+      "mean_s_change_pct": 0.10985835912922237,
+      "mean_G_change_pct": -0.2223319144069147,
+      "transfer_change_pct": 0.3329304842554226
+     },
+     "US_NE": {
+      "mean_s_change_pct": 0.6124889177062665,
+      "mean_G_change_pct": -0.9385462102568853,
+      "transfer_change_pct": 1.5657302296967934
+     },
+     "US_CA": {
+      "mean_s_change_pct": -2.0662789211905785,
+      "mean_G_change_pct": -4.047011002026846,
+      "transfer_change_pct": 2.0642734546582053
+     },
+     "CA_PR": {
+      "mean_s_change_pct": -2.1103342505688127,
+      "mean_G_change_pct": -2.642509945726812,
+      "transfer_change_pct": 0.5466201879910093
+     },
+     "CN_NE": {
+      "mean_s_change_pct": -0.9395419753727041,
+      "mean_G_change_pct": 0.4126583406744322,
+      "transfer_change_pct": -1.3466432802321404
+     },
+     "CN_N": {
+      "mean_s_change_pct": -0.4842667610267415,
+      "mean_G_change_pct": 2.215578131336371,
+      "transfer_change_pct": -2.641324289037539
+     },
+     "KR": {
+      "mean_s_change_pct": 0.4893517493922861,
+      "mean_G_change_pct": 0.06767046289433143,
+      "transfer_change_pct": 0.42139612578901975
+     },
+     "JP": {
+      "mean_s_change_pct": -1.4343248676541354,
+      "mean_G_change_pct": -1.825683810684997,
+      "transfer_change_pct": 0.3986367903761945
+     }
+    },
+    "days_ctl": 6368,
+    "days_fut": 6367,
+    "cmip22": {
+     "n_regions": 22,
+     "transfer_change_pct": 0.6423812708953335,
+     "mean_G_change_pct": -1.2224825362532135,
+     "mean_s_change_pct": -0.5981173886926842
+    }
+   },
+   "dT": 2.01946297061437
+  }
+ },
+ "table": {
+  "current (spd100, box G, EU)": {
+   "cmip6_transfer": {
+    "median": -0.8773618721939671,
+    "p10_p90": [
+     -4.020743486620538,
+     1.5998253273263188
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.8236277049752703,
+    "p10_p90": [
+     -6.8996060672868085,
+     -1.8862264116565508
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.21769534173308847,
+    "p10_p90": [
+     -0.7053967348362757,
+     0.39278132610338257
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 8,
+    "transfer_change_pct": -1.4889081952620176,
+    "mean_G_change_pct": -9.207524972820554,
+    "mean_s_change_pct": -10.583904272626523
+   },
+   "9km": {
+    "transfer_change_pct": 4.139278120978834,
+    "mean_G_change_pct": -4.599223202768636,
+    "mean_s_change_pct": -0.7496642962909085,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.7527248851292031,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 3.236032346666712,
+    "mean_G_change_pct": -2.218464759433525,
+    "mean_s_change_pct": 0.9107207449767785,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.5693994486240582,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "100km": {
+    "transfer_change_pct": 2.557572827307866,
+    "mean_G_change_pct": -3.691995497007664,
+    "mean_s_change_pct": -1.238150023509664,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.52247204815937,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 2.306483336899076,
+    "mean_G_change_pct": -2.204471703740117,
+    "mean_s_change_pct": 0.04089849747545421,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 1.002659432330449,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 1.5964944012457711,
+    "mean_G_change_pct": -1.4385905135718553,
+    "mean_s_change_pct": 0.12706139803577848,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.7905539366042836,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A2a bilinear G, sector, EU": {
+   "cmip6_transfer": {
+    "median": -0.8773618721939671,
+    "p10_p90": [
+     -4.020743486620538,
+     1.5998253273263188
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.8236277049752703,
+    "p10_p90": [
+     -6.8996060672868085,
+     -1.8862264116565508
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.21769534173308847,
+    "p10_p90": [
+     -0.7053967348362757,
+     0.39278132610338257
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 8,
+    "transfer_change_pct": -1.4889081952620176,
+    "mean_G_change_pct": -9.207524972820554,
+    "mean_s_change_pct": -10.583904272626523
+   },
+   "9km": {
+    "transfer_change_pct": 3.495709622471527,
+    "mean_G_change_pct": -4.047178874703357,
+    "mean_s_change_pct": -0.7496642962909085,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.6356923954164483,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.72746338742218,
+    "mean_G_change_pct": -1.748545184278745,
+    "mean_s_change_pct": 0.9107207449767785,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.479913666666585,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "100km": {
+    "transfer_change_pct": 2.5048830896487964,
+    "mean_G_change_pct": -3.6444557458500477,
+    "mean_s_change_pct": -1.238150023509664,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 0.5117083604716605,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.9608670348889383,
+    "mean_G_change_pct": -1.8785988524682398,
+    "mean_s_change_pct": 0.04089849747545421,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.8524153617864453,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 1.3069970080204107,
+    "mean_G_change_pct": -1.1618786057882038,
+    "mean_s_change_pct": 0.12706139803577848,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.15,
+    "transfer_per_K": 0.6472002839560808,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A2b bilinear G, global grid, EU": {
+   "cmip6_transfer": {
+    "median": -0.8773618721939671,
+    "p10_p90": [
+     -4.020743486620538,
+     1.5998253273263188
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.8236277049752703,
+    "p10_p90": [
+     -6.8996060672868085,
+     -1.8862264116565508
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.21769534173308847,
+    "p10_p90": [
+     -0.7053967348362757,
+     0.39278132610338257
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 8,
+    "transfer_change_pct": -1.4889081952620176,
+    "mean_G_change_pct": -9.207524972820554,
+    "mean_s_change_pct": -10.583904272626523
+   },
+   "9km": {
+    "transfer_change_pct": 3.495709622471527,
+    "mean_G_change_pct": -4.047178874703357,
+    "mean_s_change_pct": -0.7496642962909085,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.6356923954164483,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.72746338742218,
+    "mean_G_change_pct": -1.748545184278745,
+    "mean_s_change_pct": 0.9107207449767785,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.479913666666585,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "100km": {
+    "transfer_change_pct": 2.5048830896487964,
+    "mean_G_change_pct": -3.6444557458500477,
+    "mean_s_change_pct": -1.238150023509664,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 0.5117083604716605,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.9608670348889383,
+    "mean_G_change_pct": -1.8785988524682398,
+    "mean_s_change_pct": 0.04089849747545421,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.8524153617864453,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 1.3069970080204107,
+    "mean_G_change_pct": -1.1618786057882038,
+    "mean_s_change_pct": 0.12706139803577848,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.15,
+    "transfer_per_K": 0.6472002839560808,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A3 bilinear G, 22 regions": {
+   "cmip6_transfer": {
+    "median": 0.01931744145167298,
+    "p10_p90": [
+     -2.5205604714220238,
+     1.3133718545766553
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.6370794942173803,
+    "p10_p90": [
+     -6.861239720590315,
+     -2.256671629930016
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": 0.003032151784057739,
+    "p10_p90": [
+     -0.5427509888778622,
+     0.33535673424298207
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 22,
+    "transfer_change_pct": -0.22830761372745959,
+    "mean_G_change_pct": -7.933203299599848,
+    "mean_s_change_pct": -8.133741165383398
+   },
+   "9km": {
+    "transfer_change_pct": 2.7321064981453986,
+    "mean_G_change_pct": -4.642342321921167,
+    "mean_s_change_pct": -2.1044912471003916,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.4968316913894466,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.2538966473585846,
+    "mean_G_change_pct": -3.04952466968559,
+    "mean_s_change_pct": -0.9312237031473471,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.39658673671279254,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "100km": {
+    "transfer_change_pct": 2.4090570470340995,
+    "mean_G_change_pct": -3.875358256511704,
+    "mean_s_change_pct": -1.6276808809654981,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.49213260168296225,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.2985979055047958,
+    "mean_G_change_pct": -1.6015300954414264,
+    "mean_s_change_pct": -0.34174831607551104,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.5645180339821905,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 0.7478592077929029,
+    "mean_G_change_pct": -1.2224825362532135,
+    "mean_s_change_pct": -0.4943314577732762,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.4,
+    "transfer_per_K": 0.3703257839708672,
+    "cmip6_share_at_or_above_per_K": 0.05
+   }
+  },
+  "A2c box G, EU without IB/IT/BK": {
+   "cmip6_transfer": {
+    "median": -1.594826953457965,
+    "p10_p90": [
+     -4.482824429871576,
+     1.2432412282090313
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -2.266193886060436,
+    "p10_p90": [
+     -5.710857433660894,
+     -0.6853582488659516
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.44249654688672924,
+    "p10_p90": [
+     -0.8951609879769509,
+     0.31745024002189953
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 5,
+    "transfer_change_pct": -3.1296963685255035,
+    "mean_G_change_pct": -8.638116873460698,
+    "mean_s_change_pct": -11.493826568415663
+   },
+   "9km": {
+    "transfer_change_pct": 2.563875501749613,
+    "mean_G_change_pct": -2.297967308390459,
+    "mean_s_change_pct": 0.1695998048925773,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.4662390001674216,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.1363719504662138,
+    "mean_G_change_pct": -0.4533148258138797,
+    "mean_s_change_pct": 1.673172584398115,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.3759075560243933,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "100km": {
+    "transfer_change_pct": 2.0792315233284597,
+    "mean_G_change_pct": -1.9870483024212635,
+    "mean_s_change_pct": 0.05107848357625011,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.42475441598057756,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.625092338192826,
+    "mean_G_change_pct": -1.290307260074379,
+    "mean_s_change_pct": 0.3138483014678073,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.7064495698840068,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 0.9991856283552947,
+    "mean_G_change_pct": -0.7262390171772437,
+    "mean_s_change_pct": 0.2648425807872745,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.25,
+    "transfer_per_K": 0.49477789040683323,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A2d bilinear G, EU without IB/IT/BK": {
+   "cmip6_transfer": {
+    "median": -1.594826953457965,
+    "p10_p90": [
+     -4.482824429871576,
+     1.2432412282090313
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -2.266193886060436,
+    "p10_p90": [
+     -5.710857433660894,
+     -0.6853582488659516
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.44249654688672924,
+    "p10_p90": [
+     -0.8951609879769509,
+     0.31745024002189953
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 5,
+    "transfer_change_pct": -3.1296963685255035,
+    "mean_G_change_pct": -8.638116873460698,
+    "mean_s_change_pct": -11.493826568415663
+   },
+   "9km": {
+    "transfer_change_pct": 2.745268264600216,
+    "mean_G_change_pct": -2.4754203887220694,
+    "mean_s_change_pct": 0.1695998048925773,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.49922514958511305,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.322861923149011,
+    "mean_G_change_pct": -0.6347983423024162,
+    "mean_s_change_pct": 1.673172584398115,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.4087215937854432,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "100km": {
+    "transfer_change_pct": 2.105787895330913,
+    "mean_G_change_pct": -2.0122447123330733,
+    "mean_s_change_pct": 0.05107848357625011,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.4301794666081324,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.631771049883057,
+    "mean_G_change_pct": -1.2964703389023091,
+    "mean_s_change_pct": 0.3138483014678073,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.70935289598435,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 1.0504158273499309,
+    "mean_G_change_pct": -0.7769426370101606,
+    "mean_s_change_pct": 0.2648425807872745,
+    "n_regions": 5,
+    "cmip6_share_at_or_above": 0.25,
+    "transfer_per_K": 0.5201461193568548,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A4 spd10, box G, EU": {
+   "cmip6_transfer": {
+    "median": -0.8773618721939671,
+    "p10_p90": [
+     -4.020743486620538,
+     1.5998253273263188
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.8236277049752703,
+    "p10_p90": [
+     -6.8996060672868085,
+     -1.8862264116565508
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.21769534173308847,
+    "p10_p90": [
+     -0.7053967348362757,
+     0.39278132610338257
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 8,
+    "transfer_change_pct": -1.4889081952620176,
+    "mean_G_change_pct": -9.207524972820554,
+    "mean_s_change_pct": -10.583904272626523
+   },
+   "9km": {
+    "transfer_change_pct": 4.079165449042635,
+    "mean_G_change_pct": -4.599223202768636,
+    "mean_s_change_pct": -0.8053130998466899,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.7417934369985119,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 3.205228201850363,
+    "mean_G_change_pct": -2.218464759433525,
+    "mean_s_change_pct": 0.881797108180328,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.563979273176235,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "100km": {
+    "transfer_change_pct": 2.451654729903102,
+    "mean_G_change_pct": -3.691995497007664,
+    "mean_s_change_pct": -1.3402666178303475,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 0.5008346407325552,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 2.2981475353274745,
+    "mean_G_change_pct": -2.204471703740117,
+    "mean_s_change_pct": 0.033071956250904644,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 0.9990357468963985,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 1.5898472146273546,
+    "mean_G_change_pct": -1.4385905135718553,
+    "mean_s_change_pct": 0.12069660755697487,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.7872623750777089,
+    "cmip6_share_at_or_above_per_K": 0.0
+   }
+  },
+  "A4 spd10, bilinear G, 22 regions": {
+   "cmip6_transfer": {
+    "median": 0.01931744145167298,
+    "p10_p90": [
+     -2.5205604714220238,
+     1.3133718545766553
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.6370794942173803,
+    "p10_p90": [
+     -6.861239720590315,
+     -2.256671629930016
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": 0.003032151784057739,
+    "p10_p90": [
+     -0.5427509888778622,
+     0.33535673424298207
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 22,
+    "transfer_change_pct": -0.22830761372745959,
+    "mean_G_change_pct": -7.933203299599848,
+    "mean_s_change_pct": -8.133741165383398
+   },
+   "9km": {
+    "transfer_change_pct": 2.666194931570772,
+    "mean_G_change_pct": -4.642342321921167,
+    "mean_s_change_pct": -2.1662252162774593,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.484845718249077,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "31km": {
+    "transfer_change_pct": 2.225784774683179,
+    "mean_G_change_pct": -3.04952466968559,
+    "mean_s_change_pct": -0.9587319788906803,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.3916402828191367,
+    "cmip6_share_at_or_above_per_K": 0.05
+   },
+   "100km": {
+    "transfer_change_pct": 2.347539333275694,
+    "mean_G_change_pct": -3.875358256511704,
+    "mean_s_change_pct": -1.685650338230343,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.4795654968239118,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.2880117266086815,
+    "mean_G_change_pct": -1.6015300954414264,
+    "mean_s_change_pct": -0.35197242699969356,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.5599160791565393,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 0.7296271261706768,
+    "mean_G_change_pct": -1.2224825362532135,
+    "mean_s_change_pct": -0.5119954357580588,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.4,
+    "transfer_per_K": 0.36129760079171264,
+    "cmip6_share_at_or_above_per_K": 0.05
+   }
+  },
+  "A4b spd10 CMIP6-style daily, bilinear G, 22 regions": {
+   "cmip6_transfer": {
+    "median": 0.01931744145167298,
+    "p10_p90": [
+     -2.5205604714220238,
+     1.3133718545766553
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.6370794942173803,
+    "p10_p90": [
+     -6.861239720590315,
+     -2.256671629930016
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": 0.003032151784057739,
+    "p10_p90": [
+     -0.5427509888778622,
+     0.33535673424298207
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 22,
+    "transfer_change_pct": -0.22830761372745959,
+    "mean_G_change_pct": -7.933203299599848,
+    "mean_s_change_pct": -8.133741165383398
+   },
+   "100km": {
+    "transfer_change_pct": 2.355286808725165,
+    "mean_G_change_pct": -3.875358256511704,
+    "mean_s_change_pct": -1.6665828888377634,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.0,
+    "transfer_per_K": 0.48114818464532194,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_ctl": {
+    "transfer_change_pct": 1.2282132358768336,
+    "mean_G_change_pct": -1.6009196834579678,
+    "mean_s_change_pct": -0.4103952549628465,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.15,
+    "transfer_per_K": 0.5339208682602744,
+    "cmip6_share_at_or_above_per_K": 0.0
+   },
+   "eerie_hist": {
+    "transfer_change_pct": 0.6423812708953335,
+    "mean_G_change_pct": -1.2224825362532135,
+    "mean_s_change_pct": -0.5981173886926842,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.4,
+    "transfer_per_K": 0.31809509767832256,
+    "cmip6_share_at_or_above_per_K": 0.2
+   }
+  },
+  "A5 native 100 m, box G, EU": {
+   "cmip6_transfer": {
+    "median": -0.8773618721939671,
+    "p10_p90": [
+     -4.020743486620538,
+     1.5998253273263188
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.8236277049752703,
+    "p10_p90": [
+     -6.8996060672868085,
+     -1.8862264116565508
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": -0.21769534173308847,
+    "p10_p90": [
+     -0.7053967348362757,
+     0.39278132610338257
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 8,
+    "transfer_change_pct": -1.4889081952620176,
+    "mean_G_change_pct": -9.207524972820554,
+    "mean_s_change_pct": -10.583904272626523
+   },
+   "100km": {
+    "transfer_change_pct": 1.6795005757990644,
+    "mean_G_change_pct": -3.691995497007664,
+    "mean_s_change_pct": -2.086524503539787,
+    "n_regions": 8,
+    "cmip6_share_at_or_above": 0.1,
+    "transfer_per_K": 0.34309564769900913,
+    "cmip6_share_at_or_above_per_K": 0.15
+   }
+  },
+  "A5 native 100 m, bilinear G, 22 regions": {
+   "cmip6_transfer": {
+    "median": 0.01931744145167298,
+    "p10_p90": [
+     -2.5205604714220238,
+     1.3133718545766553
+    ],
+    "n": 20
+   },
+   "cmip6_G": {
+    "median": -3.6370794942173803,
+    "p10_p90": [
+     -6.861239720590315,
+     -2.256671629930016
+    ],
+    "n": 20
+   },
+   "cmip6_transfer_per_K": {
+    "median": 0.003032151784057739,
+    "p10_p90": [
+     -0.5427509888778622,
+     0.33535673424298207
+    ],
+    "n": 20
+   },
+   "ec_earth3": {
+    "n_regions": 22,
+    "transfer_change_pct": -0.22830761372745959,
+    "mean_G_change_pct": -7.933203299599848,
+    "mean_s_change_pct": -8.133741165383398
+   },
+   "100km": {
+    "transfer_change_pct": 1.6508928700738594,
+    "mean_G_change_pct": -3.875358256511704,
+    "mean_s_change_pct": -2.3488793720354235,
+    "n_regions": 22,
+    "cmip6_share_at_or_above": 0.05,
+    "transfer_per_K": 0.337251541738937,
+    "cmip6_share_at_or_above_per_K": 0.1
+   }
+  }
+ },
+ "current_ours": {
+  "9km": {
+   "transfer_change_pct": 4.139278120978834,
+   "mean_G_change_pct": -4.599223202768636
+  },
+  "31km": {
+   "transfer_change_pct": 3.236032346666712,
+   "mean_G_change_pct": -2.218464759433525
+  },
+  "100km": {
+   "transfer_change_pct": 2.557572827307866,
+   "mean_G_change_pct": -3.691995497007664
+  },
+  "eerie_ctl": {
+   "transfer_change_pct": 2.306483336899076,
+   "mean_G_change_pct": -2.204471703740117
+  },
+  "eerie_hist": {
+   "transfer_change_pct": 1.5964944012457711,
+   "mean_G_change_pct": -1.4385905135718553
+  }
+ }
+}
