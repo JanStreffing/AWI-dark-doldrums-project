@@ -41,53 +41,95 @@
 \begin{document}
 \maketitle
 
+%% Rewritten in simpler language 2026-11-10 (Jan: "eli15"); previous wording in the git history and in the
+%% scratchpad backup regime_checks_before_eli15.tex. Numbers and sources unchanged.
+\begin{abstract}
+\noindent
+Wind blows because air pressure differs from place to place, and the steeper the pressure slope on a weather map, the
+stronger the wind.
+The geostrophic speed $G$ is the wind that this slope alone would drive, so it measures the slope and ignores what
+happens near the ground.
+In Europe, low-wind events are most frequent under blocking, when a large high sits over Scandinavia or central
+Europe for days and leaves the pressure map flat.
+With warming, blocking does not occur more often.
+A blocked day in the warmer climate has a gentler pressure slope than a blocked day today, however, so the same weather
+pattern gives less wind and more days drop below the low-wind threshold.
+Fig.~3c of the paper shows this as the increase within regimes, and Fig.~3d shows it as the weakening of $G$.
+One winter alone is too noisy to show it, because winters differ from each other as much as the change itself.
+Over decades the weakening appears in all four of our runs, exceeds what natural variability produces in a
+147-winter control run, and has the same sign in all 20 CMIP6 models.
+The average pressure map is not the cause, since its north--south slope even gets steeper.
+The cause lies in the day-to-day highs and lows on top of it.
+They stay about as strong but become wider, and a wider hill of the same height has gentler sides.
+Other studies expect weather systems to grow larger in a warmer climate \cite{kidston2011}, which fits.
+Why they get wider, and why some models show more of it than others, we do not know yet.
+\end{abstract}
+
 \section{Summary}
 
 %% [DR] reproduce max |d| <= 1.1e-15; [GR] ScBL p, CMIP6 counts; [AT] regime_G_attribution.json.
-The question was whether the geostrophic speed $G$ really weakens this clearly within the weather regimes.
-It does.
-Single winters are noisy, but over decades the weakening under Scandinavian blocking (ScBL) stands out in every run and
-in nearly every CMIP6 model.
-We rebuilt Fig.~3c and 3d from the daily data, reproduced the stored numbers to machine precision, and tested both
-panels against a bootstrap over winters and against unforced variability in the 147-winter constant-forcing control of
-the 100\,km run.
+We rebuilt Fig.~3c and 3d from the daily data and got the stored numbers back exactly.
+We then tested both panels in two ways.
+A bootstrap draws the winters again at random and shows how much the result depends on which winters happen to be in
+the sample.
+A null test asks how large a change natural variability alone can produce, using the 147 winters of the 100\,km control
+run, whose forcing stays at 1950.
 \begin{itemize}\setlength{\itemsep}{1pt}
-\item The within-regime term of Fig.~3c lies outside every placement of the control null in all four runs.
-      The regime-frequency term is small and cannot be told apart from zero.
-\item Under ScBL, $G$ weakens beyond the null in all four runs and beyond the winter-to-winter variability in 18 of 20 CMIP6
-      models, and all 20 agree on the sign.
-\item The weakening sits in the weather systems, whose pressure gradients fall at nearly unchanged amplitude.
-      The mean pressure field does not cause it, since its gradient over the sector strengthens.
-\item We found no earlier study with this result for wind droughts.
+\item Fig.~3c says that low-wind events increase within the weather regimes, not because the regimes change in
+      frequency. In all four runs this within-regime increase is larger than any change natural variability produces in
+      the control. The change in regime frequency is small and cannot be told apart from zero.
+\item Fig.~3d says that the pressure slopes weaken under Scandinavian blocking (ScBL). The weakening is larger than
+      natural variability in all four of our runs and larger than the noise between winters in 18 of 20 CMIP6 models.
+      All 20 models agree on its sign.
+\item We found no earlier study that shows this for wind droughts.
 \end{itemize}
 
 \section{From daily pressure to regimes}
 \label{sec:regimes}
 
 %% [MN] 13; [RS] explained_variance (first 10: 0.82), era5.freq.
-The input is daily-mean sea-level pressure (msl) on a 2.5$^\circ$ grid over 20--80$^\circ$N and 80$^\circ$W--40$^\circ$E,
-each value the mean of all native points within the grid box.
-The regimes are defined on ERA5 alone.
-We removed a mean and three annual harmonics from the 9976 September-to-March days of 1979/80--2024/25, computed EOFs,
-and clustered the first 10 principal components, which explain 82\,\% of the variance, into four regimes with
-$k$-means.
-Model days are not clustered.
-Their anomalies from the seasonal cycle of the comparison's control are projected on the ERA5 EOFs, and each day goes to
-the nearest ERA5 centroid.
+We start from daily sea-level pressure (msl) on a 2.5$^\circ$ grid over the North Atlantic and Europe
+(20--80$^\circ$N, 80$^\circ$W--40$^\circ$E).
+Each grid value is the mean of all model points in its box.
+The four weather regimes come from ERA5 alone.
+We removed the seasonal cycle from the 9976 September-to-March days of 1979/80--2024/25 and then found the main
+patterns of day-to-day variation, the EOFs.
+The first 10 of them explain 82\,\% of the variance.
+We grouped the days into four regimes with $k$-means clustering, which puts days with similar patterns together.
+The four regimes are NAO+, NAO$-$, Scandinavian blocking (ScBL), and the Atlantic ridge (AR).
+We did not cluster the model days again.
+Instead, we described each model day with the same ERA5 patterns and gave it the regime whose ERA5 centre is closest.
 
 %% [ED] summary_ours.png; assigned ctlclim r >= 0.99 controls, >= 0.93 futures; CMIP6 hist >= 0.977.
-The ERA5 patterns are a fair basis for the models (Fig.~\ref{fig:eofsum}).
-The first three model EOFs match ERA5 with pattern correlations of 0.87 to 0.99.
-Clustering each run on its own gives unstable centroids on 10 to 17 winters, as it does for ERA5 sub-periods of the
-same length, which is why we assign model days to the ERA5 centroids instead.
-The composites of the assigned days reproduce the ERA5 centroids with $r\ge0.99$ in the controls and $r\ge0.98$ in all
-CMIP6 historical runs.
+The ERA5 patterns work for the models (Fig.~\ref{fig:eofsum}).
+The first three EOFs of each model look like those of ERA5, with pattern correlations of 0.87 to 0.99.
+Clustering each run on its own does not work well, because 10 to 17 winters are too few for stable regimes, and the
+same happens for ERA5 periods of that length.
+When we average all model days of one regime, the result looks like the ERA5 regime, with $r\ge0.99$ in the controls
+and $r\ge0.98$ in all CMIP6 historical runs.
 
 \begin{figure}[!tbp]
 \centering
 \includegraphics[width=0.92\textwidth]{../../results/regimes/eof_diagnostics/summary_ours.png}
-\caption{Pattern correlation with ERA5 for our runs and for ERA5 sub-periods of 17 and 10 winters. The paper uses only
-the last block, the composites of the assigned days.}
+\caption{The ERA5 weather patterns describe our runs well enough to sort model days into the ERA5 regimes.
+Each row is one period, three ERA5 sub-periods of 17 and 10 winters (the lengths of the 9\,km control and future, to
+show how much a short sample alone changes the patterns) and the control and future periods of our runs,
+for IFS-FESOM also its historical baseline. Colours and
+numbers in the cells are pattern correlations $r$ with the ERA5 pattern of 1979/80--2024/25 (1 means identical shape,
+below 0.5 dark purple). The five blocks of columns test different things.
+\emph{EOF same rank} compares model EOF 1 with ERA5 EOF 1, model EOF 2 with ERA5 EOF 2, and so on.
+\emph{EOF best match in model 1--10} searches the first ten model EOFs for the one most like each ERA5 EOF, and ``\#5''
+marks the cases in which ERA5 EOF 4 shows up as model EOF 5, so the pattern exists but in a different order.
+\emph{ERA5 EOF in model 1--4 span} says how much of each ERA5 pattern can be built from the first four model EOFs
+together, so a high value next to a low same-rank $r$ means the model mixes or reorders the patterns, not that it lacks
+them.
+\emph{Own k-means centroid} clusters each period on its own into four regimes and compares them with the ERA5 regimes,
+and the low values even for the 10-winter ERA5 period show that short samples give unstable regimes.
+\emph{Assigned-day composite} is the method of the paper. It averages the model days that we gave to each ERA5 regime
+and compares the average with the ERA5 regime.
+The two text columns give the variance explained by the first four EOFs of the period (ERA5 has 20, 15, 14, and 8\,\%)
+and the share of the period's variance captured by its own first ten EOFs and by the first ten ERA5 EOFs, whose near
+equality shows that the ERA5 patterns lose almost nothing.}
 \label{fig:eofsum}
 \end{figure}
 
@@ -95,35 +137,43 @@ the last block, the composites of the assigned days.}
 \label{sec:3c}
 
 %% [MN] 10c/13, region_events.py: WIN = 8 six-hourly steps, TARGET 5.0.
-A low-wind event is a spell in which the 48\,h mean of the region's wind capacity factor stays below a threshold.
-The threshold is set separately in each region and run so that the control has five events per winter, which makes
-it a percentile of that run's own distribution, and the future is counted at the same threshold.
-Each event takes the regime that covers most of its days.
-For one region and period, let $f_k$ be the regime-$k$ days per winter and $\lam_k$ the events per regime-$k$ day, so that
-the events per winter are $e=\sum_k f_k\lam_k$.
-The change from control to future splits exactly into
+A low-wind event is a spell of at least 48\,h in which the region's wind capacity factor stays below a threshold.
+We set the threshold for each region and run so that the control has five events per winter, which makes the events
+equally rare in every run.
+The future is counted at the same threshold, so it can have more or fewer events.
+Each event belongs to the regime that covers most of its days.
+
+The number of events can change in two ways.
+Either a regime occurs more often, or the same regime produces more events per day.
+For one region, let $f_k$ be the number of days per winter in regime $k$ and $\lam_k$ the number of events per
+regime-$k$ day.
+The events per winter are then $e=\sum_k f_k\lam_k$, and the change from control to future splits exactly into
 \begin{equation}
 \Delta e \;=\; \underbrace{\sum_k \lam_k^{\mathrm{ctl}}\,\bigl(f_k^{\mathrm{fut}}-f_k^{\mathrm{ctl}}\bigr)}_{\text{frequency term}}
 \;+\; \underbrace{\sum_k f_k^{\mathrm{fut}}\,\bigl(\lam_k^{\mathrm{fut}}-\lam_k^{\mathrm{ctl}}\bigr)}_{\text{within-regime term}} .
 \label{eq:dec}
 \end{equation}
-Both terms are computed per region, averaged over the eight European regions, and divided by the global-mean warming
-$\Delta T$ of the comparison.
+We computed both terms in each region, averaged them over the eight European regions, and divided them by the global
+warming $\Delta T$ of the comparison.
 
 %% [DR] runs.9km.regions.DE: lam100 ScBL 4.52 -> 6.48, f 59.8 -> 50.9; total 1.5 = -0.453 + 1.953.
-Table~\ref{tab:example} goes through Germany at 9\,km.
-ScBL produces the most events per regime day, and under warming its rate rises from 4.5 to 6.5 events per 100 days.
-Its within-regime part is the future number of ScBL days times this rise, about one event per winter.
-Its frequency part is the control rate times the loss of nine ScBL days, about $-0.4$.
-Summed over the four regimes, Germany gains 1.5 events per winter, a within-regime gain of 2.0 of which the
-frequency term takes back 0.45.
+Table~\ref{tab:example} walks through Germany at 9\,km.
+ScBL produces more events per day than any other regime, and under warming it goes from 4.5 to 6.5 events per 100 ScBL
+days.
+The future number of ScBL days times this rise gives about one extra event per winter, which is the within-regime part.
+At the same time ScBL loses nine days per winter, and at the control rate this costs about 0.4 events, which is the
+frequency part.
+Over all four regimes the within-regime parts add up to 2.0 events per winter, the frequency parts take back 0.45, and
+Germany gains 1.5 events per winter.
 
 \begin{table}[!tbp]
 \centering\small
 %% Body: tables/example_DE_9km.tex from [DR] runs.9km.regions.DE.
-\caption{Worked example, Germany at 9\,km, control 1953--1969 against future 2083--2092. $f_k$ in regime days per
-winter, $e_k$ in events per winter, $\lam_k$ in events per 100 regime days, and the two terms of Eq.~\ref{eq:dec} in
-events per winter per K.}
+\caption{Germany at 9\,km, control 1953--1969 against future 2083--2092, shows how the two terms of
+Eq.~\ref{eq:dec} arise. Each row is one regime, and the last row sums over the four. The columns give the regime days
+per winter $f_k$, the low-wind events per winter $e_k$ that fall in each regime, and the events per 100 regime days
+$100\,\lam_k$, each for control and future. The last two columns are the frequency and within-regime terms of each
+regime in events per winter per K of global warming, which add up to the total change.}
 \label{tab:example}
 \begin{tabular}{lrrrrrrrr}
 \toprule
@@ -131,28 +181,37 @@ events per winter per K.}
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 regime & ctl & fut & ctl & fut & ctl & fut & per K & per K \\
 \midrule
-\tabinput tables/example_DE_9km.tex 
+\tabinput tables/example_DE_9km.tex
 \bottomrule
 \end{tabular}
 \end{table}
 
 %% [DR] n_boot 5000; null placements 14762, 12656, 129 (rest vs 19), 1560.
-The bootstrap resamples whole winters, independently in control and future and with the same winters in every region.
-The null places two disjoint blocks with the comparison's numbers of winters in all possible positions within the
+To see whether the two terms are real or chance, we used the two tests of the Summary.
+The bootstrap draws whole winters again at random, separately for control and future, and uses the same winters in
+every region.
+The null test places two blocks of winters, as long as those of the comparison, at every possible position in the
 147-winter control and treats the second block as the future.
-The within-regime term exceeds every placement of the null in all four runs (Table~\ref{tab:terms},
+Since the control has no warming, any change between its blocks is chance.
+The within-regime term is larger than every change the null test produces, in all four runs (Table~\ref{tab:terms},
 Fig.~\ref{fig:decboot}).
-The frequency term is negative in all four runs, and its bootstrap range includes zero in all four.
+The frequency term is negative in all four runs, but its bootstrap range includes zero in all four.
 %% [DR] within_k / within: 40, 61, 33, 54 %; ScBL part p <= 0.015; sensitivity max 0.015.
-ScBL carries the largest share of the within-regime term in three of four runs and is significant in all four.
-Splitting tied events between regimes or using the symmetric form of Eq.~\ref{eq:dec} shifts the terms by at most
-0.015 events per winter per K.
+Of the four regimes, ScBL adds most to the within-regime term in three of four runs, and its part is significant in all
+four.
+Small changes to the method, such as splitting events that span two regimes or using a symmetric form of
+Eq.~\ref{eq:dec}, shift the terms by at most 0.015 events per winter per K.
 
 \begin{table}[!tbp]
 \centering\footnotesize\setlength{\tabcolsep}{3pt}
 %% Body: tables/terms.tex from [DR] runs.*.
-\caption{Terms of Fig.~3c, 8-region mean in events per winter per K, with the bootstrap 5--95\,\% range below each value
-and the one-sided $p$ of the control null. The last column counts the regions with a positive within-regime term.}
+\caption{The within-regime term is clearly positive in every run, while the frequency term is small. Each row is
+one run, with its global warming $\Delta T$ and its numbers of control and future winters. For the total change and for
+each of the two terms, averaged over the eight European regions in events per winter per K, the table gives the value
+with its bootstrap 5--95\,\% range below it and the one-sided $p$ of the null test, the share of null placements with a
+change at least as large in the same direction. A $p$ written as ``$<$'' means that no placement reached the value, and
+the bound depends on how many placements the run's block lengths allow. The last column counts the regions, out of
+eight, with a positive within-regime term.}
 \label{tab:terms}
 \begin{tabular}{lrcclclclc}
 \toprule
@@ -160,7 +219,7 @@ and the one-sided $p$ of the control null. The last column counts the regions wi
 \cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
 run & $\Delta T$ (K) & winters & \makecell{value\\5--95\,\%} & $p$ & \makecell{value\\5--95\,\%} & $p$ & \makecell{value\\5--95\,\%} & $p$ & $>0$ \\
 \midrule
-\tabinput tables/terms.tex 
+\tabinput tables/terms.tex
 \bottomrule
 \end{tabular}
 \end{table}
@@ -168,9 +227,13 @@ run & $\Delta T$ (K) & winters & \makecell{value\\5--95\,\%} & $p$ & \makecell{v
 \begin{figure}[!tbp]
 \centering
 \includegraphics[width=0.92\textwidth]{figs/decomp_boot_null.png}
-\caption{Robustness of Fig.~3c. Top, the total and the two terms of each run. Bottom, the within-regime term split by
-regime. Dots are the observed values, bars the winter bootstrap 5--95\,\% range, and grey boxes the 5--95\,\% range of
-the block null from the 147-winter 100\,km control.}
+\caption{In every run the within-regime term of Fig.~3c is larger than natural variability, and the frequency
+term is not. Each column is one run, labelled with its numbers of control and future winters. The top row shows the
+total change in low-wind events and its two parts, the frequency term (``freq.'') and the within-regime term
+(``within''), averaged over the eight European regions in events per winter per K. The bottom row splits the
+within-regime term into the contributions of the four regimes. Dots are the values, coloured bars the bootstrap
+5--95\,\% range over winters, and grey boxes the 5--95\,\% range that the null test produces in the 147-winter
+100\,km (TCO95) control without warming. A dot outside its grey box is larger than chance.}
 \label{fig:decboot}
 \end{figure}
 
@@ -178,44 +241,51 @@ the block null from the 147-winter 100\,km control.}
 \label{sec:3d}
 
 %% [MN] 13b; geostrophic.py: RHO 1.25, centred differences.
-From the daily msl $p$ we computed $G=|\nabla p|/(\rho f)$ with centred differences, $\rho=1.25$\,kg\,m$^{-3}$ and
-$f=2\Omega\sin\varphi$, averaged over each region box.
-For each region and regime we compared the mean $G$ of all regime days in future and control, averaged the change over
-the eight regions, and expressed it per kelvin as $100\,\bigl(\exp[\ln(1+\Delta G/100)/\Delta T]-1\bigr)$.
-Our runs use the msl of the regime analysis, and CMIP6 uses daily psl interpolated bilinearly onto the same 2.5$^\circ$
+From the daily msl $p$ we computed $G=|\nabla p|/(\rho f)$, the wind that the pressure slope alone would drive, with
+air density $\rho=1.25$\,kg\,m$^{-3}$ and Coriolis parameter $f=2\Omega\sin\varphi$, and averaged it over each region.
+For each region and regime we compared the mean $G$ of all regime days between future and control, averaged the change
+over the eight regions, and converted it to \% per K of warming.
+For our runs we used the msl of the regime analysis, and for CMIP6 we interpolated daily psl onto the same 2.5$^\circ$
 grid.
 %% [DR] G_footing: largest |diff| 0.225 %/K.
-On the bilinear footing our values change by at most 0.23\,\% per K.
+Doing the same interpolation for our runs changes their values by at most 0.23\,\% per K.
 
 %% [GR] ScBL block null p 0 of all placements, 100 km 30 vs 19 p 0.0122; sd 4-8 %; CMIP6 ScBL 20 negative, 18 below zero.
-Under ScBL the weakening exceeds every placement of the null in all four runs (Fig.~\ref{fig:Gboot}, Table~\ref{tab:G}).
-In CMIP6 all 20 models weaken under ScBL, and in 18 the bootstrap range lies below zero.
-The other regimes weaken less and are significant only in some runs.
-A single winter is noisy, with a standard deviation of 4 to 8\,\% in winter-mean ScBL $G$, so the signal emerges only
-over decades.
-Labelling the future with its own seasonal cycle, or keeping only the ScBL days closest to the centroid, leaves the
-weakening in place.
+Under ScBL, $G$ weakens more than in every placement of the null test, in all four runs (Fig.~\ref{fig:Gboot},
+Table~\ref{tab:G}).
+In CMIP6 all 20 models weaken under ScBL, and in 18 the bootstrap range lies entirely below zero.
+The other regimes weaken less and pass the test only in some runs.
+A single winter is noisy, as winter-mean $G$ under ScBL varies by 4 to 8\,\% from one winter to the next, so the
+signal shows up only over decades.
+Two variants leave the weakening in place.
+One assigns the future days to regimes using the future's own seasonal cycle, and the other keeps only the ScBL days
+closest to the regime centre.
 
 \begin{figure}[!tbp]
 \centering
 \includegraphics[width=0.92\textwidth]{figs/G_boot_null.png}
-\caption{Change in mean $G$ within each regime and over all days, \% per K, eight regions. Dots, bootstrap bars and
-null boxes as in Fig.~\ref{fig:decboot}.}
+\caption{The pressure slope $G$ weakens most clearly under Scandinavian blocking. Each column is one run, and
+each dot is the change in mean $G$ on the days of one regime, or on all days, between control and future, averaged over
+the eight European regions in \% per K of global warming. Coloured bars and grey boxes are the bootstrap and null-test
+ranges as in Fig.~\ref{fig:decboot}, so a dot below its grey box is a weakening larger than chance.}
 \label{fig:Gboot}
 \end{figure}
 
 \begin{table}[!tbp]
 \centering\footnotesize\setlength{\tabcolsep}{3pt}
 %% Body: tables/G_per_regime.tex from [GR] and [DR] G_footing.
-\caption{Change in mean $G$ within regimes, \% per K. For our runs the value of Fig.~3d with its bootstrap 5--95\,\%
-range, the null $p$, and the value on the bilinear CMIP6 footing (``bil.''). For CMIP6 the median and the 10--90\,\%
-range of 20 models, the number of models with a negative change and the number whose bootstrap range lies below zero.}
+\caption{The weakening of $G$ under ScBL holds in every run and in nearly every CMIP6 model. Rows are the
+regimes and all days, columns the runs and CMIP6, and values are changes in mean $G$ in \% per K. Each cell of our runs
+gives the value of Fig.~3d, its bootstrap 5--95\,\% range in brackets, and in small print the null-test $p$ and the
+value after the same bilinear interpolation as for CMIP6 (``bil.''). Each CMIP6 cell gives the median of the 20
+models, the 10--90\,\% range across them, the number of models with a negative change (``neg.''), and the number whose
+own bootstrap range lies entirely below zero (``sig.'').}
 \label{tab:G}
 \begin{tabular}{lccccc}
 \toprule
 regime & 9 km & 31 km & 100 km & IFS-FESOM & CMIP6 \\
 \midrule
-\tabinput tables/G_per_regime.tex 
+\tabinput tables/G_per_regime.tex
 \bottomrule
 \end{tabular}
 \end{table}
@@ -224,47 +294,123 @@ regime & 9 km & 31 km & 100 km & IFS-FESOM & CMIP6 \\
 \label{sec:lit}
 
 %% [AT] results/regimes/regime_G_attribution.json (scripts/regimes/regime_G_attribution.py); reproduces stored G change to 2e-13 %.
-We split each day's pressure field into the seasonal cycle of its period and the anomaly, and recomputed $G$ with the
-two swapped between control and future.
-The weakening comes almost entirely from the anomalies, the weather, and this anomaly term is negative in every regime,
-every run and all 20 CMIP6 models (Fig.~\ref{fig:attribution}).
-The mean pressure field does not explain it, since its north--south gradient over the sector strengthens as pressure
-falls over the Arctic and Nordic seas.
-Under ScBL this background term is close to zero, whereas in the other regimes it is positive and offsets part of the
-weakening, which is why blocking shows the clearest net signal.
-The blocking high itself hardly changes in peak, extent or position.
-What weakens is the gradient of the day-to-day deviations from the regime pattern, at nearly unchanged amplitude, so the
-synoptic disturbances become broader and smoother.
+To find where the weakening comes from, we split each day's pressure map into two parts.
+One is the seasonal cycle of its period, the background, and the other is the deviation from it, the weather.
+We then recomputed $G$ with the control background and the future weather, and the other way round.
+Almost all of the weakening comes from the weather.
+This part is negative under Scandinavian blocking and over all days in every run and all 20 CMIP6 models, and in 92
+of the 96 combinations of regime and model (Fig.~\ref{fig:attribution}).
+The background does not explain it.
+Its north--south pressure slope over the sector even gets steeper, because pressure falls over the Arctic and the
+Nordic seas.
+Under ScBL the background part is close to zero, whereas in the other regimes it is positive and cancels part of the
+weakening, which is why blocking shows the clearest signal.
+The blocking high itself hardly changes in strength, size, or position.
+The change is in the day-to-day highs and lows around the regime pattern.
+%% [AT] residual: rms_resid_EU_change_pct (ScBL) -4.3, -1.4, +0.3, +0.3, CMIP6 median -2.0; G_resid_change_pct -8.9,
+%% -6.2, -5.0, -3.6, CMIP6 median -5.0. Width inferred from slope / strength, not measured separately.
+Their strength, the typical size of their pressure departures, changes by only 0 to $-$4\,\%, while their slopes
+weaken by 4 to 9\,\%, at least twice as much in every run.
+Highs and lows of the same height with gentler slopes are wider, so the weather systems become broader and smoother.
+Common measures of storm or blocking strength, such as the depth of lows or the variance of pressure, therefore hardly
+register the change, which shows only in the slopes that drive the wind.
+Fig.~\ref{fig:schematic} sketches this for a blocking day laid out after a real one, and
+Fig.~\ref{fig:era5compare} compares the sketch with ERA5.
+
+%% blocking_schematic.py main_realistic output: Germany box below G_LOW 0.32 -> 0.40 (area-weighted), Germany-box G
+%% 4.97 -> 4.07 m/s, map-mean G -5.0 %, disturbance G -6.0 %, WIDEN_REALISTIC 1.13.
+In the sketch the blocking high sits over the North Sea and Scandinavia, and Germany lies in the weak slopes on its
+southern flank.
+A weak low over northern Italy still gives Germany some wind today.
+In the warmer climate this low is wider and, at the same overall amplitude, shallower, so its slopes are gentler.
+With a widening of realistic size, 13\,\%, the wind peak over Germany falls from 8 to 6.3\,m\,s$^{-1}$ and the mean
+over the Germany box from 5.0 to 4.1\,m\,s$^{-1}$, right at the low-wind level (Fig.~\ref{fig:schematic}c, d).
+The part of the box below that level grows from about a third to two fifths, while the wind over the whole map falls by
+only 5\,\%.
+Days like this one sit at the threshold, so a small weakening tips more of them into Dunkelflauten.
+The outer edges of the wider lows gain a little wind, so the change is not a weakening everywhere but a shift toward
+calmer days where the slopes were weak already.
+The real day of 6 November 2024 matches the sketch north of Germany and was even calmer over Germany itself
+(Fig.~\ref{fig:era5compare}d).
 
 \begin{figure}[!tbp]
 \centering
 \includegraphics[width=\textwidth]{figs/attribution_per_K.png}
-\caption{Change of mean $G$ per regime split into a part from the seasonal cycle (background, blue), from the anomalies
-(weather, red), and their interaction (grey). Black bars are the totals of Fig.~3d. Our runs with winter-bootstrap
-5--95\,\% ranges, CMIP6 as median bars with one dot per model.}
+\caption{The weakening of $G$ comes from the weather, not from the background. Each panel is one regime, or
+all days, and each group of bars is one run or CMIP6. We recomputed the change in mean $G$ with only the background
+(the seasonal cycle of the pressure map, blue) or only the weather (the daily deviations from it, red) taken from the
+future, and the interaction (grey) is what remains. The black line is the total change of Fig.~3d, and the three
+parts add up to it. Thin black lines on our runs are bootstrap 5--95\,\% ranges over winters. For CMIP6 the pale bars
+are the medians and the dots the 20 single models. The red part is negative under ScBL and over all days in every run and model, and in 92 of 96 regime-model pairs, while the blue part is positive
+in most regimes and offsets some of the weakening, except under ScBL.}
 \label{fig:attribution}
 \end{figure}
 
+\begin{figure}[!tbp]
+\centering
+%% scripts/regimes/blocking_schematic.py (schematic, synthetic fields, not model output).
+\includegraphics[width=\textwidth]{figs/blocking_schematic_realistic.png}
+\caption{A sketch of how the same blocking day loses wind in a warmer climate, with a change of realistic size. It is
+drawn from simple shapes, not from model output. (a)~A present-day day under Scandinavian blocking, laid out after the
+ERA5 day of 6 November 2024 (Fig.~\ref{fig:era5compare}). A broad high sits over the North Sea and Scandinavia, a deep
+low lies over the Atlantic, a second low to the north-east, and a weak low over northern Italy. Black lines are isobars
+every 4\,hPa, the shading is the geostrophic speed $G$, the hatching marks where $G$ falls below an illustrative
+low-wind level of 4\,m\,s$^{-1}$, and the box is the Germany region. Germany lies in the weak slopes on the southern
+flank of the high and gets just enough wind from the Italian low, so this is a borderline day. (b)~The same day in a
+warmer climate. The high, the background, and the positions of the lows are unchanged. The lows are 13\,\% wider, and
+their depths are reduced so that the overall amplitude of the disturbances over the map stays the same. This matches
+what we measured. The slope of the lows falls by 6\,\% (measured 4 to 9\,\%), and $G$ over the map by 5\,\% (3 to
+12\,\% in the models). (c)~The change in $G$, with orange for weaker and purple for stronger wind. The blue and orange
+lines mark the low-wind level today and in the warmer climate. The wind weakens on the inner flanks of the lows,
+including over Germany and south of the Alps, and strengthens slightly on their outer edges, because a wider low
+spreads its slope further out. (d)~$G$ along the dashed line at 10$^\circ$E for both climates, from Italy through
+Germany (grey band) to the high. (e)~One day-to-day disturbance drawn as a wave. In the warmer climate it keeps its
+height but its slope is 6\,\% gentler, so it is wider, as measured for the disturbances under ScBL (height 0 to
+$-$4\,\%, slope $-$4 to $-$9\,\%). On a single day the local outcome depends on where the lows
+sit. Over 90 placements of the southern low that we tried, $G$ over the map fell in all, but $G$ over Germany fell in
+only 51. The model result is a shift in the distribution of many days, which one day can only illustrate.}
+\label{fig:schematic}
+\end{figure}
+
+\begin{figure}[!tbp]
+\centering
+%% scripts/regimes/blocking_era5_compare.py; ERA5 msl and regime labels as regime_analysis.py.
+\includegraphics[width=\textwidth]{figs/blocking_era5_compare.png}
+\caption{The sketch of Fig.~\ref{fig:schematic} resembles a real blocking day. (a)~ERA5 on 6 November 2024, during the
+German Dunkelflaute of early November 2024, which the regime analysis assigns to ScBL. $G$ over the Germany region was
+2.7\,m\,s$^{-1}$, below the 5th percentile of all winter days. (b)~The mean of all 2629 ScBL days of 1979/80--2024/25,
+with the mean pressure and the mean of the daily $G$. On an average ScBL day $G$ over Germany is about 7.5\,m\,s$^{-1}$,
+so the low-wind days are the tail of the regime. (c)~The present-day panel of the sketch, on the same map. Shading,
+hatching, and box as in Fig.~\ref{fig:schematic}, with ERA5 on the 2.5$^\circ$ grid of the regime analysis. (d)~$G$ (thick) and
+pressure (dotted) along 10$^\circ$E for the three panels, with the Germany band in grey. North of Germany the sketch
+follows the real day closely. Over Germany the real day is calmer than the sketch, which is a borderline day by
+design, and the sketch's low over Italy is an addition. On the average ScBL day, $G$ stays above the low-wind level
+along the whole line.}
+\label{fig:era5compare}
+\end{figure}
+
 %% Literature search 2026-11-10 (agent, web).
-We found no study that splits projected changes in wind droughts into a regime-frequency and a within-regime part, and
-none that shows weaker pressure gradients within blocking across models and per kelvin of warming.
-For precipitation, the change of the weather within fixed regimes outweighs the change of their frequency
+We found no study that splits the change in wind droughts into a regime-frequency part and a within-regime part, and
+none that shows weaker pressure slopes within blocking across models and per kelvin of warming.
+For precipitation, changes within fixed regimes matter more than changes in how often the regimes occur
 \cite{fischer2025,grams2026}.
-Broader disturbances match the projected increase of the eddy length scale under warming \cite{kidston2011}.
-A weaker low-level temperature gradient between equator and pole damps synoptic anomalies in idealised models
-\cite{hassanzadeh2014,schneider2015} and tracks projected European offshore wind \cite{wohland2022}, and the
-geostrophic wind from sea-level pressure declines over the Northeast Atlantic in 32 CMIP6 models \cite{krieger2026}.
-Neither the mean pressure gradient nor a regional temperature contrast explains the spread between our models
-($|r|\le0.26$), so the weakening is a robust change of the weather systems whose cause remains open.
+Wider weather systems fit the projected growth of the typical eddy size under warming \cite{kidston2011}.
+In simple models, a weaker temperature difference between equator and pole near the surface damps weather
+disturbances \cite{hassanzadeh2014,schneider2015}.
+This temperature difference also tracks projected European offshore wind \cite{wohland2022}, and 32 CMIP6 models show
+weaker geostrophic wind over the Northeast Atlantic \cite{krieger2026}.
+However, neither the mean pressure slope nor a regional temperature difference explains why our models differ
+($|r|\le0.26$).
+The weakening is thus a robust change in the weather systems, but its cause is still open.
 
 \section{Changes made in the paper}
 \label{sec:text}
 
 The paper now states the robust result plainly and leaves the tests to the Supplement.
-The change in events is almost entirely a change within regimes, well beyond unforced variability, and under ScBL $G$
-falls in all 20 CMIP6 models and in all four of our runs.
-The Discussion says that the weakening sits in the weather systems and not in the mean state, consistent with broader
-eddies, and that its cause remains open.
+It says that the increase in events is almost entirely an increase within regimes, well beyond natural variability,
+and that under ScBL $G$ falls in all 20 CMIP6 models and in all four of our runs.
+The Discussion adds that the weakening sits in the weather systems and not in the mean state, that this fits broader
+eddies, and that the cause remains open.
 
 \begin{thebibliography}{99}\small
 \bibitem{fischer2025} Fischer, M., et al. (2025), Weather Clim. Dynam. 6, 1027, doi:10.5194/wcd-6-1027-2025.
