@@ -136,6 +136,20 @@ def per_winter(d, kind, region, y0, y1, thr):
     return np.array([y for y, _ in ws]), np.stack([counts_grid(x[m], thr) for _, m in ws])     # (W,), (W, K)
 
 
+def extend_up(x, grid, hi_pct=80):
+    """Continue a threshold grid upward with the same spacing to the hi_pct percentile of x.
+
+    Added 2026-11-10. The 0.1st-40th percentile grid of the raw 6-hourly series stops too low for the
+    combined CF in sunny regions, because the night zeros of the solar part pull the percentiles down,
+    so the grid never reached TARGET there (TR, US_CA, CN_N, CN_E, KR, IN_N were dropped as 'lows merge',
+    which was wrong). Only grids that never reach TARGET are extended, so every bracketed case is unchanged.
+    """
+    step = grid[1] - grid[0]
+    hi = np.nanpercentile(x, hi_pct)
+    n = int(np.ceil((hi - grid[-1]) / step)) if hi > grid[-1] else 0
+    return np.concatenate([grid, grid[-1] + step * np.arange(1, n + 1)])
+
+
 def matched_threshold(d, kind, region, y0, y1):
     """Lowest threshold on a fine grid at which the control mean reaches TARGET events per winter."""
     x = metric(d, kind)[:, region]
@@ -143,6 +157,10 @@ def matched_threshold(d, kind, region, y0, y1):
     grid = np.linspace(qs[0], qs[1], 400)
     _, c = per_winter(d, kind, region, y0, y1, grid)
     mean = c.mean(axis=0)
+    if not (mean >= TARGET).any():                      # grid stops below the target: extend upward (see extend_up)
+        grid = extend_up(x, grid)
+        _, c = per_winter(d, kind, region, y0, y1, grid)
+        mean = c.mean(axis=0)
     k = int(np.argmax(mean >= TARGET)) if (mean >= TARGET).any() else int(np.argmax(mean))
     return float(grid[k])
 
@@ -225,7 +243,7 @@ def main():
                                                                    for j, r in enumerate(R)})
 
     # a region enters the field tests for a metric only if every control reaches 90% of TARGET
-    # (in sunny, low-wind regions the combined CF never gives TARGET separate events: lows merge)
+    # (until 2026-11-10 six sunny regions failed here for comb because the threshold grid stopped too low; see extend_up)
     valid = {}
     for kind in ("comb", "wind"):
         v = np.ones(len(R), bool)

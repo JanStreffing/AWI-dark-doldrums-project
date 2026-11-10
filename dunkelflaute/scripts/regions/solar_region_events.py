@@ -102,6 +102,9 @@ def matched(x, ms):
     roll = np.concatenate([trailing_mean(x[m], WIN)[WIN - 1:] for m in ms])
     grid = np.linspace(*np.nanpercentile(roll, [0.1, 40]), 400)
     c = np.stack([ev.counts_grid(x[m], grid) for m in ms]).mean(0)
+    if not (c >= TARGET).any():                         # 2026-11-10: as region_events.extend_up
+        grid = ev.extend_up(roll, grid)
+        c = np.stack([ev.counts_grid(x[m], grid) for m in ms]).mean(0)
     k = int(np.argmax(c >= TARGET)) if (c >= TARGET).any() else int(np.argmax(c))
     return float(grid[k]), float(c[k])
 

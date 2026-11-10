@@ -100,6 +100,12 @@ def matched_rows(X, win, ref=None, ngrid=400):
     v = (X if ref is None else ref)
     v = v[np.isfinite(v)]
     grid = np.linspace(*np.percentile(v, [0.1, 40]), ngrid)
+    # 2026-11-10: continue upward with the same spacing to the 80th percentile if the target is not reached,
+    # as region_events.extend_up (night zeros of solar push the percentiles of the raw series too low).
+    step = grid[1] - grid[0]
+    hi = np.percentile(v, 80)
+    if hi > grid[-1]:
+        grid = np.concatenate([grid, grid[-1] + step * np.arange(1, int(np.ceil((hi - grid[-1]) / step)) + 1)])
     roll = trailing(X, win)
     best = (grid[-1], -1.0)
     for g in grid:
