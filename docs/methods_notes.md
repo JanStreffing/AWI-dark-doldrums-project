@@ -574,6 +574,10 @@ A running log, started 2026-11-05. Every method decision, parameter, convention 
   - Model-level V100/G on all days is only +0.2 % [-0.4, +2.0] in the four models, so the agreement with IFS above 100 m is less firm than the near-surface result.
   - Land cover exists for 10-12 models and model levels for 4.
   - The event consequence goes through two linear fits and is an estimate of size, not a recomputation of events at hub height.
+- Events recomputed at 100 m (2026-11-17, Gerrit Lohmann's review comment; `scripts/regimes/hubheight_events.py`, `results/regimes/hubheight_events.json`): the four CMIP6 models with daily model-level wind, region means, daily footing, thresholds matched per metric and region to 5 control events per winter. cf (paper metric) reproduces the stored per-model wind per K (+5.0, +6.9, +7.2, +10.3 against stored +5.1, +6.9, +7.2, +10.4; per-region future rates within 0.2, threshold grid differs slightly; 212 days without model-level data dropped).
+  - 24 regions, per K, 10 m wind (s10) against interpolated 100 m wind (v100): AWI-ESM-1-REcoM +4.9 / +2.7, MPI-ESM1-2-HR +6.4 / +3.9, MPI-ESM1-2-LR +7.1 / +5.2, NorESM2-LM +9.9 / +7.6; 100 m keeps 55-77 % (median about two thirds). Mean wind -2.9 to -4.6 % at 10 m, -1.5 to -3.0 % at 100 m.
+  - 8 European regions: +3.5 / +1.6, +12.0 / +5.1, +10.4 / +6.8, +6.8 / +6.0; 100 m keeps 43-88 %.
+  - The increase stays positive at 100 m in all four models. Caveat: v100 is the speed of daily-mean components.
 
 ## 13i. Southern-Hemisphere test of the geostrophic mechanism
 
