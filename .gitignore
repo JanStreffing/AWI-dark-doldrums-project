@@ -237,3 +237,6 @@ solar/models/model_v2/evaluation/raw_results.pkl
 *.fls
 *.fdb_latexmk
 *.out
+
+# Local Claude Code settings
+.claude/
