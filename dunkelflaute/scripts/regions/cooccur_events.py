@@ -19,6 +19,10 @@ Future variants:
          (x * mean_ctl / mean_fut), same thresholds (as region_per_K.py)
   dep    dependence only: thresholds re-matched in the future so every region again has 5 events
          per winter; a change in P(N >= k) is then a change in how often regions are low together
+  dept   dependence only, time-matched (added 2026-11-17 after Gerrit Lohmann's review comment): thresholds
+         re-matched in the future so every region again spends the same share of winter time in events as
+         in the control (bisection on the threshold). Unlike dep, longer events cannot raise P(N >= k)
+         through more time per region, so a change is purely a change in how regions co-vary.
 Also, per period, P(N >= k) for independent regions with the same marginal shares (Poisson
 binomial), and the mean pairwise Jaccard index of the event masks (share of time both regions are in
 an event among the time either is).
@@ -35,7 +39,7 @@ Null: the TCO95 constant-1950 control (147 winters) on the same footing. NPL ran
 disjoint blocks with the comparison's own winter counts (control block cut to W - n_b - 40 when the
 two do not fit, as grid_per_K.py; shorter blocks widen the range); in each placement the first block
 plays the control (thresholds matched in it) and the second the future, for all three variants.
-5-95 % of ln ratio.
+5-95 % of ln ratio (all four variants).
 
 Validation: ERA5 winters 1980-2026 (cooccur_extract_era5.py) on both footings, thresholds matched in
 ERA5 itself; P(N >= k), the independence ratio and the Jaccard index against every model control.
@@ -71,6 +75,8 @@ NPL = int(os.environ.get("NPL", 400))
 RNG = np.random.default_rng(7)
 WINDAYS = 212
 OURS6 = ["9km", "31km_9kmspans", "31km", "100km_9kmspans", "100km", "eerie_ctl", "eerie_hist"]
+VARS = ("all", "mr", "dep", "dept")
+NBIS = 40
 
 
 # ---------------------------------------------------------------- events
@@ -108,6 +114,26 @@ def match(ws, win, ref=None):
         k = int(np.argmax(c >= TARGET)) if (c >= TARGET).any() else int(np.argmax(c))
         thr[j], rate[j] = grid[k], c[k]
     return thr, rate
+
+
+def match_share(ws, win, target, ref):
+    """Thresholds (R,) at which the mean over winters of each region's share of time in events equals target (R,).
+    Bisection between the minimum and maximum of ref (the whole future file); the share rises with the threshold."""
+    R = ws[0].shape[1]
+    thr = np.full(R, np.nan)
+    for j in range(R):
+        if not np.isfinite(target[j]):
+            continue
+        lo, hi = float(np.nanmin(ref[:, j])), float(np.nanmax(ref[:, j]))
+        share = lambda th: np.mean([flags(w[:, j], th, win).mean() for w in ws])     # noqa: E731
+        for _ in range(NBIS):
+            mid = 0.5 * (lo + hi)
+            if share(mid) < target[j]:
+                lo = mid
+            else:
+                hi = mid
+        thr[j] = hi
+    return thr
 
 
 def masks(ws, thr, win, scale=None):
@@ -169,6 +195,7 @@ def compare(wc, wf, win, refc=None, reff=None):
     out["all"] = describe(wf, win, thr=c["thr"])
     out["mr"] = describe([w * (mc / mf)[None, :] for w in wf], win, thr=c["thr"])
     out["dep"] = describe(wf, win, ref=reff)
+    out["dept"] = describe(wf, win, thr=match_share(wf, win, c["M"], reff if reff is not None else np.concatenate(wf)))
     return out
 
 
@@ -214,11 +241,11 @@ def _placement(args):
     a, na, b, nb, win = args
     ws, ref = _NULL["ws"], _NULL["ref"]
     o = compare(ws[a:a + na], ws[b:b + nb], win, ref, ref)
-    return np.stack([lnr(o["ctl"]["P"], o[v]["P"]) for v in ("all", "mr", "dep")])      # (3, 8)
+    return np.stack([lnr(o["ctl"]["P"], o[v]["P"]) for v in VARS])      # (4, 8)
 
 
 def null_ranges(wsref, win, sizes, nproc):
-    """{(na, nb): (3 variants, 2 [p05, p95], 8 k)} from NPL random disjoint placements."""
+    """{(na, nb): (4 variants, 2 [p05, p95], 8 k)} from NPL random disjoint placements."""
     ws, ref = wsref
     _NULL["ws"], _NULL["ref"] = ws, ref
     W = len(ws)
@@ -229,7 +256,7 @@ def null_ranges(wsref, win, sizes, nproc):
         sel = pairs[RNG.choice(len(pairs), min(NPL, len(pairs)), replace=False)]
         with Pool(nproc) as pool:
             L = np.array(pool.map(_placement, [(int(a), na, int(b), nb, win) for a, b in sel], chunksize=4))
-        out[(na0, nb)] = np.stack([np.nanpercentile(L[:, v], [5, 95], axis=0) for v in range(3)])
+        out[(na0, nb)] = np.stack([np.nanpercentile(L[:, v], [5, 95], axis=0) for v in range(len(VARS))])
         print(f"    null {na0}/{nb} (used {na}/{nb}, {len(sel)} placements) done", flush=True)
     return out
 
@@ -240,7 +267,7 @@ def summarise(o, dT):
                thr=o["ctl"]["thr"].tolist(), rate=o["ctl"]["rate"].tolist())
     row["ctl"] = dict(P=o["ctl"]["P"].tolist(), P_indep=o["ctl"]["P_indep"].tolist(), M=o["ctl"]["M"].tolist(),
                       jaccard_mean=o["ctl"]["jaccard_mean"])
-    for v in ("all", "mr", "dep"):
+    for v in VARS:
         L = lnr(o["ctl"]["P"], o[v]["P"])
         row[v] = dict(P=o[v]["P"].tolist(), P_indep=o[v]["P_indep"].tolist(), M=o[v]["M"].tolist(),
                       jaccard_mean=o[v]["jaccard_mean"], ratio=np.exp(L).tolist(),
@@ -270,7 +297,8 @@ def main():
         res["controls"][f"6h|{name}"] = dict(P=o["ctl"]["P"].tolist(), P_indep=o["ctl"]["P_indep"].tolist(),
                                             jaccard=o["ctl"]["jaccard"].tolist(), jaccard_mean=o["ctl"]["jaccard_mean"])
         print(f"  6h {name}: dT {dT:.2f}  P(N>=4) {o['ctl']['P'][3]:.4f} -> {o['all']['P'][3]:.4f} "
-              f"(mr {o['mr']['P'][3]:.4f}, dep {o['dep']['P'][3]:.4f})", flush=True)
+              f"(mr {o['mr']['P'][3]:.4f}, dep {o['dep']['P'][3]:.4f}, dept {o['dept']['P'][3]:.4f}; "
+              f"share match max |d| {np.nanmax(np.abs(o['dept']['M'] - o['ctl']['M'])):.5f})", flush=True)
         ev._CACHE.clear()
 
     # daily: CMIP6 and bridges
@@ -287,7 +315,7 @@ def main():
         res["controls"][f"day|{name}"] = dict(P=o["ctl"]["P"].tolist(), P_indep=o["ctl"]["P_indep"].tolist(),
                                              jaccard=o["ctl"]["jaccard"].tolist(), jaccard_mean=o["ctl"]["jaccard_mean"])
         print(f"  day {name}: dT {dT:.2f}  P(N>=4) {o['ctl']['P'][3]:.4f} -> {o['all']['P'][3]:.4f} "
-              f"(mr {o['mr']['P'][3]:.4f}, dep {o['dep']['P'][3]:.4f})", flush=True)
+              f"(mr {o['mr']['P'][3]:.4f}, dep {o['dep']['P'][3]:.4f}, dept {o['dept']['P'][3]:.4f})", flush=True)
 
     # ERA5
     if os.path.exists(ERA5):
@@ -309,18 +337,18 @@ def main():
     print("null day", flush=True)
     nd = null_ranges(winters_day(f"{de.D}/daily_tco95_ctl1950g.npz", "run", 1953, 2099), 2, sorted(sizesd), nproc)
     for tag, N, R in (("6h", n6, res["six_hourly"]), ("day", nd, res["daily"])):
-        res["null"][tag] = {f"{a}_{b}": dict(all=v[0].tolist(), mr=v[1].tolist(), dep=v[2].tolist()) for (a, b), v in N.items()}
+        res["null"][tag] = {f"{a}_{b}": {var: v[j].tolist() for j, var in enumerate(VARS)} for (a, b), v in N.items()}
         for name, row in R.items():
             key = tuple(row["n_winters"])
             v = N[key]
-            for j, var in enumerate(("all", "mr", "dep")):
+            for j, var in enumerate(VARS):
                 L = np.log(np.array(row[var]["ratio"]))
                 row[var]["outside_null"] = [int(x) for x in np.where(L > v[j, 1], 1, np.where(L < v[j, 0], -1, 0))]
 
     # CMIP6 ensemble
     ens = {}
     names = [n for n, r in res["daily"].items() if r["group"] == "cmip6"]
-    for var in ("all", "mr", "dep"):
+    for var in VARS:
         Pk = np.array([res["daily"][n][var]["perK"] for n in names])
         Lr = np.array([np.log(res["daily"][n][var]["ratio"]) for n in names])
         ens[var] = dict(n_models=len(names), perK_median=np.nanmedian(Pk, 0).tolist(),
@@ -342,15 +370,15 @@ def main():
         f = lambda a: " ".join(f"{x:+6.1f}" for x in a)       # noqa: E731
         print(f"  {tag:4s} {n:40s} dT {row['dT']:.2f}  P_ctl(N>=1,4,8) {row['ctl']['P'][0]:.3f} {row['ctl']['P'][3]:.4f} {row['ctl']['P'][7]:.5f}"
               f"  J {row['ctl']['jaccard_mean']:.3f}->{row['dep']['jaccard_mean']:.3f}")
-        for v in ("all", "mr", "dep"):
-            print(f"        {v:3s} %/K k=1..8: {f(row[v]['perK'])}   outside null: {row[v].get('outside_null')}")
+        for v in VARS:
+            print(f"        {v:4s} %/K k=1..8: {f(row[v]['perK'])}   outside null: {row[v].get('outside_null')}")
     print("\n=== co-occurrence change (P(N >= k) of 8 European regions in an event at once)")
     for n, row in res["six_hourly"].items():
         line("6h", n, row)
     for n, row in res["daily"].items():
         if row["group"] != "cmip6":
             line("day", n, row)
-    for v in ("all", "mr", "dep"):
+    for v in VARS:
         e = ens[v]
         print(f"  CMIP6 median {v:3s} %/K k=1..8: " + " ".join(f"{x:+6.1f}" for x in e["perK_median"]) + f"  up {e['n_up']}  >null95 {e['n_outside_null_up']}")
     print(f"  CMIP6 control P(N>=k) median: " + " ".join(f"{x:.4f}" for x in ens["ctl_P_median"]))
