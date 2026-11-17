@@ -1,0 +1,119 @@
+%% Internal planning note (Jan Streffing, co-authors), 2026-11-17: what Paper 1 does not cover, follow-up papers,
+%% and open questions upstream (origins) and downstream (impacts). Not checked against new analysis; the scope list
+%% states what was not done, from the paper text and docs/methods_notes.md.
+%% Revised 2026-11-17 after Jan: no other seasons (Dunkelflauten are a winter phenomenon), fleet and technology out of
+%% scope, cold co-occurrence and timing promoted, literature gaps of the mechanism added. References checked on Crossref.
+%% Build: module load texlive/live2025-gcc-13.3.0; latexmk -pdf followup_topics.tex
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.8cm,top=1.6cm,bottom=1.6cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\setlist{nosep,leftmargin=1.2em}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{0pt}
+\titlespacing*{\section}{0pt}{6pt}{2pt}
+\titlespacing*{\subsection}{0pt}{4pt}{1pt}
+\titleformat{\section}{\normalsize\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\small\bfseries}{\thesubsection}{0.6em}{}
+
+\begin{document}
+{\large\bfseries Dunkelflauten under warming: what Paper 1 leaves out, and where to go next}\\[2pt]
+{\small Internal planning note, 17 November 2026}
+
+\section{What Paper 1 does not cover}
+
+The paper should state these limits plainly, and none of them is analysed in it.
+\begin{itemize}
+\item \textbf{Timing within the winter.} Events are pooled over September to March. We did not analyse in which
+      months they occur, nor whether warming shifts them towards early or late winter.
+\item \textbf{Co-occurrence with cold.} We did not analyse whether events coincide with cold spells, and so with high
+      demand, nor how that coincidence changes.
+\item \textbf{Duration and depth.} We count spells of at least 48\,h at a matched base rate. We did not analyse the
+      distribution of event lengths, the longest events, or the energy deficit during an event.
+\item \textbf{Solar.} The solar change is treated as uncertain. Our runs lack aerosol-cloud interaction, and CMIP6
+      disagrees on its sign.
+\item \textbf{Pathway.} AWI-CM3 follows SSP5-8.5, IFS-FESOM SSP2-4.5, and CMIP6 SSP5-8.5 only. We express changes per
+      kelvin and test linearity only with two CMIP6 future periods. Whether the pathway matters is not analysed.
+\item \textbf{Sampling and land use.} One member per configuration, 17 and 10 winters per period at 9 and 31\,km, and
+      fixed land cover in our runs.
+\item \textbf{Mechanism.} We infer from the ratio of strength to slope that the day-to-day pressure deviations
+      broaden, by a median of 3--5\,\%, while their strength falls less. We did not measure the length scale
+      directly, did not find the cause beyond excluding the mean state and the regime pattern, and did not locate
+      where around the regime pattern the gradients weaken most.
+\item \textbf{Observed past.} We did not test whether the signal is already detectable in ERA5.
+\end{itemize}
+
+\section{Candidate follow-up papers}
+
+\subsection{Cold Dunkelflauten and their timing in the winter (first priority)}
+The most expensive events combine little wind and sun with cold and high demand \cite{vanderWiel2019}. Blocking
+favours both, since it brings calm air and, from the east, cold air. Questions: how often do low-wind events
+coincide with cold spells today, and in which regime; does warming change that joint probability, given that cold
+extremes in northern mid-latitudes warm faster than the mean \cite{Screen2014}; and do events shift within the winter,
+for example towards December and January, when solar output is lowest and demand highest. The same events answer the
+duration and depth questions of Sect.~1. Events and regimes exist for all runs, while daily 2\,m temperature still
+has to be extracted (the repository holds only box means for some runs and monthly values for CMIP6). This is the
+cheapest follow-up and connects directly to demand, without entering fleet or system modelling.
+
+\subsection{Does the pathway matter? (climate journal)}
+Test whether the change per kelvin depends on global warming alone. CMIP6 provides several scenarios with daily wind
+and pressure, idealised 1\,\%\,CO$_2$ and abrupt-4$\times$CO$_2$ runs, and stabilisation runs after zero emissions.
+Candidate pathway effects are the regional aerosol decline, the rate of warming against ocean adjustment (AMOC,
+North Atlantic warming hole), the timing of Arctic sea-ice loss, and overshoot. The CMIP7 runs of AWI-ESM3 with
+several pathways would add the same model family and, ideally, aerosol-cloud interaction for the solar side.
+
+\subsection{A constraint on the projections, if a first check supports it}
+That weather systems broaden under warming is known. Models robustly enlarge the eddy length scale
+\cite{Kidston2010}, linked to the poleward shift of the jets \cite{Kidston2011}. Storm tracks feel opposing
+influences from a weaker low-level and a stronger upper-level temperature gradient \cite{Shaw2016}, Arctic amplification
+damps temperature variance \cite{Screen2014}, and blocking projections over Europe remain uncertain \cite{Woollings2018}.
+Why the length scale grows is unsettled, but answering that needs idealised experiments and theory beyond our
+strength, so a mechanism paper of our own is not recommended. Paper 1 already contains the new part, the link to the
+low-wind tail. What could still carry a paper is a constraint. If the CMIP6 models that broaden more also gain more
+low-wind events, the spread in broadening explains part of the spread in the projections, and ERA5 since 1950 might
+show how much broadening is realistic. The first check is cheap, since broadening and event change per model exist
+for all 20 models. Without a correlation, this becomes a question in Sect.~3.
+
+\section{Further questions}
+
+\textbf{Upstream, towards the origins}
+\begin{itemize}
+\item Why does the length scale grow? Candidate explanations are a larger deformation radius from static stability
+      and tropopause height, weaker low-level baroclinicity, and latent heating, and none is settled.
+\item Is the broadening a dry dynamical response or a moist one? Aquaplanet or uniform-SST experiments with OpenIFS
+      could separate them.
+\item Where around the regime pattern do the gradients weaken most, and why do the hemispheres differ at equal mean
+      gradient?
+\item How much comes from Arctic amplification and sea-ice loss? Prescribed sea-ice experiments (as in PAMIP) would test it.
+\item Why does EC-Earth3, from the same IFS family, weaken $G$ more than any other CMIP6 model, while our IFS-based
+      runs spread across the CMIP6 range? A shared code base with different results is a controlled test.
+\item Do sudden stratospheric warmings, which favour blocking and cold spells, change in a way that interacts with
+      the broadening?
+\item When does the signal emerge from variability?
+\end{itemize}
+
+\textbf{Downstream, towards the impacts}
+\begin{itemize}
+\item Does the drop in heating demand from warmer winters offset the rise in events, or does electrified heating
+      keep cold Dunkelflauten critical?
+\item Does the broadening make low-wind spells more coherent across Europe, and so harder to balance across borders?
+\item Are blocking-related Dunkelflauten predictable at subseasonal range, and does warming change that?
+\item Do the same weaker gradients also reduce damaging wind storms?
+\item What do the results imply for storage needs? This is a question for energy-system partners, with our series as
+      input.
+\end{itemize}
+
+{\small
+\begin{thebibliography}{9}\setlength{\itemsep}{0pt}
+\bibitem{Kidston2010} Kidston, J., Dean, S. M., Renwick, J. A., and Vallis, G. K. (2010), Geophys. Res. Lett. 37, doi:10.1029/2009GL041615.
+\bibitem{Kidston2011} Kidston, J., Vallis, G. K., Dean, S. M., and Renwick, J. A. (2011), J. Climate 24, 3764, doi:10.1175/2010JCLI3738.1.
+\bibitem{Screen2014} Screen, J. A. (2014), Nat. Clim. Change 4, 577, doi:10.1038/nclimate2268.
+\bibitem{Shaw2016} Shaw, T. A., et al. (2016), Nat. Geosci. 9, 656, doi:10.1038/ngeo2783.
+\bibitem{vanderWiel2019} van der Wiel, K., et al. (2019), Renew. Sustain. Energy Rev. 111, 261, doi:10.1016/j.rser.2019.04.065.
+\bibitem{Woollings2018} Woollings, T., et al. (2018), Curr. Clim. Change Rep. 4, 287, doi:10.1007/s40641-018-0108-z.
+\end{thebibliography}}
+
+\end{document}
