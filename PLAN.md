@@ -100,23 +100,24 @@ are answered in the text.
 ### Blocking submission
 - [ ] Fill the back-matter placeholders in `paper/main.tex`:
   - [ ] Zenodo DOI for the data (event series, per-K fields, figure data).
-  - [ ] GitHub URL and Zenodo DOI for the code.
-  - [ ] Funding of the authors (Acknowledgements).
+  - [ ] GitHub URL and Zenodo DOI for the code. Public repository `dunkelflaute-warming` under Jan's account, fresh history, tagged snapshots only (submission, each review round); the working repository stays private.
+  - [ ] Funding of the authors (Acknowledgements): J.S. done 2026-11-24 (EERIE, LIQUIDICE, CAP7); the other authors asked in the final-round email.
   - [ ] Access route for the EERIE and the 9/31 km AWI-CM3 output (source comment in Data availability); decide whether the 100 km runs go to Zenodo or stay "on request".
 - [ ] Co-author sign-off on the current version. Diff since `first-draft`: `paper/diff_first-draft_to_2026-11-17.pdf` (rebuild with `scripts/make_diff.sh` before sending). Send the gradient-wind email to Thomas and the others.
 - [ ] Nature Climate Change formalities (check on the journal's author pages with a login; the public content-types page redirected):
-  - [ ] Abstract length: ours 138 words in 7 sentences; one search snippet said 70 words and 3 sentences, possibly for another article type.
-  - [ ] Reference count: ours 43; the same snippet suggested about 20.
-  - [ ] Supplementary Information as a separate file (now inside `main.tex`).
+  - [x] Abstract length: Article allows up to 150 words, unreferenced; ours 138 (checked 2026-11-24 on the content-types page; the 70-word limit is for Brief Communications).
+  - [x] Reference count: Article guideline up to 50; ours 43 in the main paper.
+  - [x] Main text up to 3,000 words excluding abstract, Methods, references and legends (ours about 2,900); up to 6 display items (6); introduction without heading, Results and Methods with subheadings, Discussion without (all as required).
+  - [x] Supplementary Information as a separate file (`paper/supplement.tex`, 2026-11-24).
   - [ ] Cover letter.
   - [ ] Nature Portfolio reporting summary and editorial policy checklist.
   - [ ] ORCIDs and final affiliations.
 
 ### Open decisions (Jan)
-- [ ] Number density of the Results (Thomas's point, planned after the co-author round): signal section 8.8 and mechanism section 8.0 numbers per 100 words, at the budget of about 8; introduction and Discussion are well below. Move check numbers to Extended Data or the Supplement.
-- [ ] Discussion: the final next-step sentence repeats the limits sentence (duration, depth, cold). Shortening it to "…combine these changes with native hub-height winds, realistic fleets, and electricity demand." saves about 25 words.
-- [ ] Aerosol precedent (Bartok2017, Gutierrez2020) dropped in the flow pass of 2026-11-17; restoring the sentence costs about 14 words.
-- [ ] Realistic blocking schematic (`dunkelflaute/reports/regime_checks/figs/blocking_schematic_realistic.png`) as an Extended Data figure, 3 slots free.
+- [x] Number density of the Results: signal 8.8 -> 7.1, mechanism 8.0 -> 6.2 numbers per 100 words (2026-11-24).
+- [x] Discussion: closing sentence shortened, no longer repeats the limits sentence (2026-11-24).
+- [x] Aerosol precedent (Bartok2017, Gutierrez2020) restored (2026-11-24).
+- [x] Blocking schematic: left out for submission (Jan 2026-11-24); candidate for a revision, after the independent review's changes (no Germany focus, map-mean -5 % in the caption, widen highs too, label every panel idealised).
 
 ### Housekeeping (not blocking)
 - [ ] Prepare the Zenodo archive contents: event series, figure data, CMIP6 file lists (`dunkelflaute/results/cmip6/used_files/`).
