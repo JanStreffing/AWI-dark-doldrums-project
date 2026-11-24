@@ -100,7 +100,9 @@ are answered in the text.
 ### Blocking submission
 - [ ] Fill the back-matter placeholders in `paper/main.tex`:
   - [ ] Zenodo DOI for the data (event series, per-K fields, figure data).
-  - [ ] GitHub URL and Zenodo DOI for the code. Public repository `dunkelflaute-warming` under Jan's account, fresh history, tagged snapshots only (submission, each review round); the working repository stays private.
+  - [x] GitHub URL: https://github.com/JanStreffing/dunkelflaute-warming (public, MIT, created 2026-11-24, fresh history; first snapshot of the analysis scripts, job scripts, figure scripts and CMIP6 file lists pushed; clone at `/work/ab0246/a270092/software/dunkelflaute-warming`). URL in the Code availability.
+  - [ ] Before submission: refresh the snapshot if code changed, then tag `submission-v1` and push the tag.
+  - [ ] Zenodo DOI for the code: connect the repository to Zenodo (GitHub integration) so the `submission-v1` release gets a DOI, or reserve a DOI by hand.
   - [ ] Funding of the authors (Acknowledgements): J.S. done 2026-11-24 (EERIE, LIQUIDICE, CAP7); the other authors asked in the final-round email.
   - [ ] Access route for the EERIE and the 9/31 km AWI-CM3 output (source comment in Data availability); decide whether the 100 km runs go to Zenodo or stay "on request".
 - [ ] Co-author sign-off on the current version. Diff since `first-draft`: `paper/diff_first-draft_to_2026-11-17.pdf` (rebuild with `scripts/make_diff.sh` before sending). Send the gradient-wind email to Thomas and the others.
