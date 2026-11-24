@@ -91,6 +91,38 @@ Written 2026-10-28, after taking over the intern project (Jing/Amanda Wang, Sep 
   - Agreement with SMARD comes from two errors cancelling.
 - Statistics are the weak point: 17 vs 10 winters at 9 km, and a strong threshold dependence. More winters (31 and 100 km, a long control, ERA5 back to 1979) are needed.
 
+## Paper 1 submission checklist (2026-11-24)
+
+Status: main text 2,939 words (limit 3,000), 6 main figures (cap), 7 Extended Data figures (of 10), Extended Data and
+Supplement in citation order, clean build, no struck text left. Gerrit's comments and Thomas's gradient-wind question
+are answered in the text.
+
+### Blocking submission
+- [ ] Fill the back-matter placeholders in `paper/main.tex`:
+  - [ ] Zenodo DOI for the data (event series, per-K fields, figure data).
+  - [ ] GitHub URL and Zenodo DOI for the code.
+  - [ ] Funding of the authors (Acknowledgements).
+  - [ ] Access route for the EERIE and the 9/31 km AWI-CM3 output (source comment in Data availability); decide whether the 100 km runs go to Zenodo or stay "on request".
+- [ ] Co-author sign-off on the current version. Diff since `first-draft`: `paper/diff_first-draft_to_2026-11-17.pdf` (rebuild with `scripts/make_diff.sh` before sending). Send the gradient-wind email to Thomas and the others.
+- [ ] Nature Climate Change formalities (check on the journal's author pages with a login; the public content-types page redirected):
+  - [ ] Abstract length: ours 138 words in 7 sentences; one search snippet said 70 words and 3 sentences, possibly for another article type.
+  - [ ] Reference count: ours 43; the same snippet suggested about 20.
+  - [ ] Supplementary Information as a separate file (now inside `main.tex`).
+  - [ ] Cover letter.
+  - [ ] Nature Portfolio reporting summary and editorial policy checklist.
+  - [ ] ORCIDs and final affiliations.
+
+### Open decisions (Jan)
+- [ ] Number density of the Results (Thomas's point, planned after the co-author round): signal section 8.8 and mechanism section 8.0 numbers per 100 words, at the budget of about 8; introduction and Discussion are well below. Move check numbers to Extended Data or the Supplement.
+- [ ] Discussion: the final next-step sentence repeats the limits sentence (duration, depth, cold). Shortening it to "…combine these changes with native hub-height winds, realistic fleets, and electricity demand." saves about 25 words.
+- [ ] Aerosol precedent (Bartok2017, Gutierrez2020) dropped in the flow pass of 2026-11-17; restoring the sentence costs about 14 words.
+- [ ] Realistic blocking schematic (`dunkelflaute/reports/regime_checks/figs/blocking_schematic_realistic.png`) as an Extended Data figure, 3 slots free.
+
+### Housekeeping (not blocking)
+- [ ] Prepare the Zenodo archive contents: event series, figure data, CMIP6 file lists (`dunkelflaute/results/cmip6/used_files/`).
+- [ ] CMIP6 copy to `/work/ab0246/cmip6/data` (job 29242711, about 6 TB; the 1,675 LUMIP and C4MIP files are already copied and verified): check the job's verification, then commit the file lists, `scripts/cmip6/used_files.py` and `jobs/copy_cmip6_used.sbatch`.
+- [ ] Overleaf: post the replies to Gerrit's comments and resolve them.
+
 ## Todo
 
 ### Phase 1: housekeeping and method
@@ -304,9 +336,9 @@ Full design spec: [`docs/tco95_rerun_spec.md`](docs/tco95_rerun_spec.md). Adds w
 - [ ] Paper draft 2026-11-06: paper repo as submodule `paper/`, local branch `draft-outline` (not pushed). Target Nature Climate Change, then Nature Communications. All sections drafted, 9 figures, builds clean. Open: Jan's review, main vs Extended Data split, SH contrast, author affiliations.
   - 2026-11-07, after Jan's questions.docx: solar-only analysis (methods_notes 15c), SH test (13i), figure revision (13: per-K decomposition, centroid check). NCC layout: Intro, Results, Discussion, Methods, 7 Extended Data figures, Supplement. Main figures: maps, perK (wind | solar | mix | mean), mechanism, southern, transfer, europe. Style pass (no fragments, no colons in flow text, no far references) done. Affiliations done. Open: main text 4200 words against the 3000 limit; aerosol question (do AWI-CM3 and EERIE prescribe time-varying aerosols?); Qu2025 season check; title still says wind-and-solar.
 - [ ] Co-author round, Thomas Jung (2026-11-10, via Jan):
-  - [ ] Is the weakening of G within the regimes robust, or within noise? He expected more variance. Agent check started 2026-11-10 (`dunkelflaute/scripts/regimes/regime_G_robustness.py`, winter bootstrap and 100 km block null).
-  - [ ] EOFs and regimes of every simulation against ERA5, for us, not for the paper (`dunkelflaute/scripts/regimes/eof_diagnostics.py`).
-  - [ ] Later, after the co-author round: information density of the main text is high for the broad NCC readership. Hard because the text is at or over the word limit; apply the number budget (paper-writing skill) to the main text and move check numbers to Extended Data or the Supplement.
+  - [x] Is the weakening of G within the regimes robust, or within noise? He expected more variance. Done 2026-11-10: robust (all four runs beyond the block null, 18 of 20 CMIP6 models beyond winter variability); report `dunkelflaute/reports/regime_checks/regime_checks.pdf`. Agent check started 2026-11-10 (`dunkelflaute/scripts/regimes/regime_G_robustness.py`, winter bootstrap and 100 km block null).
+  - [x] EOFs and regimes of every simulation against ERA5, for us, not for the paper (done 2026-11-10, in the report) (`dunkelflaute/scripts/regimes/eof_diagnostics.py`).
+  - [ ] Later, after the co-author round (now in the submission checklist above): information density of the main text is high for the broad NCC readership. Hard because the text is at or over the word limit; apply the number budget (paper-writing skill) to the main text and move check numbers to Extended Data or the Supplement.
 - Title 2026-11-08 (Jan): "Warming brings more winter wind-and-solar droughts as blocked flow weakens" (descriptive term instead of Dunkelflauten in the title; no similar title in Crossref/OpenAlex).
 - [ ] Paper (earlier title): ~~"Resolution dependence of projected Dunkelflaute change in Germany" (AWI-CM3 at 100, 31 and 9 km).~~ Working title (2026-11-05): "More winter wind-and-solar droughts in a warmer climate: a Northern-Hemisphere signal robust across model resolution" (AWI-CM3 at 100, 31 and 9 km plus EERIE IFS-FESOM2-SR), with Germany as the worked example and its weak signal at 31/100 km as a sampling lesson. Scope and outline: see "Current direction" at the top (global, per-K maps, CMIP6 through the same pipeline, NH vs SH as a mechanism test).
 
