@@ -93,11 +93,13 @@ Written 2026-10-28, after taking over the intern project (Jing/Amanda Wang, Sep 
 
 ## Paper 1 submission checklist (2026-11-24)
 
-Status: main text 2,939 words (limit 3,000), 6 main figures (cap), 7 Extended Data figures (of 10), Extended Data and
+Status: main text 2,936 words in running text on 2026-11-27, after the abstract and introduction rework (3,041 with the
+subsection headings; limit 3,000), 6 main figures (cap), 7 Extended Data figures (of 10), Extended Data and
 Supplement in citation order, clean build, no struck text left. Gerrit's comments and Thomas's gradient-wind question
 are answered in the text.
 
 ### Blocking submission
+- [ ] Trim `paper/sections/results_mechanism.tex` by about 50-80 words (Jan 2026-11-27). It has 1,243 of the about 3,000 main-text words (41 %, nearly three times the signal section), so the cut buys margin under the limit if headings count and balances the Results. The introduction (465 words, about 15 %) stays as it is. Propose each cut as old -> new wording for Jan to approve.
 - [ ] Fill the back-matter placeholders in `paper/main.tex`:
   - [ ] Zenodo DOI for the data (event series, per-K fields, figure data).
   - [x] GitHub URL: https://github.com/JanStreffing/dunkelflaute-warming (public, MIT, created 2026-11-24, fresh history; first snapshot of the analysis scripts, job scripts, figure scripts and CMIP6 file lists pushed; clone at `/work/ab0246/a270092/software/dunkelflaute-warming`). URL in the Code availability.
