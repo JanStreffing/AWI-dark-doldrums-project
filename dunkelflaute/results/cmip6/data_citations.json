@@ -1,0 +1,2974 @@
+{
+ "C4MIP.BCC.BCC-CSM2-MR.esm-ssp585": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.2912",
+  "year": 2019,
+  "creators": [
+   "Wu, Tongwen",
+   "Chu, Min",
+   "Dong, Min",
+   "Fang, Yongjie",
+   "Jie, Weihua",
+   "Li, Jianglong",
+   "Li, Weiping",
+   "Liu, Qianxia",
+   "Shi, Xueli",
+   "Xin, Xiaoge",
+   "Yan, Jinghui",
+   "Zhang, Fang",
+   "Zhang, Jie",
+   "Zhang, Li",
+   "Zhang, Yanwu"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MResmssp585"
+ },
+ "C4MIP.CCCma.CanESM5.esm-ssp585": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.3587",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5esmssp585"
+ },
+ "C4MIP.CNRM-CERFACS.CNRM-ESM2-1.esm-ssp585": {
+  "title": "CNRM-CERFACS CNRM-ESM2-1 model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.4017",
+  "year": 2020,
+  "creators": [
+   "Seferian, Roland"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CNRMESM21esmssp585"
+ },
+ "C4MIP.MIROC.MIROC-ES2L.esm-ssp585": {
+  "title": "MIROC MIROC-ES2L model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.5526",
+  "year": 2020,
+  "creators": [
+   "Hajima, Tomohiro",
+   "Kawamiya, Michio",
+   "Tachiiri, Kaoru",
+   "Abe, Manabu",
+   "Arakawa, Osamu",
+   "Suzuki, Tatsuo",
+   "Komuro, Yoshiki",
+   "Ogochi, Koji",
+   "Watanabe, Michio",
+   "Yamamoto, Akitomo",
+   "Tatebe, Hiroaki",
+   "Noguchi, Maki A.",
+   "Ohgaito, Rumi",
+   "Ito, Akinori",
+   "Yamazaki, Dai",
+   "Ito, Akihiko",
+   "Takata, Kumiko",
+   "Watanabe, Shingo"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MIROCES2Lesmssp585"
+ },
+ "C4MIP.MOHC.UKESM1-0-LL.esm-ssp585": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.5969",
+  "year": 2019,
+  "creators": [
+   "Jones, Chris"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLesmssp585"
+ },
+ "C4MIP.MPI-M.MPI-ESM1-2-LR.esm-ssp585": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.6558",
+  "year": 2019,
+  "creators": [
+   "Brovkin, Victor",
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LResmssp585"
+ },
+ "C4MIP.NCC.NorESM2-LM.esm-ssp585": {
+  "title": "NCC NorESM2-LM model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.13748",
+  "year": 2020,
+  "creators": [
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Seland, \u00d8yvind",
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Gao, Shuang",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6NorESM2LMesmssp585"
+ },
+ "C4MIP.NOAA-GFDL.GFDL-ESM4.esm-ssp585": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 C4MIP esm-ssp585",
+  "doi": "10.22033/ESGF/CMIP6.8545",
+  "year": 2018,
+  "creators": [
+   "Krasting, John P.",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Radhakrishnan, Aparna",
+   "John, Jasmin G.",
+   "Rand, Kristopher",
+   "Nikonov, Serguei",
+   "Vahlenkamp, Hans",
+   "Zadeh, Niki T.",
+   "Dunne, John P.",
+   "Shevliakova, Elena",
+   "Horowitz, Larry W.",
+   "Stock, Charles",
+   "Malyshev, Sergey",
+   "Ploshay, Jeffrey",
+   "Gauthier, Paul PG",
+   "Naik, Vaishali",
+   "Winton, Michael",
+   "Zeng, Yujin"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4esmssp585"
+ },
+ "CMIP.AWI.AWI-ESM-1-REcoM.historical": {
+  "title": "AWI AWI-ESM1REcoM model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.17744",
+  "year": 2023,
+  "creators": [
+   "Danek, Christopher",
+   "G\u00fcrses, \u00d6zg\u00fcr",
+   "Gierz, Paul",
+   "Andr\u00e9s-Mart\u00ednez, Miguel",
+   "Hauck, Judith"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6AWIESM1REcoMhistorical"
+ },
+ "CMIP.BCC.BCC-CSM2-MR.historical": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.2948",
+  "year": 2018,
+  "creators": [
+   "Wu, Tongwen",
+   "Chu, Min",
+   "Dong, Min",
+   "Fang, Yongjie",
+   "Jie, Weihua",
+   "Li, Jianglong",
+   "Li, Weiping",
+   "Liu, Qianxia",
+   "Shi, Xueli",
+   "Xin, Xiaoge",
+   "Yan, Jinghui",
+   "Zhang, Fang",
+   "Zhang, Jie",
+   "Zhang, Li",
+   "Zhang, Yanwu"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRhistorical"
+ },
+ "CMIP.CAS.FGOALS-g3.historical": {
+  "title": "CAS FGOALS-g3 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.3356",
+  "year": 2019,
+  "creators": [
+   "Li, Lijuan"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6FGOALSg3historical"
+ },
+ "CMIP.CCCma.CanESM5.historical": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.3610",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CanESM5historical"
+ },
+ "CMIP.CMCC.CMCC-CM2-SR5.historical": {
+  "title": "CMCC CMCC-CM2-SR5 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.3825",
+  "year": 2020,
+  "creators": [
+   "Lovato, Tomas",
+   "Peano, Daniele"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CMCCCM2SR5historical"
+ },
+ "CMIP.CMCC.CMCC-ESM2.historical": {
+  "title": "CMCC CMCC-ESM2 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.13195",
+  "year": 2021,
+  "creators": [
+   "Lovato, Tomas",
+   "Peano, Daniele",
+   "Butensch\u00f6n, Momme"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CMCCESM2historical"
+ },
+ "CMIP.CNRM-CERFACS.CNRM-ESM2-1.historical": {
+  "title": "CNRM-CERFACS CNRM-ESM2-1 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.4068",
+  "year": 2018,
+  "creators": [
+   "Seferian, Roland"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CNRMESM21historical"
+ },
+ "CMIP.CSIRO-ARCCSS.ACCESS-CM2.historical": {
+  "title": "CSIRO-ARCCSS ACCESS-CM2 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.4271",
+  "year": 2019,
+  "creators": [
+   "Dix, Martin",
+   "Bi, Daohua",
+   "Dobrohotoff, Peter",
+   "Fiedler, Russell",
+   "Harman, Ian",
+   "Law, Rachel",
+   "Mackallah, Chloe",
+   "Marsland, Simon",
+   "O'Farrell, Siobhan",
+   "Rashid, Harun",
+   "Srbinovsky, Jhan",
+   "Sullivan, Arnold",
+   "Trenham, Claire",
+   "Vohralik, Peter",
+   "Watterson, Ian",
+   "Williams, Gareth",
+   "Woodhouse, Matthew",
+   "Bodman, Roger",
+   "Dias, Fabio Boeira",
+   "Domingues, Catia M.",
+   "Hannah, Nicholas",
+   "Heerdegen, Aidan",
+   "Savita, Abhishek",
+   "Wales, Scott",
+   "Allen, Chris",
+   "Druken, Kelsey",
+   "Evans, Ben",
+   "Richards, Clare",
+   "Ridzwan, Syazwan Mohamed",
+   "Roberts, Dale",
+   "Smillie, Jon",
+   "Snow, Kate",
+   "Ward, Marshall",
+   "Yang, Rui"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6ACCESSCM2historical"
+ },
+ "CMIP.EC-Earth-Consortium.EC-Earth3.historical": {
+  "title": "EC-Earth-Consortium EC-Earth3 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.4700",
+  "year": 2019,
+  "creators": [
+   "EC-Earth Consortium (EC-Earth)"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6ECEarth3historical"
+ },
+ "CMIP.INM.INM-CM4-8.historical": {
+  "title": "INM INM-CM4-8 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.5069",
+  "year": 2019,
+  "creators": [
+   "Volodin, Evgeny",
+   "Mortikov, Evgeny",
+   "Gritsun, Andrey",
+   "Lykossov, Vasily",
+   "Galin, Vener",
+   "Diansky, Nikolay",
+   "Gusev, Anatoly",
+   "Kostrykin, Sergey",
+   "Iakovlev, Nikolay",
+   "Shestakova, Anna",
+   "Emelina, Svetlana"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6INMCM48historical"
+ },
+ "CMIP.INM.INM-CM5-0.historical": {
+  "title": "INM INM-CM5-0 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.5070",
+  "year": 2019,
+  "creators": [
+   "Volodin, Evgeny",
+   "Mortikov, Evgeny",
+   "Gritsun, Andrey",
+   "Lykossov, Vasily",
+   "Galin, Vener",
+   "Diansky, Nikolay",
+   "Gusev, Anatoly",
+   "Kostrykin, Sergey",
+   "Iakovlev, Nikolay",
+   "Shestakova, Anna",
+   "Emelina, Svetlana"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6INMCM50historical"
+ },
+ "CMIP.IPSL.IPSL-CM6A-LR.historical": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.5195",
+  "year": 2018,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Cadule, Patricia",
+   "Devilliers, Marion",
+   "Ghattas, Josefine",
+   "Lebas, Nicolas",
+   "Lurton, Thibaut",
+   "Mellul, Lidia",
+   "Musat, Ionela",
+   "Mignot, Juliette",
+   "Cheruy, Fr\u00e9d\u00e9rique"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6IPSLCM6ALRhistorical"
+ },
+ "CMIP.MIROC.MIROC-ES2L.historical": {
+  "title": "MIROC MIROC-ES2L model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.5602",
+  "year": 2019,
+  "creators": [
+   "Hajima, Tomohiro",
+   "Abe, Manabu",
+   "Arakawa, Osamu",
+   "Suzuki, Tatsuo",
+   "Komuro, Yoshiki",
+   "Ogura, Tomoo",
+   "Ogochi, Koji",
+   "Watanabe, Michio",
+   "Yamamoto, Akitomo",
+   "Tatebe, Hiroaki",
+   "Noguchi, Maki A.",
+   "Ohgaito, Rumi",
+   "Ito, Akinori",
+   "Yamazaki, Dai",
+   "Ito, Akihiko",
+   "Takata, Kumiko",
+   "Watanabe, Shingo",
+   "Kawamiya, Michio",
+   "Tachiiri, Kaoru"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MIROCES2Lhistorical"
+ },
+ "CMIP.MOHC.HadGEM3-GC31-LL.historical": {
+  "title": "MOHC HadGEM3-GC31-LL model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6109",
+  "year": 2019,
+  "creators": [
+   "Ridley, Jeff",
+   "Menary, Matthew",
+   "Kuhlbrodt, Till",
+   "Andrews, Martin",
+   "Andrews, Tim"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6HadGEM3GC31LLhistorical"
+ },
+ "CMIP.MOHC.HadGEM3-GC31-MM.historical": {
+  "title": "MOHC HadGEM3-GC31-MM model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6112",
+  "year": 2019,
+  "creators": [
+   "Ridley, Jeff",
+   "Menary, Matthew",
+   "Kuhlbrodt, Till",
+   "Andrews, Martin",
+   "Andrews, Tim"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6HadGEM3GC31MMhistorical"
+ },
+ "CMIP.MOHC.UKESM1-0-LL.historical": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6113",
+  "year": 2019,
+  "creators": [
+   "Tang, Yongming",
+   "Rumbold, Steve",
+   "Ellis, Rich",
+   "Kelley, Douglas",
+   "Mulcahy, Jane",
+   "Sellar, Alistair",
+   "Walton, Jeremy",
+   "Jones, Colin"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6UKESM10LLhistorical"
+ },
+ "CMIP.MPI-M.MPI-ESM1-2-HR.historical": {
+  "title": "MPI-M MPI-ESM1.2-HR model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6594",
+  "year": 2019,
+  "creators": [
+   "Jungclaus, Johann",
+   "Bittner, Matthias",
+   "Wieners, Karl-Hermann",
+   "Wachsmann, Fabian",
+   "Schupfner, Martin",
+   "Legutke, Stephanie",
+   "Giorgetta, Marco",
+   "Reick, Christian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Esch, Monika",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MPIESM12HRhistorical"
+ },
+ "CMIP.MPI-M.MPI-ESM1-2-LR.historical": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6595",
+  "year": 2019,
+  "creators": [
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MPIESM12LRhistorical"
+ },
+ "CMIP.MRI.MRI-ESM2-0.historical": {
+  "title": "MRI MRI-ESM2.0 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.6842",
+  "year": 2019,
+  "creators": [
+   "Yukimoto, Seiji",
+   "Koshiro, Tsuyoshi",
+   "Kawai, Hideaki",
+   "Oshima, Naga",
+   "Yoshida, Kohei",
+   "Urakawa, Shogo",
+   "Tsujino, Hiroyuki",
+   "Deushi, Makoto",
+   "Tanaka, Taichu",
+   "Hosaka, Masahiro",
+   "Yoshimura, Hiromasa",
+   "Shindo, Eiki",
+   "Mizuta, Ryo",
+   "Ishii, Masayoshi",
+   "Obata, Atsushi",
+   "Adachi, Yukimasa"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MRIESM20historical"
+ },
+ "CMIP.NASA-GISS.GISS-E2-1-G.historical": {
+  "title": "NASA-GISS GISS-E2.1G model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.7127",
+  "year": 2018,
+  "creators": [
+   "NASA Goddard Institute For Space Studies (NASA/GISS)"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GISSE21Ghistorical"
+ },
+ "CMIP.NCAR.CESM2.historical": {
+  "title": "NCAR CESM2 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.7627",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CESM2historical"
+ },
+ "CMIP.NCAR.CESM2-WACCM.historical": {
+  "title": "NCAR CESM2-WACCM model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.10071",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CESM2WACCMhistorical"
+ },
+ "CMIP.NCC.NorESM2-LM.historical": {
+  "title": "NCC NorESM2-LM model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.8036",
+  "year": 2019,
+  "creators": [
+   "Seland, \u00d8yvind",
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6NorESM2LMhistorical"
+ },
+ "CMIP.NCC.NorESM2-MM.historical": {
+  "title": "NCC NorESM2-MM model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.8040",
+  "year": 2019,
+  "creators": [
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Seland, \u00d8yvind",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6NorESM2MMhistorical"
+ },
+ "CMIP.NIMS-KMA.KACE-1-0-G.historical": {
+  "title": "NIMS-KMA KACE1.0-G model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.8378",
+  "year": 2019,
+  "creators": [
+   "Byun, Young-Hwa",
+   "Lim, Yoon-Jin",
+   "Sung, Hyun Min",
+   "Kim, Jisun",
+   "Sun, Minah",
+   "Kim, Byeong-Hyeon"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6KACE10Ghistorical"
+ },
+ "CMIP.NOAA-GFDL.GFDL-CM4.historical": {
+  "title": "NOAA-GFDL GFDL-CM4 model output historical",
+  "doi": "10.22033/ESGF/CMIP6.8594",
+  "year": 2018,
+  "creators": [
+   "Guo, Huan",
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Zadeh, Niki T.",
+   "Balaji, V",
+   "Durachta, Jeff"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6GFDLCM4historical"
+ },
+ "CMIP.NOAA-GFDL.GFDL-ESM4.historical": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 CMIP historical",
+  "doi": "10.22033/ESGF/CMIP6.8597",
+  "year": 2018,
+  "creators": [
+   "Krasting, John P.",
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Zadeh, Niki T.",
+   "Balaji, V",
+   "Durachta, Jeff",
+   "Dupuis, Christopher",
+   "Menzel, Raymond",
+   "Robinson, Thomas",
+   "Underwood, Seth",
+   "Vahlenkamp, Hans",
+   "Dunne, Krista A.",
+   "Gauthier, Paul PG",
+   "Ginoux, Paul",
+   "Griffies, Stephen M.",
+   "Hallberg, Robert",
+   "Harrison, Matthew",
+   "Hurlin, William",
+   "Malyshev, Sergey",
+   "Naik, Vaishali",
+   "Paulot, Fabien",
+   "Paynter, David J",
+   "Ploshay, Jeffrey",
+   "Reichl, Brandon G",
+   "Schwarzkopf, Daniel M",
+   "Seman, Charles J",
+   "Silvers, Levi",
+   "Wyman, Bruce",
+   "Zeng, Yujin",
+   "Adcroft, Alistair",
+   "Dunne, John P.",
+   "Dussin, Raphael",
+   "Guo, Huan",
+   "He, Jian",
+   "Held, Isaac M",
+   "Horowitz, Larry W.",
+   "Lin, Pu",
+   "Milly, P.C.D",
+   "Shevliakova, Elena",
+   "Stock, Charles",
+   "Winton, Michael",
+   "Wittenberg, Andrew T.",
+   "Xie, Yuanyu",
+   "Zhao, Ming"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "LU",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6GFDLESM4historical"
+ },
+ "LUMIP.BCC.BCC-CSM2-MR.esm-ssp585-ssp126Lu": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 LUMIP esm-ssp585-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.2913",
+  "year": 2019,
+  "creators": [
+   "Zhang, Yanwu",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MResmssp585ssp126Lu"
+ },
+ "LUMIP.BCC.BCC-CSM2-MR.hist-noLu": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.2930",
+  "year": 2019,
+  "creators": [
+   "Zhang, Yanwu",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRhistnoLu"
+ },
+ "LUMIP.BCC.BCC-CSM2-MR.ssp126-ssp370Lu": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.3029",
+  "year": 2019,
+  "creators": [
+   "Zhang, Yanwu",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRssp126ssp370Lu"
+ },
+ "LUMIP.BCC.BCC-CSM2-MR.ssp370-ssp126Lu": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.3038",
+  "year": 2019,
+  "creators": [
+   "Zhang, Yanwu",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRssp370ssp126Lu"
+ },
+ "LUMIP.CCCma.CanESM5.esm-ssp585-ssp126Lu": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 LUMIP esm-ssp585-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.3588",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5esmssp585ssp126Lu"
+ },
+ "LUMIP.CCCma.CanESM5.hist-noLu": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.3602",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5histnoLu"
+ },
+ "LUMIP.CCCma.CanESM5.ssp126-ssp370Lu": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.3684",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5ssp126ssp370Lu"
+ },
+ "LUMIP.CCCma.CanESM5.ssp370-ssp126Lu": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.3691",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5ssp370ssp126Lu"
+ },
+ "LUMIP.CNRM-CERFACS.CNRM-ESM2-1.hist-noLu": {
+  "title": "CNRM-CERFACS CNRM-ESM2-1 model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.4049",
+  "year": 2019,
+  "creators": [
+   "Seferian, Roland"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CNRMESM21histnoLu"
+ },
+ "LUMIP.IPSL.IPSL-CM6A-LR.hist-noLu": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.5189",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Vuichard, Nicolas",
+   "Ghattas, Josefine",
+   "Cadule, Patricia"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6IPSLCM6ALRhistnoLu"
+ },
+ "LUMIP.IPSL.IPSL-CM6A-LR.ssp126-ssp370Lu": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.5263",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Vuichard, Nicolas",
+   "Ghattas, Josefine",
+   "Cadule, Patricia"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6IPSLCM6ALRssp126ssp370Lu"
+ },
+ "LUMIP.IPSL.IPSL-CM6A-LR.ssp370-ssp126Lu": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.5266",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Vuichard, Nicolas",
+   "Ghattas, Josefine",
+   "Cadule, Patricia"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6IPSLCM6ALRssp370ssp126Lu"
+ },
+ "LUMIP.MOHC.UKESM1-0-LL.hist-noLu": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.6060",
+  "year": 2019,
+  "creators": [
+   "Wiltshire, Andy"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLhistnoLu"
+ },
+ "LUMIP.MOHC.UKESM1-0-LL.ssp126-ssp370Lu": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.6337",
+  "year": 2019,
+  "creators": [
+   "Wiltshire, Andy"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLssp126ssp370Lu"
+ },
+ "LUMIP.MOHC.UKESM1-0-LL.ssp370-ssp126Lu": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.6359",
+  "year": 2019,
+  "creators": [
+   "Wiltshire, Andy"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLssp370ssp126Lu"
+ },
+ "LUMIP.MPI-M.MPI-ESM1-2-LR.esm-ssp585-ssp126Lu": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 LUMIP esm-ssp585-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.6561",
+  "year": 2019,
+  "creators": [
+   "Pongratz, Julia",
+   "Hartung, Kerstin",
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LResmssp585ssp126Lu"
+ },
+ "LUMIP.MPI-M.MPI-ESM1-2-LR.hist-noLu": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.6588",
+  "year": 2019,
+  "creators": [
+   "Pongratz, Julia",
+   "Hartung, Kerstin",
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LRhistnoLu"
+ },
+ "LUMIP.MPI-M.MPI-ESM1-2-LR.ssp126-ssp370Lu": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.6691",
+  "year": 2019,
+  "creators": [
+   "Pongratz, Julia",
+   "Hartung, Kerstin",
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LRssp126ssp370Lu"
+ },
+ "LUMIP.MPI-M.MPI-ESM1-2-LR.ssp370-ssp126Lu": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.6696",
+  "year": 2019,
+  "creators": [
+   "Pongratz, Julia",
+   "Hartung, Kerstin",
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Legutke, Stephanie",
+   "Schupfner, Martin",
+   "Wachsmann, Fabian",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LRssp370ssp126Lu"
+ },
+ "LUMIP.NCAR.CESM2.hist-noLu": {
+  "title": "NCAR CESM2 model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.7610",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CESM2histnoLu"
+ },
+ "LUMIP.NOAA-GFDL.GFDL-ESM4.esm-ssp585-ssp126Lu": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 LUMIP esm-ssp585-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.8548",
+  "year": 2018,
+  "creators": [
+   "Malyshev, Sergey",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Rand, Kristopher",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Vahlenkamp, Hans",
+   "Shevliakova, Elena",
+   "Milly, Chris",
+   "Dunne, Krista A.",
+   "Cano, Isabel Martinez",
+   "Dupuis, Christopher",
+   "John, Jasmin G",
+   "Ploshay, Jeffrey",
+   "Gauthier, Paul PG",
+   "Zeng, Yujin",
+   "Winton, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4esmssp585ssp126Lu"
+ },
+ "LUMIP.NOAA-GFDL.GFDL-ESM4.hist-noLu": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 LUMIP hist-noLu",
+  "doi": "10.22033/ESGF/CMIP6.8576",
+  "year": 2018,
+  "creators": [
+   "Malyshev, Sergey",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Rand, Kristopher",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Vahlenkamp, Hans",
+   "Shevliakova, Elena",
+   "Milly, Chris",
+   "Dunne, Krista A.",
+   "Cano, Isabel Martinez",
+   "Dupuis, Christopher",
+   "John, Jasmin G",
+   "Ploshay, Jeffrey",
+   "Gauthier, Paul PG",
+   "Zeng, Yujin",
+   "Winton, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4histnoLu"
+ },
+ "LUMIP.NOAA-GFDL.GFDL-ESM4.ssp126-ssp370Lu": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 LUMIP ssp126-ssp370Lu",
+  "doi": "10.22033/ESGF/CMIP6.8685",
+  "year": 2018,
+  "creators": [
+   "Malyshev, Sergey",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Rand, Kristopher",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Vahlenkamp, Hans",
+   "Shevliakova, Elena",
+   "Milly, Chris",
+   "Dunne, Krista A.",
+   "Cano, Isabel Martinez",
+   "Dupuis, Christopher",
+   "John, Jasmin G",
+   "Ploshay, Jeffrey",
+   "Gauthier, Paul PG",
+   "Zeng, Yujin",
+   "Winton, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4ssp126ssp370Lu"
+ },
+ "LUMIP.NOAA-GFDL.GFDL-ESM4.ssp370-ssp126Lu": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 LUMIP ssp370-ssp126Lu",
+  "doi": "10.22033/ESGF/CMIP6.8694",
+  "year": 2018,
+  "creators": [
+   "Malyshev, Sergey",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Rand, Kristopher",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Vahlenkamp, Hans",
+   "Shevliakova, Elena",
+   "Milly, Chris",
+   "Dunne, Krista A.",
+   "Cano, Isabel Martinez",
+   "Dupuis, Christopher",
+   "John, Jasmin G",
+   "Ploshay, Jeffrey",
+   "Gauthier, Paul PG",
+   "Zeng, Yujin",
+   "Winton, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4ssp370ssp126Lu"
+ },
+ "ScenarioMIP.AWI.AWI-ESM-1-REcoM.ssp585": {
+  "title": "AWI AWI-ESM1REcoM model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.17763",
+  "year": 2023,
+  "creators": [
+   "Danek, Christopher",
+   "G\u00fcrses, \u00d6zg\u00fcr",
+   "Gierz, Paul",
+   "Andr\u00e9s-Mart\u00ednez, Miguel",
+   "Hauck, Judith"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6AWIESM1REcoMssp585"
+ },
+ "ScenarioMIP.BCC.BCC-CSM2-MR.ssp126": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.3028",
+  "year": 2019,
+  "creators": [
+   "Xin, Xiaoge",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRssp126"
+ },
+ "ScenarioMIP.BCC.BCC-CSM2-MR.ssp370": {
+  "title": "BCC BCC-CSM2MR model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.3035",
+  "year": 2019,
+  "creators": [
+   "Xin, Xiaoge",
+   "Wu, Tongwen",
+   "Shi, Xueli",
+   "Zhang, Fang",
+   "Li, Jianglong",
+   "Chu, Min",
+   "Liu, Qianxia",
+   "Yan, Jinghui",
+   "Ma, Qiang",
+   "Wei, Min"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6BCCCSM2MRssp370"
+ },
+ "ScenarioMIP.CAS.FGOALS-g3.ssp585": {
+  "title": "CAS FGOALS-g3 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.3503",
+  "year": 2019,
+  "creators": [
+   "Li, Lijuan"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6FGOALSg3ssp585"
+ },
+ "ScenarioMIP.CCCma.CanESM5.ssp126": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.3683",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5ssp126"
+ },
+ "ScenarioMIP.CCCma.CanESM5.ssp370": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.3690",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CanESM5ssp370"
+ },
+ "ScenarioMIP.CCCma.CanESM5.ssp585": {
+  "title": "CCCma CanESM5 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.3696",
+  "year": 2019,
+  "creators": [
+   "Swart, Neil Cameron",
+   "Cole, Jason N.S.",
+   "Kharin, Viatcheslav V.",
+   "Lazare, Mike",
+   "Scinocca, John F.",
+   "Gillett, Nathan P.",
+   "Anstey, James",
+   "Arora, Vivek",
+   "Christian, James R.",
+   "Jiao, Yanjun",
+   "Lee, Warren G.",
+   "Majaess, Fouad",
+   "Saenko, Oleg A.",
+   "Seiler, Christian",
+   "Seinen, Clint",
+   "Shao, Andrew",
+   "Solheim, Larry",
+   "von Salzen, Knut",
+   "Yang, Duo",
+   "Winter, Barbara",
+   "Sigmond, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CanESM5ssp585"
+ },
+ "ScenarioMIP.CMCC.CMCC-CM2-SR5.ssp585": {
+  "title": "CMCC CMCC-CM2-SR5 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.3896",
+  "year": 2020,
+  "creators": [
+   "Lovato, Tomas",
+   "Peano, Daniele"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CMCCCM2SR5ssp585"
+ },
+ "ScenarioMIP.CMCC.CMCC-ESM2.ssp126": {
+  "title": "CMCC CMCC-ESM2 model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.13250",
+  "year": 2021,
+  "creators": [
+   "Lovato, Tomas",
+   "Peano, Daniele",
+   "Butensch\u00f6n, Momme"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CMCCESM2ssp126"
+ },
+ "ScenarioMIP.CMCC.CMCC-ESM2.ssp370": {
+  "title": "CMCC CMCC-ESM2 model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.13253",
+  "year": 2021,
+  "creators": [
+   "Lovato, Tomas",
+   "Peano, Daniele",
+   "Butensch\u00f6n, Momme"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CMCCESM2ssp370"
+ },
+ "ScenarioMIP.CNRM-CERFACS.CNRM-ESM2-1.ssp126": {
+  "title": "CNRM-CERFACS CNRM-ESM2-1 model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.4186",
+  "year": 2019,
+  "creators": [
+   "Voldoire, Aurore"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CNRMESM21ssp126"
+ },
+ "ScenarioMIP.CNRM-CERFACS.CNRM-ESM2-1.ssp370": {
+  "title": "CNRM-CERFACS CNRM-ESM2-1 model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.4199",
+  "year": 2019,
+  "creators": [
+   "Voldoire, Aurore"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CNRMESM21ssp370"
+ },
+ "ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585": {
+  "title": "CSIRO-ARCCSS ACCESS-CM2 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.4332",
+  "year": 2019,
+  "creators": [
+   "Dix, Martin",
+   "Bi, Daohua",
+   "Dobrohotoff, Peter",
+   "Fiedler, Russell",
+   "Harman, Ian",
+   "Law, Rachel",
+   "Mackallah, Chloe",
+   "Marsland, Simon",
+   "O'Farrell, Siobhan",
+   "Rashid, Harun",
+   "Srbinovsky, Jhan",
+   "Sullivan, Arnold",
+   "Trenham, Claire",
+   "Vohralik, Peter",
+   "Watterson, Ian",
+   "Williams, Gareth",
+   "Woodhouse, Matthew",
+   "Bodman, Roger",
+   "Dias, Fabio Boeira",
+   "Domingues, Catia M.",
+   "Hannah, Nicholas",
+   "Heerdegen, Aidan",
+   "Savita, Abhishek",
+   "Wales, Scott",
+   "Allen, Chris",
+   "Druken, Kelsey",
+   "Evans, Ben",
+   "Richards, Clare",
+   "Ridzwan, Syazwan Mohamed",
+   "Roberts, Dale",
+   "Smillie, Jon",
+   "Snow, Kate",
+   "Ward, Marshall",
+   "Yang, Rui"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6ACCESSCM2ssp585"
+ },
+ "ScenarioMIP.DKRZ.MPI-ESM1-2-HR.ssp585": {
+  "title": "DKRZ MPI-ESM1.2-HR model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.4403",
+  "year": 2019,
+  "creators": [
+   "Schupfner, Martin",
+   "Wieners, Karl-Hermann",
+   "Wachsmann, Fabian",
+   "Steger, Christian",
+   "Bittner, Matthias",
+   "Jungclaus, Johann",
+   "Fr\u00fch, Barbara",
+   "Pankatz, Klaus",
+   "Giorgetta, Marco",
+   "Reick, Christian",
+   "Legutke, Stephanie",
+   "Esch, Monika",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MPIESM12HRssp585"
+ },
+ "ScenarioMIP.EC-Earth-Consortium.EC-Earth3.ssp585": {
+  "title": "EC-Earth-Consortium EC-Earth3 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.4912",
+  "year": 2019,
+  "creators": [
+   "EC-Earth Consortium (EC-Earth)"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6ECEarth3ssp585"
+ },
+ "ScenarioMIP.INM.INM-CM4-8.ssp585": {
+  "title": "INM INM-CM4-8 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.12337",
+  "year": 2019,
+  "creators": [
+   "Volodin, Evgeny",
+   "Mortikov, Evgeny",
+   "Gritsun, Andrey",
+   "Lykossov, Vasily",
+   "Galin, Vener",
+   "Diansky, Nikolay",
+   "Gusev, Anatoly",
+   "Kostrykin, Sergey",
+   "Iakovlev, Nikolay",
+   "Shestakova, Anna",
+   "Emelina, Svetlana"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6INMCM48ssp585"
+ },
+ "ScenarioMIP.INM.INM-CM5-0.ssp585": {
+  "title": "INM INM-CM5-0 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.12338",
+  "year": 2019,
+  "creators": [
+   "Volodin, Evgeny",
+   "Mortikov, Evgeny",
+   "Gritsun, Andrey",
+   "Lykossov, Vasily",
+   "Galin, Vener",
+   "Diansky, Nikolay",
+   "Gusev, Anatoly",
+   "Kostrykin, Sergey",
+   "Iakovlev, Nikolay",
+   "Shestakova, Anna",
+   "Emelina, Svetlana"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6INMCM50ssp585"
+ },
+ "ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp126": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.5262",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Cadule, Patricia",
+   "Devilliers, Marion",
+   "Dupont, Eliott",
+   "Lurton, Thibaut"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6IPSLCM6ALRssp126"
+ },
+ "ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp370": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.5265",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Cadule, Patricia",
+   "Devilliers, Marion",
+   "Dupont, Eliott",
+   "Lurton, Thibaut"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6IPSLCM6ALRssp370"
+ },
+ "ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp585": {
+  "title": "IPSL IPSL-CM6A-LR model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.5271",
+  "year": 2019,
+  "creators": [
+   "Boucher, Olivier",
+   "Denvil, S\u00e9bastien",
+   "Levavasseur, Guillaume",
+   "Cozic, Anne",
+   "Caubel, Arnaud",
+   "Foujols, Marie-Alice",
+   "Meurdesoif, Yann",
+   "Cadule, Patricia",
+   "Devilliers, Marion",
+   "Dupont, Eliott",
+   "Lurton, Thibaut"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6IPSLCM6ALRssp585"
+ },
+ "ScenarioMIP.MIROC.MIROC-ES2L.ssp126": {
+  "title": "MIROC MIROC-ES2L model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.5742",
+  "year": 2019,
+  "creators": [
+   "Tachiiri, Kaoru",
+   "Abe, Manabu",
+   "Hajima, Tomohiro",
+   "Arakawa, Osamu",
+   "Suzuki, Tatsuo",
+   "Komuro, Yoshiki",
+   "Ogochi, Koji",
+   "Watanabe, Michio",
+   "Yamamoto, Akitomo",
+   "Tatebe, Hiroaki",
+   "Noguchi, Maki A.",
+   "Ohgaito, Rumi",
+   "Ito, Akinori",
+   "Yamazaki, Dai",
+   "Ito, Akihiko",
+   "Takata, Kumiko",
+   "Watanabe, Shingo",
+   "Kawamiya, Michio"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MIROCES2Lssp126"
+ },
+ "ScenarioMIP.MIROC.MIROC-ES2L.ssp370": {
+  "title": "MIROC MIROC-ES2L model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.5751",
+  "year": 2019,
+  "creators": [
+   "Tachiiri, Kaoru",
+   "Abe, Manabu",
+   "Hajima, Tomohiro",
+   "Arakawa, Osamu",
+   "Suzuki, Tatsuo",
+   "Komuro, Yoshiki",
+   "Ogochi, Koji",
+   "Watanabe, Michio",
+   "Yamamoto, Akitomo",
+   "Tatebe, Hiroaki",
+   "Noguchi, Maki A.",
+   "Ohgaito, Rumi",
+   "Ito, Akinori",
+   "Yamazaki, Dai",
+   "Ito, Akihiko",
+   "Takata, Kumiko",
+   "Watanabe, Shingo",
+   "Kawamiya, Michio"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MIROCES2Lssp370"
+ },
+ "ScenarioMIP.MOHC.HadGEM3-GC31-LL.ssp126": {
+  "title": "MOHC HadGEM3-GC31-LL model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.10849",
+  "year": 2020,
+  "creators": [
+   "Good, Peter"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6HadGEM3GC31LLssp126"
+ },
+ "ScenarioMIP.MOHC.HadGEM3-GC31-LL.ssp585": {
+  "title": "MOHC HadGEM3-GC31-LL model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.10901",
+  "year": 2020,
+  "creators": [
+   "Good, Peter"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6HadGEM3GC31LLssp585"
+ },
+ "ScenarioMIP.MOHC.HadGEM3-GC31-MM.ssp585": {
+  "title": "MOHC HadGEM3-GC31-MM model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.10902",
+  "year": 2020,
+  "creators": [
+   "Jackson, Laura"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6HadGEM3GC31MMssp585"
+ },
+ "ScenarioMIP.MOHC.UKESM1-0-LL.ssp126": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.6333",
+  "year": 2019,
+  "creators": [
+   "Good, Peter",
+   "Sellar, Alistair",
+   "Tang, Yongming",
+   "Rumbold, Steve",
+   "Ellis, Rich",
+   "Kelley, Douglas",
+   "Kuhlbrodt, Till"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLssp126"
+ },
+ "ScenarioMIP.MOHC.UKESM1-0-LL.ssp370": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.6347",
+  "year": 2019,
+  "creators": [
+   "Good, Peter",
+   "Sellar, Alistair",
+   "Tang, Yongming",
+   "Rumbold, Steve",
+   "Ellis, Rich",
+   "Kelley, Douglas",
+   "Kuhlbrodt, Till"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6UKESM10LLssp370"
+ },
+ "ScenarioMIP.MOHC.UKESM1-0-LL.ssp585": {
+  "title": "MOHC UKESM1.0-LL model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.6405",
+  "year": 2019,
+  "creators": [
+   "Good, Peter",
+   "Sellar, Alistair",
+   "Tang, Yongming",
+   "Rumbold, Steve",
+   "Ellis, Rich",
+   "Kelley, Douglas",
+   "Kuhlbrodt, Till"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6UKESM10LLssp585"
+ },
+ "ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp126": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.6690",
+  "year": 2019,
+  "creators": [
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LRssp126"
+ },
+ "ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp370": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.6695",
+  "year": 2019,
+  "creators": [
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6MPIESM12LRssp370"
+ },
+ "ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp585": {
+  "title": "MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.6705",
+  "year": 2019,
+  "creators": [
+   "Wieners, Karl-Hermann",
+   "Giorgetta, Marco",
+   "Jungclaus, Johann",
+   "Reick, Christian",
+   "Esch, Monika",
+   "Bittner, Matthias",
+   "Gayler, Veronika",
+   "Haak, Helmuth",
+   "de Vrese, Philipp",
+   "Raddatz, Thomas",
+   "Mauritsen, Thorsten",
+   "von Storch, Jin-Song",
+   "Behrens, J\u00f6rg",
+   "Brovkin, Victor",
+   "Claussen, Martin",
+   "Crueger, Traute",
+   "Fast, Irina",
+   "Fiedler, Stephanie",
+   "Hagemann, Stefan",
+   "Hohenegger, Cathy",
+   "Jahns, Thomas",
+   "Kloster, Silvia",
+   "Kinne, Stefan",
+   "Lasslop, Gitta",
+   "Kornblueh, Luis",
+   "Marotzke, Jochem",
+   "Matei, Daniela",
+   "Meraner, Katharina",
+   "Mikolajewicz, Uwe",
+   "Modali, Kameswarrao",
+   "M\u00fcller, Wolfgang",
+   "Nabel, Julia",
+   "Notz, Dirk",
+   "Peters-von Gehlen, Karsten",
+   "Pincus, Robert",
+   "Pohlmann, Holger",
+   "Pongratz, Julia",
+   "Rast, Sebastian",
+   "Schmidt, Hauke",
+   "Schnur, Reiner",
+   "Schulzweida, Uwe",
+   "Six, Katharina",
+   "Stevens, Bjorn",
+   "Voigt, Aiko",
+   "Roeckner, Erich"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MPIESM12LRssp585"
+ },
+ "ScenarioMIP.MRI.MRI-ESM2-0.ssp585": {
+  "title": "MRI MRI-ESM2.0 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.6929",
+  "year": 2019,
+  "creators": [
+   "Yukimoto, Seiji",
+   "Koshiro, Tsuyoshi",
+   "Kawai, Hideaki",
+   "Oshima, Naga",
+   "Yoshida, Kohei",
+   "Urakawa, Shogo",
+   "Tsujino, Hiroyuki",
+   "Deushi, Makoto",
+   "Tanaka, Taichu",
+   "Hosaka, Masahiro",
+   "Yoshimura, Hiromasa",
+   "Shindo, Eiki",
+   "Mizuta, Ryo",
+   "Ishii, Masayoshi",
+   "Obata, Atsushi",
+   "Adachi, Yukimasa"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6MRIESM20ssp585"
+ },
+ "ScenarioMIP.NASA-GISS.GISS-E2-1-G.ssp126": {
+  "title": "NASA-GISS GISS-E2.1G model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.7410",
+  "year": 2020,
+  "creators": [
+   "NASA Goddard Institute For Space Studies (NASA/GISS)"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GISSE21Gssp126"
+ },
+ "ScenarioMIP.NASA-GISS.GISS-E2-1-G.ssp370": {
+  "title": "NASA-GISS GISS-E2.1G model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.7426",
+  "year": 2020,
+  "creators": [
+   "NASA Goddard Institute For Space Studies (NASA/GISS)"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GISSE21Gssp370"
+ },
+ "ScenarioMIP.NCAR.CESM2.ssp126": {
+  "title": "NCAR CESM2 model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.7746",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CESM2ssp126"
+ },
+ "ScenarioMIP.NCAR.CESM2.ssp370": {
+  "title": "NCAR CESM2 model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.7753",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6CESM2ssp370"
+ },
+ "ScenarioMIP.NCAR.CESM2-WACCM.ssp585": {
+  "title": "NCAR CESM2-WACCM model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.10115",
+  "year": 2019,
+  "creators": [
+   "Danabasoglu, Gokhan"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6CESM2WACCMssp585"
+ },
+ "ScenarioMIP.NCC.NorESM2-LM.ssp126": {
+  "title": "NCC NorESM2-LM model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.8248",
+  "year": 2019,
+  "creators": [
+   "Seland, \u00d8yvind",
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6NorESM2LMssp126"
+ },
+ "ScenarioMIP.NCC.NorESM2-LM.ssp370": {
+  "title": "NCC NorESM2-LM model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.8268",
+  "year": 2019,
+  "creators": [
+   "Seland, \u00d8yvind",
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6NorESM2LMssp370"
+ },
+ "ScenarioMIP.NCC.NorESM2-LM.ssp585": {
+  "title": "NCC NorESM2-LM model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.8319",
+  "year": 2019,
+  "creators": [
+   "Seland, \u00d8yvind",
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6NorESM2LMssp585"
+ },
+ "ScenarioMIP.NCC.NorESM2-MM.ssp585": {
+  "title": "NCC NorESM2-MM model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.8321",
+  "year": 2019,
+  "creators": [
+   "Bentsen, Mats",
+   "Olivi\u00e8, Dirk Jan Leo",
+   "Seland, \u00d8yvind",
+   "Toniazzo, Thomas",
+   "Gjermundsen, Ada",
+   "Graff, Lise Seland",
+   "Debernard, Jens Boldingh",
+   "Gupta, Alok Kumar",
+   "He, Yanchun",
+   "Kirkev\u00e5g, Alf",
+   "Schwinger, J\u00f6rg",
+   "Tjiputra, Jerry",
+   "Aas, Kjetil Schanke",
+   "Bethke, Ingo",
+   "Fan, Yuanchao",
+   "Griesfeller, Jan",
+   "Grini, Alf",
+   "Guo, Chuncheng",
+   "Ilicak, Mehmet",
+   "Karset, Inger Helene Hafsahl",
+   "Landgren, Oskar Andreas",
+   "Liakka, Johan",
+   "Moseid, Kine Onsum",
+   "Nummelin, Aleksi",
+   "Spensberger, Clemens",
+   "Tang, Hui",
+   "Zhang, Zhongshi",
+   "Heinze, Christoph",
+   "Iversen, Trond",
+   "Schulz, Michael"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6NorESM2MMssp585"
+ },
+ "ScenarioMIP.NIMS-KMA.KACE-1-0-G.ssp585": {
+  "title": "NIMS-KMA KACE1.0-G model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.8456",
+  "year": 2019,
+  "creators": [
+   "Byun, Young-Hwa",
+   "Lim, Yoon-Jin",
+   "Shim, Sungbo",
+   "Sung, Hyun Min",
+   "Sun, Minah",
+   "Kim, Jisun",
+   "Kim, Byeong-Hyeon",
+   "Lee, Jae-Hee",
+   "Moon, Hyejin"
+  ],
+  "analyses": [
+   "3h",
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6KACE10Gssp585"
+ },
+ "ScenarioMIP.NOAA-GFDL.GFDL-CM4.ssp585": {
+  "title": "NOAA-GFDL GFDL-CM4 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.9268",
+  "year": 2018,
+  "creators": [
+   "Guo, Huan",
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Nikonov, Serguei",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Zadeh, Niki T.",
+   "Balaji, V",
+   "Durachta, Jeff",
+   "Dupuis, Christopher",
+   "Menzel, Raymond",
+   "Robinson, Thomas",
+   "Underwood, Seth",
+   "Vahlenkamp, Hans",
+   "Dunne, Krista A.",
+   "Gauthier, Paul PG",
+   "Ginoux, Paul",
+   "Griffies, Stephen M.",
+   "Hallberg, Robert",
+   "Harrison, Matthew",
+   "Hurlin, William",
+   "Lin, Pu",
+   "Malyshev, Sergey",
+   "Naik, Vaishali",
+   "Paulot, Fabien",
+   "Paynter, David J",
+   "Ploshay, Jeffrey",
+   "Schwarzkopf, Daniel M",
+   "Seman, Charles J",
+   "Shao, Andrew",
+   "Silvers, Levi",
+   "Wyman, Bruce",
+   "Yan, Xiaoqin",
+   "Zeng, Yujin",
+   "Adcroft, Alistair",
+   "Dunne, John P.",
+   "Held, Isaac M",
+   "Krasting, John P.",
+   "Horowitz, Larry W.",
+   "Milly, Chris",
+   "Shevliakova, Elena",
+   "Winton, Michael",
+   "Zhao, Ming",
+   "Zhang, Rong"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6GFDLCM4ssp585"
+ },
+ "ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp126": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 ScenarioMIP ssp126",
+  "doi": "10.22033/ESGF/CMIP6.8684",
+  "year": 2018,
+  "creators": [
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Vahlenkamp, Hans",
+   "Wilson, Chandin",
+   "Zadeh, Niki T.",
+   "Dunne, John P.",
+   "Dussin, Raphael",
+   "Horowitz, Larry W.",
+   "Krasting, John P.",
+   "Lin, Pu",
+   "Malyshev, Sergey",
+   "Naik, Vaishali",
+   "Ploshay, Jeffrey",
+   "Shevliakova, Elena",
+   "Silvers, Levi",
+   "Stock, Charles",
+   "Winton, Michael",
+   "Zeng, Yujin"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4ssp126"
+ },
+ "ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp370": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 ScenarioMIP ssp370",
+  "doi": "10.22033/ESGF/CMIP6.8691",
+  "year": 2018,
+  "creators": [
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Vahlenkamp, Hans",
+   "Wilson, Chandin",
+   "Zadeh, Niki T.",
+   "Dunne, John P.",
+   "Dussin, Raphael",
+   "Horowitz, Larry W.",
+   "Krasting, John P.",
+   "Lin, Pu",
+   "Malyshev, Sergey",
+   "Naik, Vaishali",
+   "Ploshay, Jeffrey",
+   "Shevliakova, Elena",
+   "Silvers, Levi",
+   "Stock, Charles",
+   "Winton, Michael",
+   "Zeng, Yujin"
+  ],
+  "analyses": [
+   "LU"
+  ],
+  "key": "CMIP6GFDLESM4ssp370"
+ },
+ "ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp585": {
+  "title": "NOAA-GFDL GFDL-ESM4 model output prepared for CMIP6 ScenarioMIP ssp585",
+  "doi": "10.22033/ESGF/CMIP6.8706",
+  "year": 2018,
+  "creators": [
+   "John, Jasmin G",
+   "Blanton, Chris",
+   "McHugh, Colleen",
+   "Radhakrishnan, Aparna",
+   "Rand, Kristopher",
+   "Vahlenkamp, Hans",
+   "Wilson, Chandin",
+   "Zadeh, Niki T.",
+   "Dunne, John P.",
+   "Dussin, Raphael",
+   "Horowitz, Larry W.",
+   "Krasting, John P.",
+   "Lin, Pu",
+   "Malyshev, Sergey",
+   "Naik, Vaishali",
+   "Ploshay, Jeffrey",
+   "Shevliakova, Elena",
+   "Silvers, Levi",
+   "Stock, Charles",
+   "Winton, Michael",
+   "Zeng, Yujin"
+  ],
+  "analyses": [
+   "BL",
+   "G",
+   "ML",
+   "daily"
+  ],
+  "key": "CMIP6GFDLESM4ssp585"
+ }
+}
